@@ -1,13 +1,15 @@
 # Features
 
+> 🌐 **Language / 语言**: [🇺🇸 English](Features.md) | [🇨🇳 简体中文](Features.zh.md)
+
 This page provides a detailed overview of the key features available in the i18n Translate plugin suite.
 
 ## Supported Platforms
 
 We are continuously expanding our support for various platforms and file formats. Currently, we offer dedicated plugins for:
 
-*   **JVM:** `.properties` files.
-*   **Web:** `.json` and `.xliff` files.
+*   **JVM:** Java `.properties` files with Spring Boot framework support.
+*   **Web:** JSON i18n files for React, Vue, Angular, and Next.js frameworks.
 
 Check our [Roadmap](https://github.com/eastgatedev/i18n-translate-community/blob/main/ROADMAP.md) to see what's coming next.
 

@@ -1,5 +1,3 @@
 *   [Home](Home)
-*   [Getting Started](Getting-Started)
 *   [Features](Features)
 *   [FAQ](FAQ)
-*   [Support and Feedback](Support-and-Feedback)

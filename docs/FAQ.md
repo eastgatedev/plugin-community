@@ -1,5 +1,7 @@
 # Frequently Asked Questions (FAQ)
 
+> 🌐 **Language / 语言**: [🇺🇸 English](FAQ.md) | [🇨🇳 简体中文](FAQ.zh.md)
+
 **Q: Is the plugin free?**
 
 A: The i18n Translate plugins are commercial products. However, they all include a 30-day fully-functional free trial.
