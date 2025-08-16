@@ -18,13 +18,29 @@ SEO 中文元标签 - 搜索引擎和社交媒体优化
 
 ---
 
-## ✨ 主要功能
+## 🚀 以 Kotlin 为优先的 i18n 生态系统
 
-*   **AI 驱动的翻译：** 利用 OpenAI 和 Anthropic 等领先的 LLM 即时翻译您的资源文件。
-*   **广泛的平台支持：** 为不断增长的平台列表提供专用插件，包括 JVM、Web、Flutter 等。
-*   **无缝 IDE 集成：** 直接从上下文菜单翻译文件，无需离开您的 IDE。
-*   **自动格式化：** 使用我们的智能自动格式化功能保持您的资源文件整洁和一致。
-*   **VCS 感知：** 检测未提交的更改，确保您始终翻译内容的最新版本。
+**i18n Translate** 以 **Kotlin 作为翻译生态系统中的最高优先级语言**设计，为现代 JVM 开发提供最佳体验，同时为现有项目维护全面的 Java 支持。
+
+### 为什么 Kotlin 优先？
+- **🎯 现代开发**: Kotlin 代表 Spring Boot 和 JVM 开发的未来
+- **⚡ 增强体验**: 专为 Kotlin 的简洁语法和类型安全而定制
+- **🔄 无缝集成**: 与 Kotlin 的空安全和函数式编程功能完美集成
+- **☕ Java 兼容性**: 完整的 Spring Boot Java 支持确保不遗留任何项目
+
+**结果**: 为现代 JVM 生态系统设计的翻译体验，优先考虑 Kotlin 同时欢迎 Java 开发者。
+
+---
+
+## ✨ 高级 IntelliJ 翻译功能
+
+*   **🎯 智能文本转 i18n：** 革命性功能，通过键盘快捷键 **Alt+Shift+]** **提取硬编码字符串**并转换为 i18n 方法调用 - 瞬间改变您的开发工作流程。**[📖 完整教程 →](docs/jvm-plugin/smart-text-to-i18n-tutorial.zh.md)**
+*   **🤖 AI 驱动的翻译：** 利用领先的 **OpenAI GPT** 和 **Anthropic Claude** 模型，通过上下文感知即时翻译您的 i18n 资源文件
+*   **🚀 Kotlin 优先属性支持：** 完整的 **Kotlin .properties 文件翻译**，支持 Spring Boot，并全面兼容 Java
+*   **🌐 JSON i18n 翻译：** 高级 **React、Vue、Angular、Next.js** JSON 国际化文件处理，保持嵌套结构
+*   **🔧 IntelliJ IDE 集成：** 原生 **JetBrains 插件**，带有上下文菜单翻译、进度跟踪和 VCS 集成
+*   **📋 批量处理：** 高效的 **批量翻译**，包含速率限制、重试逻辑和全面错误处理
+*   **🎯 智能检测：** 自动识别 **未提交的更改**，并选择性翻译新增与修改的键值
 
 ## 🚀 IntelliJ 翻译快速入门指南
 
@@ -108,6 +124,7 @@ SEO 中文元标签 - 搜索引擎和社交媒体优化
 **i18n 翻译专业版：JVM**（Java 属性文件）
 - **[插件描述](docs/jvm-plugin/description.zh.md)** | **[English](docs/jvm-plugin/description.md)**
 - **[用户指南](docs/jvm-plugin/user-guide.zh.md)** | **[User Guide](docs/jvm-plugin/user-guide.md)**
+- **[🎯 智能文本转 i18n 教程](docs/jvm-plugin/smart-text-to-i18n-tutorial.zh.md)** | **[🎯 Smart Text to i18n Tutorial](docs/jvm-plugin/smart-text-to-i18n-tutorial.md)**
 - **[附加信息](docs/jvm-plugin/additional-information.zh.md)** | **[Additional Information](docs/jvm-plugin/additional-information.md)**
 - **[发布说明](docs/jvm-plugin/release-notes.zh.md)** | **[Release Notes](docs/jvm-plugin/release-notes.md)**
 

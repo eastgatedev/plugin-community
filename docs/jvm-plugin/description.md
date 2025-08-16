@@ -2,7 +2,7 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](description.md) | [🇨🇳 简体中文](description.zh.md)
 
-Automatically translate message resource files to multiple languages using LLM integration with comprehensive Java locale support.
+Revolutionize your i18n workflow with **Smart Text to i18n** (Alt+Shift+]) - instantly extract hardcoded strings and convert them to proper MessageSource calls. Plus AI-powered translation to 200+ languages with comprehensive Kotlin-first Java locale support.
 
 ## 📦 Install Plugin
 
@@ -19,8 +19,17 @@ Watch our comprehensive setup guide: [i18n Translate Plugin Setup Guide](https:/
 
 Need to translate JSON i18n files for web frameworks? Check out our companion plugin [i18n Translate Pro: Web](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web) for React, Vue, Angular, and Next.js support!
 
+## 🎯 Smart Text to i18n Tutorial
+
+**Transform hardcoded strings into professional i18n code in seconds!** Master the revolutionary Alt+Shift+] feature with our comprehensive tutorial:
+
+**[📖 Complete Smart Text to i18n Tutorial →](smart-text-to-i18n-tutorial.md)**
+
+Learn how to turn manual string extraction from a 3-hour nightmare into a 30-second magic trick with intelligent automation, constructor injection, and locale handling.
+
 ## Key Features
 
+- **🎯 Smart Text to i18n** - Revolutionary Alt+Shift+] shortcut to extract hardcoded strings and convert to MessageSource calls with intelligent automation
 - **200+ Java Supported Locales** - Complete coverage of all Java locales with intelligent display names
 - **Detecting Uncommitted Changes** - Smart VCS integration with user choice for new vs modified keys
 - **Searchable Language Picker** - Modern UI with real-time search across language names, codes, and countries

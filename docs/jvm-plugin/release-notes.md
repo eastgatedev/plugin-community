@@ -2,15 +2,18 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
-## Version 2025.1.4 <small>(2025-08-12)</small>
+## Version 2025.1.4 <small>(2025-08-17)</small>
 
+- **🎯 Smart Text to i18n:** Revolutionary new feature to extract hardcoded strings and convert them to i18n method calls with keyboard shortcut Alt+Shift+]
+- **⚡ Instant Code Transformation:** Automatically detects string literals and generates Spring MessageSource integration with preview dialog
+- **🔧 Intelligent Code Enhancement:** Auto-injects messageSource and locale parameters when missing from methods
+- **📝 Developer Productivity:** Eliminate hardcoded strings instantly - select text or position cursor and press Alt+Shift+] for immediate i18n conversion
 - **🚀 IntelliJ IDEA 2025.1+ Support:** Minimum required platform version upgraded to 2025.1
 - **⚡ K2 Kotlin Compiler Mode:** Full support for Kotlin's new K2 compiler with enhanced performance and stability
 - **🔍 Improved Inspections:** Access to 100+ enhanced code inspections and intentions from K2 mode
 - **🛠️ Platform Modernization:** Leverages latest IntelliJ platform APIs for better compatibility
-- **📱 Breaking Change:** Requires IntelliJ IDEA 2025.1 or later - 2024.x versions no longer supported
 
-**K2 Compiler Benefits:** Enhanced stability, reduced false positives, faster analysis, and improved plugin compatibility!
+**Smart Text to i18n Revolution:** Transform your i18n workflow! No more manual string extraction - just press Alt+Shift+] and watch hardcoded text become proper i18n method calls with automatic MessageSource integration!
 
 ## Version 2025.1.3 <small>(2025-07-28)</small>
 

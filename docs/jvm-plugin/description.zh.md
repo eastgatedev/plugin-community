@@ -2,7 +2,7 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](description.md) | [🇨🇳 简体中文](description.zh.md)
 
-使用 LLM 集成自动将消息资源文件翻译成多种语言，全面支持 Java 区域设置。
+通过**智能文本转 i18n**（Alt+Shift+]）革命化您的 i18n 工作流程 - 瞬间提取硬编码字符串并转换为正确的 MessageSource 调用。加上 AI 驱动的 200+ 语言翻译，全面支持 Kotlin 优先的 Java 区域设置。
 
 ## 📦 安装插件
 
@@ -19,8 +19,17 @@
 
 需要翻译 Web 框架的 JSON i18n 文件？请查看我们的配套插件 [i18n 翻译专业版：Web](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)，支持 React、Vue、Angular 和 Next.js！
 
+## 🎯 智能文本转 i18n 教程
+
+**在几秒钟内将硬编码字符串转换为专业的 i18n 代码！** 通过我们的综合教程掌握革命性的 Alt+Shift+] 功能：
+
+**[📖 完整智能文本转 i18n 教程 →](smart-text-to-i18n-tutorial.zh.md)**
+
+学习如何通过智能自动化、构造函数注入和区域设置处理，将手动字符串提取从 3 小时噩梦变成 30 秒魔法技巧。
+
 ## 主要功能
 
+- **🎯 智能文本转 i18n** - 革命性的 Alt+Shift+] 快捷键，提取硬编码字符串并转换为 MessageSource 调用，具有智能自动化
 - **支持 200+ Java 区域设置** - 全面覆盖所有 Java 区域设置，具有智能显示名称
 - **检测未提交的更改** - 智能 VCS 集成，用户可选择新增或修改的键
 - **可搜索的语言选择器** - 现代化 UI，可实时搜索语言名称、代码和国家

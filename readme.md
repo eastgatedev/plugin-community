@@ -18,10 +18,25 @@ Transform your internationalization workflow with **automated translation** usin
 
 ---
 
+## 🚀 Kotlin-First i18n Ecosystem
+
+**i18n Translate** is designed with **Kotlin as the highest priority language** in our translation ecosystem, delivering the best possible experience for modern JVM development while maintaining comprehensive Java support for existing projects.
+
+### Why Kotlin-First?
+- **🎯 Modern Development**: Kotlin represents the future of Spring Boot and JVM development
+- **⚡ Enhanced Experience**: Tailored specifically for Kotlin's concise syntax and type safety
+- **🔄 Seamless Integration**: Perfect integration with Kotlin's null safety and functional programming features
+- **☕ Java Compatibility**: Complete Spring Boot Java support ensures no project is left behind
+
+**The result**: A translation experience designed for the modern JVM ecosystem, prioritizing Kotlin while welcoming Java developers.
+
+---
+
 ## ✨ Advanced IntelliJ Translation Features
 
+*   **🎯 Smart Text to i18n:** Revolutionary feature to **extract hardcoded strings** and convert them to i18n method calls with keyboard shortcut **Alt+Shift+]** - transform your development workflow instantly. **[📖 Complete Tutorial →](docs/jvm-plugin/smart-text-to-i18n-tutorial.md)**
 *   **🤖 AI-Powered Translation:** Leverage leading **OpenAI GPT** and **Anthropic Claude** models to translate your i18n resource files instantly with context awareness
-*   **☕ Java Properties Support:** Complete **Java .properties file translation** with 200+ locale support and intelligent key management
+*   **🚀 Kotlin-First Properties Support:** Complete **Kotlin .properties file translation** with Spring Boot support, plus comprehensive Java compatibility
 *   **🌐 JSON i18n Translation:** Advanced **React, Vue, Angular, Next.js** JSON internationalization file processing with nested structure preservation
 *   **🔧 IntelliJ IDE Integration:** Native **JetBrains plugin** with context menu translation, progress tracking, and VCS integration
 *   **📋 Batch Processing:** Efficient **bulk translation** with rate limiting, retry logic, and comprehensive error handling
@@ -31,7 +46,7 @@ Transform your internationalization workflow with **automated translation** usin
 
 New to **IntelliJ IDEA i18n translation**? Choose your development stack:
 
-- **[☕ JVM Plugin Installation Guide](docs/jvm-plugin/user-guide.md)** - **Java Properties file translation** (.properties) with Spring Boot support
+- **[🚀 JVM Plugin Installation Guide](docs/jvm-plugin/user-guide.md)** - **Kotlin-first Properties file translation** (.properties) with Spring Boot support for Kotlin and Java
 - **[🌐 Web Plugin Setup Guide](docs/web-plugin/user-guide.md)** - **JSON i18n file translation** for React, Vue, Angular, and Next.js projects
 
 Each comprehensive guide includes **IntelliJ plugin installation**, **API key configuration**, and **automated translation** setup - complete your first **multilingual project** in minutes.
@@ -67,17 +82,19 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 
 ## 🔍 Plugin Comparison Guide
 
-| Feature | 🍃 JVM Plugin | 🌐 Web Plugin |
+| Feature | 🚀 JVM Plugin | 🌐 Web Plugin |
 |---------|---------------|---------------|
-| **File Types** | Java .properties | JSON i18n files |
+| **Primary Language** | **Kotlin** (Java compatible) | TypeScript/JavaScript |
+| **File Types** | .properties files | JSON i18n files |
 | **Frameworks** | Spring Boot | React, Vue, Angular, Next.js |
-| **Languages** | 200+ Java locales | 200+ languages |
+| **Languages** | 200+ JVM locales | 200+ languages |
 | **File Structure** | Flat key-value pairs | Nested JSON objects |
 | **IDE Support** | All JetBrains IDEs | WebStorm, IntelliJ IDEA |
-| **Use Case** | Backend Java apps | Frontend web apps |
+| **Use Case** | Backend Kotlin/Java apps | Frontend web apps |
 
 ### Which Plugin Do I Need?
-- **Java/Spring Boot developers** → Choose JVM Plugin
+- **Kotlin/Spring Boot developers** → Choose JVM Plugin (Kotlin-first experience)
+- **Java/Spring Boot developers** → Choose JVM Plugin (full Java support included)
 - **React/Vue/Angular developers** → Choose Web Plugin  
 - **Full-stack teams** → Install both plugins for complete coverage
 
@@ -109,6 +126,7 @@ Both plugins are **commercial products** available on JetBrains Marketplace:
 **i18n Translate Pro: JVM** (Java Properties Files)
 - **[Plugin Description](docs/jvm-plugin/description.md)** | **[中文版](docs/jvm-plugin/description.zh.md)**
 - **[User Guide](docs/jvm-plugin/user-guide.md)** | **[用户指南](docs/jvm-plugin/user-guide.zh.md)**
+- **[🎯 Smart Text to i18n Tutorial](docs/jvm-plugin/smart-text-to-i18n-tutorial.md)** | **[🎯 智能文本转换教程](docs/jvm-plugin/smart-text-to-i18n-tutorial.zh.md)**
 - **[Additional Information](docs/jvm-plugin/additional-information.md)** | **[附加信息](docs/jvm-plugin/additional-information.zh.md)**
 - **[Release Notes](docs/jvm-plugin/release-notes.md)** | **[发布说明](docs/jvm-plugin/release-notes.zh.md)**
 
