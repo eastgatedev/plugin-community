@@ -37,7 +37,7 @@ SEO 中文元标签 - 搜索引擎和社交媒体优化
 *   **🎯 智能文本转 i18n：** 革命性功能，通过键盘快捷键 **Alt+Shift+]** **提取硬编码字符串**并转换为 i18n 方法调用 - 瞬间改变您的开发工作流程。**[📖 完整教程 →](docs/jvm-plugin/smart-text-to-i18n-tutorial.zh.md)**
 *   **🤖 AI 驱动的翻译：** 利用领先的 **OpenAI GPT** 和 **Anthropic Claude** 模型，通过上下文感知即时翻译您的 i18n 资源文件
 *   **🚀 Kotlin 优先属性支持：** 完整的 **Kotlin .properties 文件翻译**，支持 Spring Boot，并全面兼容 Java
-*   **🌐 JSON i18n 翻译：** 高级 **React、Vue、Angular、Next.js** JSON 国际化文件处理，保持嵌套结构
+*   **🌐 JSON 和 XLF i18n 翻译：** 高级 **React、Vue、Angular、Next.js** JSON 和 XLF 国际化文件处理，保持嵌套结构
 *   **🔧 IntelliJ IDE 集成：** 原生 **JetBrains 插件**，带有上下文菜单翻译、进度跟踪和 VCS 集成
 *   **📋 批量处理：** 高效的 **批量翻译**，包含速率限制、重试逻辑和全面错误处理
 *   **🎯 智能检测：** 自动识别 **未提交的更改**，并选择性翻译新增与修改的键值
@@ -47,7 +47,7 @@ SEO 中文元标签 - 搜索引擎和社交媒体优化
 初次使用 **IntelliJ IDEA i18n 翻译**？选择您的开发技术栈：
 
 - **[☕ JVM 插件安装指南](docs/jvm-plugin/user-guide.zh.md)** - **Java 属性文件翻译** (.properties) 支持 Spring Boot
-- **[🌐 Web 插件设置指南](docs/web-plugin/user-guide.zh.md)** - **JSON i18n 文件翻译**，支持 React、Vue、Angular 和 Next.js 项目
+- **[🌐 Web 插件安装指南](docs/web-plugin/user-guide.zh.md)** - **JSON i18n 文件翻译**，支持 React、Vue、Angular 和 Next.js 项目
 
 每个详细指南包含 **IntelliJ 插件安装**、**API 密钥配置** 和 **自动翻译** 设置 - 在几分钟内完成您的第一个 **多语言项目**。
 
@@ -61,7 +61,8 @@ SEO 中文元标签 - 搜索引擎和社交媒体优化
 - 🆕 新功能发布公告
 
 **精选视频：**
-- [i18n 翻译插件设置指南](https://youtu.be/eUKpTmiWATU)
+- [节省时间！在 IntelliJ 中一键翻译您的 Properties 文件](https://youtu.be/eUKpTmiWATU)
+- [别再浪费时间做网页应用的人工翻译](https://youtu.be/eUKpTmiWATU)
 - [高级翻译工作流程](https://www.youtube.com/@eastgate3194) _(订阅获取更多内容!)_
 
 ## 📦 安装 IntelliJ 翻译插件
