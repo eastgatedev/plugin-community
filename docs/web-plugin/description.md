@@ -2,7 +2,7 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](description.md) | [🇨🇳 简体中文](description.zh.md)
 
-Automatically translate JSON i18n files for web frameworks (React, Vue, Angular, Next.js) using LLM integration with comprehensive language support.
+Revolutionize your frontend i18n workflow with **Smart Text to i18n** (Alt+Shift+]) - instantly extract hardcoded strings and convert them to framework-specific i18n calls. Plus AI-powered translation for React, Vue, Angular, and Next.js JSON files to 200+ languages.
 
 ## 📦 Install Plugin
 
@@ -11,9 +11,21 @@ Automatically translate JSON i18n files for web frameworks (React, Vue, Angular,
 
 **[Install from JetBrains Marketplace →](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)**
 
+## 📺 Video Tutorial
+
+Watch our comprehensive setup guide: [i18n Translate Web Plugin Setup Guide](https://www.youtube.com/watch?v=Uj9GH283Wdw)
+
 ## 💡 Also Available
 
-Need to translate Java properties files? Check out our companion plugin [i18n Translate Pro: JVM](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm) for .properties file translation!
+Need to translate Java properties files? Check out our companion plugin [i18n Translate Pro: JVM](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm) for Spring Boot projects!
+
+## 🎯 Smart Text to i18n Tutorial
+
+**Transform hardcoded strings into framework-specific i18n code in seconds!** Master the revolutionary Alt+Shift+] feature with our comprehensive tutorial:
+
+**[📖 Complete Smart Text to i18n Tutorial →](smart-text-to-i18n-tutorial.md)**
+
+Learn how to turn manual string extraction from a 3-hour nightmare into a 30-second magic trick with intelligent framework detection, automatic import handling, and JSON file updates.
 
 ## Web Framework Support
 
@@ -26,6 +38,7 @@ Need to translate Java properties files? Check out our companion plugin [i18n Tr
 
 ## Key Features
 
+- **🎯 Smart Text to i18n** - Revolutionary Alt+Shift+] shortcut to extract hardcoded strings and convert to framework-specific i18n calls with intelligent automation
 - **Smart File Detection** - Automatically detects JSON i18n files in common paths
 - **Detecting Uncommitted Changes** - Smart VCS integration with user choice for new vs modified keys
 - **Nested JSON Support** - Handles complex nested structures with dot-notation

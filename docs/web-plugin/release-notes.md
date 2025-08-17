@@ -2,15 +2,17 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
-## Version 2025.1.2 <small>(2025-08-12)</small>
+## Version 2025.1.2 <small>(2025-08-17)</small>
 
+- **🎯 Smart Text to i18n Revolution:** Revolutionary new feature to extract hardcoded strings and convert them to framework-specific i18n calls with keyboard shortcut Alt+Shift+]
+- **⚡ Instant Code Transformation:** Automatically detects string literals and generates React/Vue/Angular/Next.js integration with preview dialog
+- **🔧 Intelligent Framework Integration:** Auto-injects useTranslation, $t, translate pipe imports when missing from components
+- **📝 Developer Productivity:** Eliminate hardcoded strings instantly - select text or position cursor and press Alt+Shift+] for immediate i18n conversion
 - **🚀 IntelliJ IDEA 2025.1+ Support:** Minimum required platform version upgraded to 2025.1
-- **⚡ Enhanced JavaScript/TypeScript Support:** Latest ECMAScript features and improved framework compatibility
-- **🔍 Modern Framework Support:** Better React, Vue, Angular support with latest IntelliJ features
-- **🛠️ Platform Modernization:** Leverages latest IntelliJ platform APIs for improved performance
-- **📱 Breaking Change:** Requires IntelliJ IDEA 2025.1 or later - 2024.x versions no longer supported
+- **⚡ Framework Intelligence:** Auto-detects React, Vue, Angular, Next.js projects with intelligent import handling
+- **🛠️ Architecture Alignment:** Package structure now matches JVM plugin for consistency
 
-**Modern Platform Benefits:** Enhanced TypeScript support, faster indexing, improved code completion, and better framework integration!
+**Smart Text to i18n Revolution:** Transform your frontend i18n workflow! No more manual string extraction - just press Alt+Shift+] and watch hardcoded text become proper framework-specific i18n calls with automatic JSON file updates!
 
 ## Version 2025.1.1 <small>(2025-07-31)</small>
 

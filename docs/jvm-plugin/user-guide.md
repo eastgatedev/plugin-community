@@ -79,6 +79,32 @@ The plugin intelligently detects uncommitted changes in your properties files:
 5. Monitor the progress dialog showing current language and batch progress
 6. Translation files will be generated as `filename_locale.properties`
 
+### Step 9: Smart Text to i18n - Extract Hardcoded Strings
+
+Transform hardcoded strings into proper i18n code with a single keyboard shortcut!
+
+**Revolutionary Alt+Shift+] Feature:**
+1. **Open any Kotlin/Java file** with hardcoded strings like `"User created successfully"`
+2. **Position cursor** anywhere within the string literal
+3. **Press Alt+Shift+]** to invoke Smart Text to i18n magic
+4. **Review the preview dialog** showing:
+   - Original hardcoded string
+   - Generated i18n key (e.g., `userCreatedSuccessfully`)
+   - Transformed code with `messageSource.getMessage()` call
+   - Auto-added imports, constructor injection, and locale handling
+5. **Click Apply** to automatically:
+   - Add the key-value pair to your properties file
+   - Replace hardcoded string with proper i18n call
+   - Inject MessageSource and Locale parameters
+   - Add required imports automatically
+
+**Learn more:** [📖 Complete Smart Text to i18n Tutorial](smart-text-to-i18n-tutorial.md)
+
+**Pro Tips:**
+- Edit generated keys in preview dialog before applying
+- Works with Spring Boot dependency injection patterns
+- Preserves existing code structure and formatting
+
 ## 📁 Quick Examples
 
 ### File Generation Examples:

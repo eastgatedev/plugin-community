@@ -34,7 +34,9 @@ Transform your internationalization workflow with **automated translation** usin
 
 ## ✨ Advanced IntelliJ Translation Features
 
-*   **🎯 Smart Text to i18n:** Revolutionary feature to **extract hardcoded strings** and convert them to i18n method calls with keyboard shortcut **Alt+Shift+]** - transform your development workflow instantly. **[📖 Complete Tutorial →](docs/jvm-plugin/smart-text-to-i18n-tutorial.md)**
+*   **🎯 Smart Text to i18n:** Revolutionary feature to **extract hardcoded strings** and convert them to i18n method calls with keyboard shortcut **Alt+Shift+]** - transform your development workflow instantly.
+    - **[📖 JVM Plugin Tutorial →](docs/jvm-plugin/smart-text-to-i18n-tutorial.md)** - Transform Spring Boot hardcoded strings to MessageSource calls
+    - **[📖 Web Plugin Tutorial →](docs/web-plugin/smart-text-to-i18n-tutorial.md)** - Convert React/Vue/Angular strings to framework-specific i18n calls
 *   **🤖 AI-Powered Translation:** Leverage leading **OpenAI GPT** and **Anthropic Claude** models to translate your i18n resource files instantly with context awareness
 *   **🚀 Kotlin-First Properties Support:** Complete **Kotlin .properties file translation** with Spring Boot support, plus comprehensive Java compatibility
 *   **🌐 JSON & XLF i18n Translation:** Advanced **React, Vue, Angular, Next.js** JSON & XLF internationalization file processing with nested structure preservation
@@ -134,6 +136,7 @@ Both plugins are **commercial products** available on JetBrains Marketplace:
 **i18n Translate Pro: Web** (JSON i18n Files)
 - **[Plugin Description](docs/web-plugin/description.md)** | **[中文版](docs/web-plugin/description.zh.md)**
 - **[User Guide](docs/web-plugin/user-guide.md)** | **[用户指南](docs/web-plugin/user-guide.zh.md)**
+- **[🎯 Smart Text to i18n Tutorial](docs/web-plugin/smart-text-to-i18n-tutorial.md)** | **[🎯 智能文本转换教程](docs/web-plugin/smart-text-to-i18n-tutorial.zh.md)**
 - **[Additional Information](docs/web-plugin/additional-information.md)** | **[附加信息](docs/web-plugin/additional-information.zh.md)**
 - **[Release Notes](docs/web-plugin/release-notes.md)** | **[发布说明](docs/web-plugin/release-notes.zh.md)**
 

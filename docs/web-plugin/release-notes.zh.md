@@ -2,15 +2,17 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
-## 版本 2025.1.2 <small>(2025-08-12)</small>
+## 版本 2025.1.2 <small>(2025-08-17)</small>
 
+- **🎯 智能文本转 i18n 革命：** 革命性的新功能，通过键盘快捷键 Alt+Shift+] 提取硬编码字符串并转换为框架特定的 i18n 调用
+- **⚡ 即时代码转换：** 自动检测字符串字面量并生成 React/Vue/Angular/Next.js 集成，带预览对话框
+- **🔧 智能框架集成：** 当组件中缺少导入时，自动注入 useTranslation、$t、translate 管道导入
+- **📝 开发者生产力：** 立即消除硬编码字符串 - 选择文本或定位光标并按 Alt+Shift+] 进行即时 i18n 转换
 - **🚀 IntelliJ IDEA 2025.1+ 支持：** 最低所需平台版本升级到 2025.1
-- **⚡ 增强的 JavaScript/TypeScript 支持：** 最新的 ECMAScript 功能和改进的框架兼容性
-- **🔍 现代框架支持：** 通过最新的 IntelliJ 功能更好地支持 React、Vue、Angular
-- **🛠️ 平台现代化：** 利用最新的 IntelliJ 平台 API 提高性能
-- **📱 破坏性变更：** 需要 IntelliJ IDEA 2025.1 或更高版本 - 不再支持 2024.x 版本
+- **⚡ 框架智能：** 自动检测 React、Vue、Angular、Next.js 项目，具有智能导入处理
+- **🛠️ 架构对齐：** 包结构现在与 JVM 插件保持一致
 
-**现代平台优势：** 增强的 TypeScript 支持、更快的索引、改进的代码补全和更好的框架集成！
+**智能文本转 i18n 革命：** 转换您的前端 i18n 工作流程！不再需要手动字符串提取 - 只需按 Alt+Shift+] 并观看硬编码文本变成正确的框架特定 i18n 调用，并自动更新 JSON 文件！
 
 ## 版本 2025.1.1 <small>(2025-07-31)</small>
 

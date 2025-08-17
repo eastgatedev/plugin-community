@@ -79,6 +79,34 @@ The plugin intelligently detects uncommitted changes in your JSON i18n files:
 5. Monitor the progress dialog showing current language and batch progress
 6. Translation files will be generated in your project's framework-specific directories
 
+### Step 9: Smart Text to i18n - Extract Hardcoded Strings
+
+Transform hardcoded strings into framework-specific i18n code with a single keyboard shortcut!
+
+**Revolutionary Alt+Shift+] Feature:**
+1. **Open any React/Vue/Angular/Next.js file** with hardcoded strings like `"Welcome to our platform"`
+2. **Position cursor** anywhere within the string literal
+3. **Press Alt+Shift+]** to invoke Smart Text to i18n magic
+4. **Review the preview dialog** showing:
+   - Original hardcoded string
+   - Generated i18n key (e.g., `welcomeToOurPlatform`)
+   - Framework-specific replacement (useTranslation, $t, translate pipe)
+   - Auto-added imports and translation hooks
+5. **Click Apply** to automatically:
+   - Add the key-value pair to your JSON translation file
+   - Replace hardcoded string with framework-specific i18n call
+   - Inject required imports and translation hooks
+   - Update JSON files with proper structure
+
+**Configuration:** Right click JSON file → Project Settings → Smart Text to i18n
+
+**Learn more:** [📖 Complete Smart Text to i18n Tutorial](smart-text-to-i18n-tutorial.md)
+
+**Pro Tips:**
+- Edit generated keys in preview dialog before applying
+- Works with React, Vue, Angular, Next.js auto-detection
+- Preserves existing JSON structure and formatting
+
 ## 📁 Quick Framework Examples
 
 ### Common File Patterns:

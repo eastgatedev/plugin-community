@@ -34,7 +34,9 @@ SEO 中文元标签 - 搜索引擎和社交媒体优化
 
 ## ✨ 高级 IntelliJ 翻译功能
 
-*   **🎯 智能文本转 i18n：** 革命性功能，通过键盘快捷键 **Alt+Shift+]** **提取硬编码字符串**并转换为 i18n 方法调用 - 瞬间改变您的开发工作流程。**[📖 完整教程 →](docs/jvm-plugin/smart-text-to-i18n-tutorial.zh.md)**
+*   **🎯 智能文本转 i18n：** 革命性功能，通过键盘快捷键 **Alt+Shift+]** **提取硬编码字符串**并转换为 i18n 方法调用 - 瞬间改变您的开发工作流程。
+    - **[📖 JVM 插件教程 →](docs/jvm-plugin/smart-text-to-i18n-tutorial.zh.md)** - 将 Spring Boot 硬编码字符串转换为 MessageSource 调用
+    - **[📖 Web 插件教程 →](docs/web-plugin/smart-text-to-i18n-tutorial.zh.md)** - 将 React/Vue/Angular 字符串转换为框架特定的 i18n 调用
 *   **🤖 AI 驱动的翻译：** 利用领先的 **OpenAI GPT** 和 **Anthropic Claude** 模型，通过上下文感知即时翻译您的 i18n 资源文件
 *   **🚀 Kotlin 优先属性支持：** 完整的 **Kotlin .properties 文件翻译**，支持 Spring Boot，并全面兼容 Java
 *   **🌐 JSON 和 XLF i18n 翻译：** 高级 **React、Vue、Angular、Next.js** JSON 和 XLF 国际化文件处理，保持嵌套结构
@@ -132,6 +134,7 @@ SEO 中文元标签 - 搜索引擎和社交媒体优化
 **i18n 翻译专业版：Web**（JSON i18n 文件）
 - **[插件描述](docs/web-plugin/description.zh.md)** | **[English](docs/web-plugin/description.md)**
 - **[用户指南](docs/web-plugin/user-guide.zh.md)** | **[User Guide](docs/web-plugin/user-guide.md)**
+- **[🎯 智能文本转换教程](docs/web-plugin/smart-text-to-i18n-tutorial.zh.md)** | **[🎯 Smart Text to i18n Tutorial](docs/web-plugin/smart-text-to-i18n-tutorial.md)**
 - **[附加信息](docs/web-plugin/additional-information.zh.md)** | **[Additional Information](docs/web-plugin/additional-information.md)**
 - **[发布说明](docs/web-plugin/release-notes.zh.md)** | **[Release Notes](docs/web-plugin/release-notes.md)**
 

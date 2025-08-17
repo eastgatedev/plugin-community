@@ -2,7 +2,7 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](description.md) | [🇨🇳 简体中文](description.zh.md)
 
-使用 LLM 集成自动翻译 Web 框架（React、Vue、Angular、Next.js）的 JSON i18n 文件，提供全面的语言支持。
+通过**智能文本转 i18n**（Alt+Shift+]）革命化您的前端 i18n 工作流程 - 瞬间提取硬编码字符串并转换为框架特定的 i18n 调用。加上 AI 驱动的 React、Vue、Angular 和 Next.js JSON 文件翻译，支持 200+ 语言。
 
 ## 📦 安装插件
 
@@ -11,9 +11,21 @@
 
 **[从 JetBrains 市场安装 →](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)**
 
+## 📺 视频教程
+
+观看我们的全面设置指南：[i18n 翻译 Web 插件设置指南](https://www.youtube.com/watch?v=Uj9GH283Wdw)
+
 ## 💡 相关产品
 
-需要翻译 Java 属性文件？请查看我们的配套插件 [i18n 翻译专业版：JVM](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm) 用于 .properties 文件翻译！
+需要翻译 Java 属性文件？请查看我们的配套插件 [i18n 翻译专业版：JVM](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm) 用于 Spring Boot 项目！
+
+## 🎯 智能文本转 i18n 教程
+
+**在几秒钟内将硬编码字符串转换为框架特定的 i18n 代码！** 通过我们的综合教程掌握革命性的 Alt+Shift+] 功能：
+
+**[📖 完整智能文本转 i18n 教程 →](smart-text-to-i18n-tutorial.zh.md)**
+
+学习如何通过智能框架检测、自动导入处理和 JSON 文件更新，将手动字符串提取从 3 小时噩梦变成 30 秒魔法技巧。
 
 ## Web 框架支持
 
@@ -26,6 +38,7 @@
 
 ## 主要功能
 
+- **🎯 智能文本转 i18n** - 革命性的 Alt+Shift+] 快捷键，提取硬编码字符串并转换为框架特定的 i18n 调用，具有智能自动化
 - **智能文件检测** - 自动检测常见路径中的 JSON i18n 文件
 - **检测未提交的更改** - 智能 VCS 集成，用户可选择新增或修改的键
 - **嵌套 JSON 支持** - 使用点记法处理复杂的嵌套结构
