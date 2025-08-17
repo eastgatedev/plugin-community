@@ -37,7 +37,7 @@ Transform your internationalization workflow with **automated translation** usin
 *   **🎯 Smart Text to i18n:** Revolutionary feature to **extract hardcoded strings** and convert them to i18n method calls with keyboard shortcut **Alt+Shift+]** - transform your development workflow instantly. **[📖 Complete Tutorial →](docs/jvm-plugin/smart-text-to-i18n-tutorial.md)**
 *   **🤖 AI-Powered Translation:** Leverage leading **OpenAI GPT** and **Anthropic Claude** models to translate your i18n resource files instantly with context awareness
 *   **🚀 Kotlin-First Properties Support:** Complete **Kotlin .properties file translation** with Spring Boot support, plus comprehensive Java compatibility
-*   **🌐 JSON i18n Translation:** Advanced **React, Vue, Angular, Next.js** JSON internationalization file processing with nested structure preservation
+*   **🌐 JSON & XLF i18n Translation:** Advanced **React, Vue, Angular, Next.js** JSON & XLF internationalization file processing with nested structure preservation
 *   **🔧 IntelliJ IDE Integration:** Native **JetBrains plugin** with context menu translation, progress tracking, and VCS integration
 *   **📋 Batch Processing:** Efficient **bulk translation** with rate limiting, retry logic, and comprehensive error handling
 *   **🎯 Smart Detection:** Automatic recognition of **uncommitted changes** and selective translation of new vs modified keys
@@ -47,7 +47,7 @@ Transform your internationalization workflow with **automated translation** usin
 New to **IntelliJ IDEA i18n translation**? Choose your development stack:
 
 - **[🚀 JVM Plugin Installation Guide](docs/jvm-plugin/user-guide.md)** - **Kotlin-first Properties file translation** (.properties) with Spring Boot support for Kotlin and Java
-- **[🌐 Web Plugin Setup Guide](docs/web-plugin/user-guide.md)** - **JSON i18n file translation** for React, Vue, Angular, and Next.js projects
+- **[🌐 Web Plugin Installation Guide](docs/web-plugin/user-guide.md)** - **JSON i18n file translation** for React, Vue, Angular, and Next.js projects
 
 Each comprehensive guide includes **IntelliJ plugin installation**, **API key configuration**, and **automated translation** setup - complete your first **multilingual project** in minutes.
 
@@ -61,7 +61,8 @@ Subscribe to our **[YouTube Channel](https://www.youtube.com/@eastgate3194)** fo
 - 🆕 New feature announcements
 
 **Featured Videos:**
-- [i18n Translate Plugin Setup Guide](https://youtu.be/eUKpTmiWATU)
+- [Save Time! Translate Your Properties File in IntelliJ with One Click](https://youtu.be/eUKpTmiWATU)
+- [Stop Wasting Time on Manual Web App Translations](https://youtu.be/eUKpTmiWATU)
 - [Advanced Translation Workflows](https://www.youtube.com/@eastgate3194) _(Subscribe for more!)_
 
 ## 📦 Install IntelliJ Translation Plugins
@@ -85,7 +86,7 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 | Feature | 🚀 JVM Plugin | 🌐 Web Plugin |
 |---------|---------------|---------------|
 | **Primary Language** | **Kotlin** (Java compatible) | TypeScript/JavaScript |
-| **File Types** | .properties files | JSON i18n files |
+| **File Types** | .properties files | JSON i18n files, Angular .xlf files |
 | **Frameworks** | Spring Boot | React, Vue, Angular, Next.js |
 | **Languages** | 200+ JVM locales | 200+ languages |
 | **File Structure** | Flat key-value pairs | Nested JSON objects |
