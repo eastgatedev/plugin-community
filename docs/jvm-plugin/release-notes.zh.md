@@ -2,6 +2,18 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## 版本 2025.1.5 <small>(2025-08-29)</small>
+
+- **✅ 提交面板集成：** 在提交视图中右键直接翻译，在提交准备过程中实现无缝开发工作流
+- **🤖 LLM 提供商扩展：** 新增 6 个提供商（Google Gemini、DeepSeek、Azure OpenAI、Ollama、OpenRouter、Custom）- 现在共有 8 个提供商，60+ 模型
+- **⭐ Google Gemini 默认：** Gemini 2.5 Flash 现在是推荐的默认选择，具有免费每日使用限制 - 非常适合常规开发
+- **🚀 专业工作流：** 在提交面板末尾提供上下文菜单，用于上下文翻译
+- **🆓 免费使用选项：** Google Gemini 为常规开发需求提供免费每日使用限制
+- **🏢 企业合规：** Azure OpenAI 支持企业环境
+- **💻 本地推理：** Ollama 支持离线翻译功能
+
+**革命性的 LLM 集成：** 使用 8 个 AI 提供商和 60+ 模型转变您的翻译工作流！Google Gemini 的免费每日使用让专业翻译对每个人都可用！
+
 ## 版本 2025.1.4 <small>(2025-08-17)</small>
 
 - **🎯 智能文本转 i18n：** 革命性新功能，通过键盘快捷键 Alt+Shift+] 提取硬编码字符串并转换为 i18n 方法调用

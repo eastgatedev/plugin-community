@@ -1,4 +1,4 @@
-# Additional Information - i18n Translate Pro: JVM
+# Additional Information - i18n Translate Lite: JVM
 
 > 🌐 **Language / 语言**: [🇺🇸 English](additional-information.md) | [🇨🇳 简体中文](additional-information.zh.md)
 
@@ -143,24 +143,26 @@ pt_PT → Portuguese (Portugal)
 
 ## 💰 Pricing & Value Proposition
 
-### 🚀 Exceptional ROI for Heavy Users
-- **Heavy User Economics:** Total annual cost ~$50-100 (plugin + API usage) vs $500+ freelancer or $1000+ developer time
-- **10x+ Return on Investment:** Save thousands in manual translation costs for just hundreds in tool costs
-- **Scale-friendly Pricing:** Pay only for API usage when you translate - no fixed monthly fees
-- **Time Multiplication:** Translate 1000+ keys in minutes vs days of manual work
-- **Quality Consistency:** Professional-grade translations with context awareness and terminology consistency
+### 🆓 FREE FOREVER - Professional i18n at No Cost
+- **Complete Translation Suite:** All essential features including Smart Text to i18n and single-language translation - permanently free
+- **Zero Cost Development:** Perfect for startups, individual developers, and single-language projects
+- **Professional Quality:** Same high-quality translation engine and Smart Text to i18n as Pro version
+- **No Hidden Costs:** API usage costs only (Google Gemini provides free daily usage)
+- **Future-Proof Investment:** Upgrade seamlessly to Pro when scaling to multiple languages
 
-### 💡 Value Realization Examples
-- **Enterprise Application:** 2000 keys × 10 languages = 18,000 translations in 2 hours vs 2 weeks manual work
-- **SaaS Platform:** Monthly feature updates translated instantly across all supported languages
-- **E-commerce Site:** Product catalogs and UI elements translated with cultural context and consistency
-- **Multi-tenant Applications:** Customer-specific localizations managed efficiently at scale
+### 💡 Perfect Use Cases for Lite Version
+- **Single Language Projects:** Focus on one target language with complete i18n workflow
+- **Learning i18n:** Perfect introduction to internationalization best practices
+- **Proof of Concept:** Test i18n workflows before committing to multi-language projects
+- **Budget-Conscious Development:** Professional i18n tools without upfront plugin costs
+- **Smart Text Extraction:** Revolutionary code transformation feature available free
 
-### 🎯 Perfect for Heavy Users
-- **Large Internationalization Projects:** 10+ languages with complex property structures
-- **Frequent Updates:** Regular feature releases requiring translation updates
-- **Enterprise Applications:** Mission-critical software with quality translation requirements
-- **Global SaaS Products:** Multi-language support as a core business requirement
+### 🚀 Ready to Scale? Upgrade Benefits
+- **Unlimited Languages:** Scale from 1 to 200+ languages with [i18n Translate Pro: JVM](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)
+- **Advanced VCS Integration:** Intelligent change detection and selective translation of modified keys
+- **Batch Processing Optimization:** Enhanced performance for large-scale enterprise projects
+- **Priority Support:** Dedicated technical support for mission-critical applications
+- **Enterprise Features:** Advanced project management and team collaboration tools
 
 ## 📞 Support & Resources
 

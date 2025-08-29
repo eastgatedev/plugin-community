@@ -1,4 +1,4 @@
-# Additional Information - i18n Translate Pro: Web
+# Additional Information - i18n Translate Lite: Web
 
 > 🌐 **Language / 语言**: [🇺🇸 English](additional-information.md) | [🇨🇳 简体中文](additional-information.zh.md)
 
@@ -144,24 +144,26 @@
 
 ## 💰 Pricing & Value Proposition
 
-### 🚀 Exceptional ROI for Heavy Users
-- **Heavy User Economics:** Total annual cost ~$50-100 (plugin + API usage) vs $500+ freelancer or $1000+ developer time
-- **10x+ Return on Investment:** Save thousands in manual translation costs for just hundreds in tool costs
-- **Scale-friendly Pricing:** Pay only for API usage when you translate - no fixed monthly fees
-- **Time Multiplication:** Translate 1000+ keys in minutes vs days of manual work
-- **Quality Consistency:** Professional-grade translations with context awareness and terminology consistency
+### 🆓 FREE FOREVER - Professional Web i18n at No Cost
+- **Complete Web i18n Suite:** All essential features including Smart Text to i18n and single-language translation - permanently free
+- **Zero Cost Development:** Perfect for startups, individual developers, and single-language web projects
+- **Professional Quality:** Same high-quality translation engine and Smart Text to i18n as Pro version
+- **Framework Support:** Full Next.js, React, Vue, Angular support with no limitations
+- **No Hidden Costs:** API usage costs only (Google Gemini provides free daily usage)
 
-### 💡 Value Realization Examples
-- **Next.js Application:** Complete i18n setup with 20+ components translated across 8 languages in 30 minutes
-- **Vue.js E-commerce:** Product catalog, checkout flow, and user interface translated for global markets
-- **React SaaS Platform:** Feature updates instantly available in all supported languages without development delays
-- **Angular Enterprise App:** Complex nested JSON structures translated with perfect hierarchy preservation
+### 💡 Perfect Use Cases for Lite Version
+- **Single Language Web Projects:** Focus on one target language with complete i18n workflow
+- **Learning Web i18n:** Perfect introduction to internationalization for web frameworks
+- **Proof of Concept:** Test i18n workflows before committing to multi-language web applications
+- **Budget-Conscious Web Development:** Professional i18n tools without upfront plugin costs
+- **Smart Text Extraction:** Revolutionary code transformation for web frameworks available free
 
-### 🎯 Perfect for Heavy Users
-- **Multi-Framework Projects:** React, Vue, Angular, Next.js applications with extensive i18n requirements
-- **Frequent Feature Releases:** Continuous deployment workflows requiring rapid translation updates
-- **Global Web Applications:** SaaS platforms, e-commerce sites, and enterprise portals
-- **Complex JSON Structures:** Nested configurations with hundreds of translation keys
+### 🚀 Ready to Scale? Upgrade Benefits
+- **Unlimited Languages:** Scale from 1 to 200+ languages with [i18n Translate Pro: Web](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)
+- **Advanced VCS Integration:** Intelligent change detection and selective translation of modified keys
+- **Batch Processing Optimization:** Enhanced performance for large-scale web applications
+- **Priority Support:** Dedicated technical support for mission-critical web applications
+- **Enterprise Features:** Advanced project management and team collaboration tools
 
 ## 📞 Support & Resources
 

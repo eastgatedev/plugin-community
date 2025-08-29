@@ -2,6 +2,18 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.1.5 <small>(2025-08-29)</small>
+
+- **✅ Commit Panel Integration:** Right-click translate directly in commit view with seamless development workflow during commit preparation
+- **🤖 LLM Provider Expansion:** Added 6 new providers (Google Gemini, DeepSeek, Azure OpenAI, Ollama, OpenRouter, Custom) - now 8 total providers with 60+ models
+- **⭐ Google Gemini Default:** Gemini 2.5 Flash now recommended default with free daily usage limits - perfect for regular development
+- **🚀 Professional Workflow:** Context menu available at end of commit panel for in-context translation
+- **🆓 Free Usage Option:** Google Gemini provides free daily usage limits for regular development needs
+- **🏢 Enterprise Compliance:** Azure OpenAI support for enterprise environments
+- **💻 Local Inference:** Ollama support for offline translation capabilities
+
+**Revolutionary LLM Integration:** Transform your translation workflow with 8 AI providers and 60+ models! Google Gemini's free daily usage makes professional translation accessible to everyone!
+
 ## Version 2025.1.4 <small>(2025-08-17)</small>
 
 - **🎯 Smart Text to i18n:** Revolutionary new feature to extract hardcoded strings and convert them to i18n method calls with keyboard shortcut Alt+Shift+]
