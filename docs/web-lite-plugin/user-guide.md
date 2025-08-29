@@ -1,15 +1,15 @@
-# User Guide - i18n Translate Pro: Web
+# User Guide - i18n Translate Lite: Web
 
 > 🌐 **Language / 语言**: [🇺🇸 English](user-guide.md) | [🇨🇳 简体中文](user-guide.zh.md)
 
 ## 📦 Installation
 
-[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28020-i18n-translate-pro-web.svg)](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/28020-i18n-translate-pro-web.svg)](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)
+[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28325-i18n-translate-lite-web.svg)](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/28325-i18n-translate-lite-web.svg)](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)
 
-**[Install from JetBrains Marketplace →](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)**
+**[Install from JetBrains Marketplace →](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)**
 
-This guide will help you get started with the **i18n Translate Pro: Web** plugin for IntelliJ IDEA. This plugin automatically translates JSON i18n files for modern web frameworks using LLM integration.
+This guide will help you get started with the **i18n Translate Lite: Web** plugin for IntelliJ IDEA. This plugin automatically translates JSON i18n files for modern web frameworks using LLM integration.
 
 ## 🚀 Installation
 
@@ -18,7 +18,7 @@ Watch our comprehensive setup tutorial: [i18n Translate Pro: Web Plugin Setup Gu
 
 ### Step 1: Install the Plugin
 1. Launch your IntelliJ IDEA and open plugin settings via `File → Settings → Plugins` (Windows/Linux) or `IntelliJ IDEA → Preferences → Plugins` (macOS)
-2. Search for **"i18n Translate Pro: Web"** in the marketplace
+2. Search for **"i18n Translate Lite: Web"** in the marketplace
 3. Click Install and restart your IDE when prompted
 
 ### Step 2: Configure File Encoding

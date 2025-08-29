@@ -1,15 +1,15 @@
-# User Guide - i18n Translate Pro: JVM
+# User Guide - i18n Translate Lite: JVM
 
 > 🌐 **Language / 语言**: [🇺🇸 English](user-guide.md) | [🇨🇳 简体中文](user-guide.zh.md)
 
 ## 📦 Installation
 
-[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/27856-i18n-translate-pro-jvm.svg)](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/27856-i18n-translate-pro-jvm.svg)](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)
+[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28324-i18n-translate-lite-jvm.svg)](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/28324-i18n-translate-lite-jvm.svg)](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)
 
-**[Install from JetBrains Marketplace →](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)**
+**[Install from JetBrains Marketplace →](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)**
 
-This guide will help you get started with the **i18n Translate Pro: JVM** plugin for IntelliJ IDEA. This plugin automatically translates Java properties files to multiple languages using LLM integration.
+This guide will help you get started with the **i18n Translate Lite: JVM** plugin for IntelliJ IDEA. This plugin automatically translates Java properties files to multiple languages using LLM integration.
 
 ## 🚀 Installation
 
@@ -18,7 +18,7 @@ Watch our comprehensive setup tutorial: [i18n Translate Pro: JVM Plugin Setup Gu
 
 ### Step 1: Install the Plugin
 1. Launch your IntelliJ IDEA and open plugin settings via `File → Settings → Plugins` (Windows/Linux) or `IntelliJ IDEA → Preferences → Plugins` (macOS)
-2. Search for **"i18n Translate Pro: JVM"** in the marketplace
+2. Search for **"i18n Translate Lite: JVM"** in the marketplace
 3. Click Install and restart your IDE when prompted
 
 ### Step 2: Configure File Encoding

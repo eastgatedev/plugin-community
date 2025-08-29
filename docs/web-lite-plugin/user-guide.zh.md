@@ -1,15 +1,15 @@
-# 用户指南 - i18n 翻译专业版：Web
+# 用户指南 - i18n 翻译精简版：Web
 
 > 🌐 **Language / 语言**: [🇺🇸 English](user-guide.md) | [🇨🇳 简体中文](user-guide.zh.md)
 
 ## 📦 安装
 
-[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28020-i18n-translate-pro-web.svg)](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/28020-i18n-translate-pro-web.svg)](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)
+[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28325-i18n-translate-lite-web.svg)](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/28325-i18n-translate-lite-web.svg)](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)
 
-**[从 JetBrains 市场安装 →](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)**
+**[从 JetBrains 市场安装 →](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)**
 
-本指南将帮助您开始使用适用于 IntelliJ IDEA 的 **i18n 翻译专业版：Web** 插件。此插件使用 LLM 集成自动翻译现代 Web 框架的 JSON i18n 文件。
+本指南将帮助您开始使用适用于 IntelliJ IDEA 的 **i18n 翻译精简版：Web** 插件。此插件使用 LLM 集成自动翻译现代 Web 框架的 JSON i18n 文件。
 
 ## 🚀 安装
 
@@ -18,7 +18,7 @@
 
 ### 步骤 1：安装插件
 1. 启动您的 IntelliJ IDEA，通过 `文件 → 设置 → 插件`（Windows/Linux）或 `IntelliJ IDEA → 首选项 → 插件`（macOS）打开插件设置
-2. 在市场中搜索 **"i18n Translate Pro: Web"**
+2. 在市场中搜索 **"i18n Translate Lite: Web"**
 3. 点击安装，提示时重新启动您的 IDE
 
 ### 步骤 2：配置文件编码

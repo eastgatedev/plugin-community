@@ -48,8 +48,8 @@ Transform your internationalization workflow with **automated translation** usin
 
 New to **IntelliJ IDEA i18n translation**? Choose your development stack:
 
-- **[🚀 JVM Plugin Installation Guide](docs/jvm-plugin/user-guide.md)** - **Kotlin-first Properties file translation** (.properties) with Spring Boot support for Kotlin and Java
-- **[🌐 Web Plugin Installation Guide](docs/web-plugin/user-guide.md)** - **JSON i18n file translation** for React, Vue, Angular, and Next.js projects
+- **🚀 JVM Plugin Installation Guide ([Pro](docs/jvm-plugin/user-guide.md) / [Lite](docs/jvm-lite-plugin/user-guide.md))** - **Kotlin-first Properties file translation** (.properties) with Spring Boot support for Kotlin and Java
+- **🌐 Web Plugin Installation Guide ([Pro](docs/web-plugin/user-guide.md) / [Lite](docs/web-lite-plugin/user-guide.md))** - **JSON i18n file translation** for React, Vue, Angular, and Next.js projects
 
 Each comprehensive guide includes **IntelliJ plugin installation**, **API key configuration**, and **automated translation** setup - complete your first **multilingual project** in minutes.
 
@@ -83,6 +83,18 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 
 **[Install Web Plugin →](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)**
 
+### ☕ i18n Translate Lite: JVM Plugin (FREE)
+[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28324-i18n-translate-lite-jvm.svg)](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/28324-i18n-translate-lite-jvm.svg)](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)
+
+**[Install JVM Lite Plugin →](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)**
+
+### 🌐 i18n Translate Lite: Web Plugin (FREE)
+[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28325-i18n-translate-lite-web.svg)](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/28325-i18n-translate-lite-web.svg)](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)
+
+**[Install Web Lite Plugin →](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)**
+
 ## 🔍 Plugin Comparison Guide
 
 | Feature | 🚀 JVM Plugin | 🌐 Web Plugin |
@@ -101,19 +113,62 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 - **React/Vue/Angular developers** → Choose Web Plugin  
 - **Full-stack teams** → Install both plugins for complete coverage
 
+## Feature Comparison: Pro vs Lite
+
+### Feature Comparison Matrix
+
+| Feature | Lite (FREE) | Pro (PAID) |
+|---------|-------------|------------|
+| **Translation Languages** | 🔒 **1 target language max** | ✅ **Unlimited** |
+| **Smart Text to i18n** | ✅ **Fully enabled** | ✅ **Fully enabled** |
+| **Basic Translation** | ✅ **Enabled** | ✅ **Enabled** |
+| **Commit Panel Translation** | ❌ **Not available** | ✅ **Enabled** |
+| **Batch Processing** | ✅ **No size limit** | ✅ **No size limit** |
+| **Key Sorting** | ❌ **Disabled** | ✅ **Enabled** |
+| **Duplicate Removal** | ❌ **Disabled** | ✅ **Enabled** |
+| **VCS Integration** | ⚠️ **Partial** (New keys only) | ✅ **Full** (Modified + New) |
+| **Translation Dialog Buttons** | ⚠️ **Limited** | ✅ **All enabled** |
+| **Project Settings** | ✅ **All options** | ✅ **All options** |
+| **Trial Period** | N/A | **30 days** |
+| **License** | FREE | PAID |
+
+### Key Upgrade Benefits
+
+#### 🆓 Lite Version Perfect For:
+- **Individual developers** learning i18n workflows
+- **Small projects** with single language requirements
+- **Testing and evaluation** of plugin capabilities
+- **Smart Text extraction** without translation needs
+
+#### 💎 Pro Version Essential For:
+- **Multi-language applications**
+- **Professional development teams** requiring seamless commit workflows
+- **Complex workflow requirements** with commit panel integration
+- **Production applications** with existing i18n keys
+- **Enterprise projects** requiring advanced features
+- **Teams prioritizing efficiency** with in-context translation during commits
+
+### Pro Version Exclusive Features
+- **Unlimited target languages**
+- **Complete VCS integration** with modified key handling
+- **Commit Panel Integration**: Right-click translate directly in commit view
+- **Advanced processing features**: Key sorting and duplicate removal
+- **All dialog buttons enabled**
+- **30-day trial period**
+
 ## 💰 Pricing & Licensing
 
-Both plugins are **commercial products** available on JetBrains Marketplace:
+Choose the right solution for your needs:
 
-### 🆓 **Free Trial**
+### 🆓 **Lite Versions (Free Forever)**
+- **JVM Lite & Web Lite**: Completely free with essential features
+- Perfect for individual developers and small projects
+- No time limits or payment required
+
+### 🔄 **Pro Versions (Commercial)**
 - **30-day full-feature trial** for both plugins
-- No credit card required
-- Full functionality during trial period
-
-### 💳 **Commercial License**
-- **Individual License**: Check current pricing on JetBrains Marketplace
-- **Organization License**: Volume pricing available
-- **Educational Discounts**: Available for students and teachers
+- No credit card required during trial period
+- **Individual / Organization License**: Check current pricing on JetBrains Marketplace
 
 ### 📋 **License Benefits**
 - ✅ Unlimited translation projects
@@ -126,19 +181,21 @@ Both plugins are **commercial products** available on JetBrains Marketplace:
 
 ### Plugin Documentation
 
-**i18n Translate Pro: JVM** (Java Properties Files)
-- **[Plugin Description](docs/jvm-plugin/description.md)** | **[中文版](docs/jvm-plugin/description.zh.md)**
-- **[User Guide](docs/jvm-plugin/user-guide.md)** | **[用户指南](docs/jvm-plugin/user-guide.zh.md)**
-- **[🎯 Smart Text to i18n Tutorial](docs/jvm-plugin/smart-text-to-i18n-tutorial.md)** | **[🎯 智能文本转换教程](docs/jvm-plugin/smart-text-to-i18n-tutorial.zh.md)**
-- **[Additional Information](docs/jvm-plugin/additional-information.md)** | **[附加信息](docs/jvm-plugin/additional-information.zh.md)**
-- **[Release Notes](docs/jvm-plugin/release-notes.md)** | **[发布说明](docs/jvm-plugin/release-notes.zh.md)**
+| **JVM Pro** (Java Properties Files) | **JVM Lite** (Java Properties Files - Free) |
+|-------------------------------------|---------------------------------------------|
+| • **[Plugin Description](docs/jvm-plugin/description.md)** \| **[插件描述](docs/jvm-plugin/description.zh.md)** | • **[Plugin Description](docs/jvm-lite-plugin/description.md)** \| **[插件描述](docs/jvm-lite-plugin/description.zh.md)** |
+| • **[User Guide](docs/jvm-plugin/user-guide.md)** \| **[用户指南](docs/jvm-plugin/user-guide.zh.md)** | • **[User Guide](docs/jvm-lite-plugin/user-guide.md)** \| **[用户指南](docs/jvm-lite-plugin/user-guide.zh.md)** |
+| • **[🎯 Smart Text to i18n Tutorial](docs/jvm-plugin/smart-text-to-i18n-tutorial.md)** \| **[🎯 智能文本转换教程](docs/jvm-plugin/smart-text-to-i18n-tutorial.zh.md)** | • **[🎯 Smart Text to i18n Tutorial](docs/jvm-lite-plugin/smart-text-to-i18n-tutorial.md)** \| **[🎯 智能文本转换教程](docs/jvm-lite-plugin/smart-text-to-i18n-tutorial.zh.md)** |
+| • **[Additional Information](docs/jvm-plugin/additional-information.md)** \| **[附加信息](docs/jvm-plugin/additional-information.zh.md)** | • **[Additional Information](docs/jvm-lite-plugin/additional-information.md)** \| **[附加信息](docs/jvm-lite-plugin/additional-information.zh.md)** |
+| • **[Release Notes](docs/jvm-plugin/release-notes.md)** \| **[发布说明](docs/jvm-plugin/release-notes.zh.md)** | • **[Release Notes](docs/jvm-lite-plugin/release-notes.md)** \| **[发布说明](docs/jvm-lite-plugin/release-notes.zh.md)** |
 
-**i18n Translate Pro: Web** (JSON i18n Files)
-- **[Plugin Description](docs/web-plugin/description.md)** | **[中文版](docs/web-plugin/description.zh.md)**
-- **[User Guide](docs/web-plugin/user-guide.md)** | **[用户指南](docs/web-plugin/user-guide.zh.md)**
-- **[🎯 Smart Text to i18n Tutorial](docs/web-plugin/smart-text-to-i18n-tutorial.md)** | **[🎯 智能文本转换教程](docs/web-plugin/smart-text-to-i18n-tutorial.zh.md)**
-- **[Additional Information](docs/web-plugin/additional-information.md)** | **[附加信息](docs/web-plugin/additional-information.zh.md)**
-- **[Release Notes](docs/web-plugin/release-notes.md)** | **[发布说明](docs/web-plugin/release-notes.zh.md)**
+| **Web Pro** (JSON i18n Files) | **Web Lite** (JSON i18n Files - Free) |
+|--------------------------------|---------------------------------------|
+| • **[Plugin Description](docs/web-plugin/description.md)** \| **[插件描述](docs/web-plugin/description.zh.md)** | • **[Plugin Description](docs/web-lite-plugin/description.md)** \| **[插件描述](docs/web-lite-plugin/description.zh.md)** |
+| • **[User Guide](docs/web-plugin/user-guide.md)** \| **[用户指南](docs/web-plugin/user-guide.zh.md)** | • **[User Guide](docs/web-lite-plugin/user-guide.md)** \| **[用户指南](docs/web-lite-plugin/user-guide.zh.md)** |
+| • **[🎯 Smart Text to i18n Tutorial](docs/web-plugin/smart-text-to-i18n-tutorial.md)** \| **[🎯 智能文本转换教程](docs/web-plugin/smart-text-to-i18n-tutorial.zh.md)** | • **[🎯 Smart Text to i18n Tutorial](docs/web-lite-plugin/smart-text-to-i18n-tutorial.md)** \| **[🎯 智能文本转换教程](docs/web-lite-plugin/smart-text-to-i18n-tutorial.zh.md)** |
+| • **[Additional Information](docs/web-plugin/additional-information.md)** \| **[附加信息](docs/web-plugin/additional-information.zh.md)** | • **[Additional Information](docs/web-lite-plugin/additional-information.md)** \| **[附加信息](docs/web-lite-plugin/additional-information.zh.md)** |
+| • **[Release Notes](docs/web-plugin/release-notes.md)** \| **[发布说明](docs/web-plugin/release-notes.zh.md)** | • **[Release Notes](docs/web-lite-plugin/release-notes.md)** \| **[发布说明](docs/web-lite-plugin/release-notes.zh.md)** |
 
 ### General Documentation
 

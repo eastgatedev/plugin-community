@@ -1,15 +1,15 @@
-# 用户指南 - i18n 翻译专业版：JVM
+# 用户指南 - i18n 翻译精简版：JVM
 
 > 🌐 **Language / 语言**: [🇺🇸 English](user-guide.md) | [🇨🇳 简体中文](user-guide.zh.md)
 
 ## 📦 安装
 
-[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/27856-i18n-translate-pro-jvm.svg)](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/27856-i18n-translate-pro-jvm.svg)](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)
+[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28324-i18n-translate-lite-jvm.svg)](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/28324-i18n-translate-lite-jvm.svg)](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)
 
-**[从 JetBrains 市场安装 →](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)**
+**[从 JetBrains 市场安装 →](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)**
 
-本指南将帮助您开始使用适用于 IntelliJ IDEA 的 **i18n 翻译专业版：JVM** 插件。此插件使用 LLM 集成自动将 Java 属性文件翻译成多种语言。
+本指南将帮助您开始使用适用于 IntelliJ IDEA 的 **i18n 翻译精简版：JVM** 插件。此插件使用 LLM 集成自动将 Java 属性文件翻译成多种语言。
 
 ## 🚀 安装
 
@@ -18,7 +18,7 @@
 
 ### 步骤 1：安装插件
 1. 启动您的 IntelliJ IDEA，通过 `文件 → 设置 → 插件`（Windows/Linux）或 `IntelliJ IDEA → 首选项 → 插件`（macOS）打开插件设置
-2. 在市场中搜索 **"i18n Translate Pro: JVM"**
+2. 在市场中搜索 **"i18n Translate Lite: JVM"**
 3. 点击安装，提示时重新启动您的 IDE
 
 ### 步骤 2：配置文件编码
