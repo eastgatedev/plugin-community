@@ -90,7 +90,6 @@
 - **Custom Provider:** Any OpenAI-compatible endpoint for specialized setups
 - **API Key Management:** Secure storage with visibility toggle and clipboard integration
 - **Real-time Verification:** Test API connectivity and model access before translation
-- **Mock Translation Mode:** Development testing with API keys starting with "mock"
 - **Rate Limiting Awareness:** Intelligent handling of provider-specific limits
 - **Free Usage Option:** Google Gemini provides free daily usage, making professional translation accessible
 
