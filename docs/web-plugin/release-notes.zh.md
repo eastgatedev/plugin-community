@@ -2,6 +2,17 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## 版本 2025.1.4 <small>(2025-09-08)</small>
+
+- **🎯 Smart Text to i18n 增强：** 更好地支持所有 Web 框架，改进了 JSX/模板字面量检测
+- **🚀 PSI 支持优化：** 移除了 IntelliJ Community 支持，增强了对 WebStorm 和 IntelliJ Ultimate 的 PSI 支持
+- **🔄 自动降级功能：** 试用期到期后无缝过渡到 Lite 功能 - 无需重新安装
+- **⚡ UI 改进：** 增强的用户界面，提供更好的视觉反馈和更流畅的工作流程
+- **🐛 错误修复：** 解决了各种问题，提高了稳定性和性能
+- **📝 框架检测：** 更准确的 React、Vue、Angular 和 Next.js 项目识别
+
+**PSI 优化：** 现在专注于 WebStorm 和 IntelliJ Ultimate，提供卓越的 JavaScript/TypeScript PSI 支持，确保更准确的字符串检测和代码转换！
+
 ## 版本 2025.1.3 <small>(2025-08-29)</small>
 
 - **✅ 提交面板集成：** 在提交视图中右键直接翻译，在提交准备过程中实现无缝开发工作流

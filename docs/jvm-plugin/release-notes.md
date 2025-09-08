@@ -2,6 +2,17 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.1.6 <small>(2025-09-08)</small>
+
+- **🎯 Smart Text to i18n Enhancement:** Better support for Spring Boot framework with improved string detection and code generation
+- **🔄 Auto-Downgrade Feature:** Seamless transition from Pro to Lite functionality after trial expiration - no reinstallation needed
+- **⚡ UI Improvements:** Enhanced user interface with better visual feedback and smoother workflows
+- **🐛 Bug Fixes:** Resolved various issues for improved stability and performance
+- **📝 Enhanced Code Generation:** More accurate MessageSource integration for complex string patterns
+- **🚀 Framework Detection:** Improved Spring Boot configuration detection and handling
+
+**Auto-Downgrade Revolution:** No more forced uninstalls! When your trial expires, the plugin seamlessly transitions to Lite functionality - translate one language at a time while keeping all your settings intact!
+
 ## Version 2025.1.5 <small>(2025-08-29)</small>
 
 - **✅ Commit Panel Integration:** Right-click translate directly in commit view with seamless development workflow during commit preparation

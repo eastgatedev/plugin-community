@@ -2,6 +2,17 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.1.4 <small>(2025-09-08)</small>
+
+- **🎯 Smart Text to i18n Enhancement:** Better support for all web frameworks with improved JSX/template literal detection
+- **🚀 PSI Support Optimization:** Removed IntelliJ Community support, enhanced PSI support for WebStorm & IntelliJ Ultimate
+- **🔄 Auto-Downgrade Feature:** Seamless transition from Pro to Lite functionality after trial expiration - no reinstallation needed
+- **⚡ UI Improvements:** Enhanced user interface with better visual feedback and smoother workflows
+- **🐛 Bug Fixes:** Resolved various issues for improved stability and performance
+- **📝 Framework Detection:** More accurate React, Vue, Angular, and Next.js project identification
+
+**PSI Optimization:** Now focused on WebStorm and IntelliJ Ultimate for superior JavaScript/TypeScript PSI support, ensuring more accurate string detection and code transformation!
+
 ## Version 2025.1.3 <small>(2025-08-29)</small>
 
 - **✅ Commit Panel Integration:** Right-click translate directly in commit view with seamless development workflow during commit preparation

@@ -1,59 +1,28 @@
-# Release Notes - i18n Translate Pro: Web
+# Release Notes - i18n Translate Lite: Web
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
-## Version 2025.1.3 <small>(2025-08-29)</small>
+## Version 2025.1.1 <small>(2025-09-08)</small>
 
-- **✅ Commit Panel Integration:** Right-click translate directly in commit view with seamless development workflow during commit preparation
-- **🤖 LLM Provider Expansion:** Added 6 new providers (Google Gemini, DeepSeek, Azure OpenAI, Ollama, OpenRouter, Custom) - now 8 total providers with 60+ models
-- **⭐ Google Gemini Default:** Gemini 2.5 Flash now recommended default with free daily usage limits - perfect for regular development
-- **🚀 Professional Workflow:** Context menu available at end of commit panel for in-context translation
-- **🆓 Free Usage Option:** Google Gemini provides free daily usage limits for regular development needs
-- **🏢 Enterprise Compliance:** Azure OpenAI support for enterprise environments
-- **💻 Local Inference:** Ollama support for offline translation capabilities
+- **🎯 Smart Text to i18n Enhancement:** Better support for all web frameworks with improved JSX/template literal detection
+- **🚀 PSI Support Optimization:** Removed IntelliJ Community support, enhanced PSI support for WebStorm & IntelliJ Ultimate
+- **⚡ UI Improvements:** Enhanced user interface with better visual feedback and smoother workflows
+- **🐛 Bug Fixes:** Resolved various issues for improved stability and performance
+- **📝 Better Lite Experience:** Clearer distinction from Pro version with improved upgrade prompts
+- **🚀 Framework Detection:** More accurate React, Vue, Angular, and Next.js project identification
 
-**Revolutionary LLM Integration:** Transform your translation workflow with 8 AI providers and 60+ models! Google Gemini's free daily usage makes professional translation accessible to everyone!
+**First Update:** This is our first update since launch, bringing all the Smart Text to i18n improvements from the Pro version to our free Lite edition!
 
-## Version 2025.1.2 <small>(2025-08-17)</small>
+## Version 2025.1.0 <small>(2025-08-29)</small>
 
-- **🎯 Smart Text to i18n Revolution:** Revolutionary new feature to extract hardcoded strings and convert them to framework-specific i18n calls with keyboard shortcut Alt+Shift+]
-- **⚡ Instant Code Transformation:** Automatically detects string literals and generates React/Vue/Angular/Next.js integration with preview dialog
-- **🔧 Intelligent Framework Integration:** Auto-injects useTranslation, $t, translate pipe imports when missing from components
-- **📝 Developer Productivity:** Eliminate hardcoded strings instantly - select text or position cursor and press Alt+Shift+] for immediate i18n conversion
-- **🚀 IntelliJ IDEA 2025.1+ Support:** Minimum required platform version upgraded to 2025.1
-- **⚡ Framework Intelligence:** Auto-detects React, Vue, Angular, Next.js projects with intelligent import handling
-- **🛠️ Architecture Alignment:** Package structure now matches JVM plugin for consistency
+- **🆓 FREE FOREVER:** Complete i18n translation features with smart text extraction - no limitations, no trials
+- **🎯 Smart Text to i18n:** Extract hardcoded strings and convert them to framework-specific i18n calls with keyboard shortcut Alt+Shift+] - same revolutionary feature as Pro
+- **🤖 Full LLM Support:** Access to all 8 providers with 60+ models including Google Gemini (recommended with free daily usage)
+- **🌍 Single Target Language:** Translate one language at a time - perfect for getting started with web internationalization
+- **🚀 Framework Support:** React, Vue, Angular, Next.js automatic detection and integration
+- **📝 JSON File Management:** Complete file handling, nested structure support, and validation
+- **⭐ Same Core Features:** Identical Smart Text to i18n functionality as the Pro version
 
-**Smart Text to i18n Revolution:** Transform your frontend i18n workflow! No more manual string extraction - just press Alt+Shift+] and watch hardcoded text become proper framework-specific i18n calls with automatic JSON file updates!
+**🆓 Free Forever Promise:** Professional-grade i18n tools with the same revolutionary Smart Text to i18n feature as our Pro version! Perfect for single-language projects and learning web internationalization workflows.
 
-## Version 2025.1.1 <small>(2025-07-31)</small>
-
-### New Features:
-- **🔍 VCS Integration:** Smart detection of uncommitted changes with intelligent user choice for new vs modified keys
-- **📋 Enhanced User Control:** Clear prompts for modified keys with old/new value preview and confirmation dialogs
-- **🎯 Selective Translation:** Automatically processes new keys while giving users explicit control over modified key translations
-- **🛡️ Data Protection:** Prevents accidental overwriting of existing translations without user approval
-- **⚡ Workflow Optimization:** Streamlined translation process focusing only on relevant changes
-
-### Bug Fixes:
-- **🔧 Non-Existent Keys Fix:** Fixed critical bug where "Remove non-existent keys" checkbox was being ignored
-- **🎯 Nested Structure Preservation:** Now properly preserves extra keys within deeply nested JSON structures
-- **🔄 Recursive Merging:** Enhanced JSON merging algorithm to handle unlimited nesting levels safely
-- **📊 Structure Integrity:** Extra keys maintain their proper nested hierarchy instead of becoming empty objects
-
-**Intelligent Change Detection:** Now analyzes Git/VCS changes to translate only what matters - new keys automatically, modified keys with your permission!
-
-**Key Preservation Fix:** Now correctly honors the "Remove non-existent keys" setting - when unchecked, extra keys from target files are preserved with their nested structure intact!
-
-## Version 2025.1.0 <small>(2025-07-25)</small>
-
-- **🚀 Initial Release:** Comprehensive web framework translation support for JSON i18n files
-- **🌐 Multi-Framework Support:** React, Vue, Angular, Next.js, Nuxt.js automatic detection
-- **📱 Smart Pattern Detection:** Automatically detects framework-specific i18n file patterns
-- **🔍 Nested JSON Support:** Handles complex nested structures with intelligent flattening
-- **⚡ Parallel Processing:** Processes multiple languages concurrently for faster translations
-- **🎯 XLF Support:** Angular XLIFF file translation support
-- **🛠️ Advanced Configuration:** Framework-specific settings and path detection
-- **📊 Progress Tracking:** Real-time translation progress with detailed batch information
-
-**Perfect for:** Frontend developers working with modern web frameworks requiring fast, accurate i18n translations!
+**🚀 Ready to Scale?** Upgrade to [i18n Translate Pro: Web](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web) for unlimited languages, advanced VCS integration, and enterprise features!
