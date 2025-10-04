@@ -22,24 +22,46 @@
 
 传统扁平主题使您的眼睛更努力地区分 UI 元素。新拟态的微妙立体感让您的大脑自然处理视觉层次结构，就像阅读设计精美的书籍，而不是高对比度的广告牌。
 
-## 主题集合（共 11 款）
+## 实际效果展示
 
-### 🆓 免费主题（永久免费，无附加条件）
+### 🆓 免费主题（无试用限制，永久免费）
 
-**🌊 Ocean Breeze（海洋微风）** - 平静的海洋蓝，适合专注的深度工作  
-**🌟 Classic Plus（经典增强版）** - 增强的 IntelliJ 浅色主题，具有新拟态精致感  
+**🌊 Ocean Breeze（海洋微风）** - 平静的海洋蓝，适合专注的深度工作
+![Ocean Breeze Theme](images/ocean-breeze-screenshot.png)
+
+**🌟 Classic Plus（经典增强版）** - 增强的 IntelliJ 浅色主题，具有新拟态精致感
+![Classic Plus Theme](images/classic-plus-screenshot.png)
+
 **🌌 Deep Space（深空）** - 宇宙深色主题，深紫色和午夜蓝
+![Deep Space Theme](images/deep-space-screenshot.png)
 
-### 💎 高级主题（$5 个人版 / $10 组织版 - 永久拥有全部 8 款）
+---
 
-**❄️ Arctic Frost（北极冰霜）** - 清爽的白色和冰蓝色，最大清晰度  
-**🌸 Rose Gold（玫瑰金）** - 温暖优雅，减少蓝光曝光  
-**🌲 Forest（森林）** - 自然绿色和大地色调，踏实编码  
-**💜 Lavender（薰衣草）** - 柔和的紫色，激发创造力和平衡  
-**🌙 Midnight（午夜）** - 真正的深色，深黑色，适合 OLED 完美体验  
-**🎵 Recording Studio（录音室）** - 专业深色，灵感来自音频工作站  
-**🎸 Recording Studio Live（录音室现场版）** - 录音室主题的温暖强调色变体  
+### 💎 高级主题（每款试用 30 分钟，$5 个人版 / $10 组织版永久拥有全部 8 款）
+
+**❄️ Arctic Frost（北极冰霜）** - 清爽的白色和冰蓝色，最大清晰度
+![Arctic Frost Theme](images/arctic-frost-screenshot.png)
+
+**🌸 Rose Gold（玫瑰金）** - 温暖优雅，减少蓝光曝光
+![Rose Gold Theme](images/rose-gold-screenshot.png)
+
+**🌲 Forest（森林）** - 自然绿色和大地色调，踏实编码
+![Forest Theme](images/forest-screenshot.png)
+
+**💜 Lavender（薰衣草）** - 柔和的紫色，激发创造力和平衡
+![Lavender Theme](images/lavender-screenshot.png)
+
+**🌙 Midnight（午夜）** - 真正的深色，深黑色，适合 OLED 完美体验
+![Midnight Theme](images/midnight-screenshot.png)
+
+**🎵 Recording Studio（录音室）** - 专业深色，灵感来自音频工作站
+![Recording Studio Theme](images/recording-studio-screenshot.png)
+
+**🎸 Recording Studio Live（录音室现场版）** - 录音室主题的温暖强调色变体
+![Recording Studio Live Theme](images/recording-studio-live-screenshot.png)
+
 **🌅 Sunset（日落）** - 充满活力的橙色和珊瑚色，黄金时刻编码
+![Sunset Theme](images/sunset-screenshot.png)
 
 ## 反订阅承诺
 

@@ -22,24 +22,46 @@ Transform your coding environment with **Neumorphism Theme Collection** - profes
 
 Traditional flat themes make your eyes work harder to distinguish UI elements. Neumorphism's subtle elevation lets your brain process visual hierarchy naturally, like reading a well-designed book instead of a high-contrast billboard.
 
-## Theme Collection (11 Total)
+## See It In Action
 
-### 🆓 Free Themes (Yours Forever, No Catch)
+### 🆓 Free Themes (No Trial, No Limits, Yours Forever)
 
-**🌊 Ocean Breeze** - Calming ocean blues for focused deep work  
-**🌟 Classic Plus** - Enhanced IntelliJ light theme with neumorphic refinement  
-**🌌 Deep Space** - Cosmic dark theme with deep purples and midnight blues
+**🌊 Ocean Breeze** - Calming ocean blues for focused deep work
+![Ocean Breeze Theme](images/ocean-breeze-screenshot.png)
 
-### 💎 Premium Themes ($5 Individual / $10 Organization - All 8 Forever)
+**🌟 Classic Plus** - Enhanced IntelliJ light with neumorphic refinement
+![Classic Plus Theme](images/classic-plus-screenshot.png)
 
-**❄️ Arctic Frost** - Crisp whites and icy blues for maximum clarity  
-**🌸 Rose Gold** - Warm elegance with reduced blue light exposure  
-**🌲 Forest** - Natural greens and earth tones for grounded coding  
-**💜 Lavender** - Soft purples inspiring creativity and balance  
-**🌙 Midnight** - True dark with deep blacks for OLED perfection  
-**🎵 Recording Studio** - Professional dark inspired by audio workstations  
-**🎸 Recording Studio Live** - Recording Studio with energetic warm accents  
+**🌌 Deep Space** - Cosmic dark with deep purples and midnight blues
+![Deep Space Theme](images/deep-space-screenshot.png)
+
+---
+
+### 💎 Premium Themes (30-Min Trial Each, $5 Individual / $10 Organization for All 8)
+
+**❄️ Arctic Frost** - Crisp whites and icy blues for maximum clarity
+![Arctic Frost Theme](images/arctic-frost-screenshot.png)
+
+**🌸 Rose Gold** - Warm elegance with reduced blue light exposure
+![Rose Gold Theme](images/rose-gold-screenshot.png)
+
+**🌲 Forest** - Natural greens and earth tones for grounded coding
+![Forest Theme](images/forest-screenshot.png)
+
+**💜 Lavender** - Soft purples inspiring creativity and balance
+![Lavender Theme](images/lavender-screenshot.png)
+
+**🌙 Midnight** - True dark with deep blacks for OLED perfection
+![Midnight Theme](images/midnight-screenshot.png)
+
+**🎵 Recording Studio** - Professional dark inspired by audio workstations
+![Recording Studio Theme](images/recording-studio-screenshot.png)
+
+**🎸 Recording Studio Live** - Recording Studio with energetic warm accents
+![Recording Studio Live Theme](images/recording-studio-live-screenshot.png)
+
 **🌅 Sunset** - Vibrant oranges and corals for golden hour coding
+![Sunset Theme](images/sunset-screenshot.png)
 
 ## The Anti-Subscription Promise
 
