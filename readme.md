@@ -7,7 +7,7 @@ Official community hub for **two professional plugin suites** from Eastgate Deve
 - **i18n Translate Suite** - AI-powered internationalization for Java Properties and JSON files
 - **Theme Suite** - Eye-friendly themes with professional design and WCAG AAA accessibility
 
-All plugins available on [JetBrains Marketplace](https://plugins.jetbrains.com/) with no subscription fatigue.
+All plugins available on [JetBrains Marketplace](https://plugins.jetbrains.com/vendor/eastgatedev) with no subscription fatigue.
 
 ---
 
