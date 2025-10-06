@@ -227,32 +227,32 @@ Sample colors from this theme:
 <tbody>
 <tr>
 <td><strong>Primary Text</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-1e293b.png" alt="#1e293b" height="32"/></td>
 <td><code style="font-size:14px;">#1e293b</code></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-f8fafc.png" alt="#f8fafc" height="32"/></td>
 <td><code style="font-size:14px;">#f8fafc</code></td>
 </tr>
 <tr>
 <td><strong>Color 3</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#f1f5f9;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-f1f5f9.png" alt="#f1f5f9" height="32"/></td>
 <td><code style="font-size:14px;">#f1f5f9</code></td>
 </tr>
 <tr>
 <td><strong>Color 4</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-ffffff.png" alt="#ffffff" height="32"/></td>
 <td><code style="font-size:14px;">#ffffff</code></td>
 </tr>
 <tr>
 <td><strong>Color 5</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-475569.png" alt="#475569" height="32"/></td>
 <td><code style="font-size:14px;">#475569</code></td>
 </tr>
 <tr>
 <td><strong>Color 6</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-14532d.png" alt="#14532d" height="32"/></td>
 <td><code style="font-size:14px;">#14532d</code></td>
 </tr>
 </tbody>
@@ -440,32 +440,32 @@ Sample colors from this theme:
 <tbody>
 <tr>
 <td><strong>Primary Text</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#212529;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-212529.png" alt="#212529" height="32"/></td>
 <td><code style="font-size:14px;">#212529</code></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#f8f9fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-f8f9fa.png" alt="#f8f9fa" height="32"/></td>
 <td><code style="font-size:14px;">#f8f9fa</code></td>
 </tr>
 <tr>
 <td><strong>Color 3</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#e9ecef;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-e9ecef.png" alt="#e9ecef" height="32"/></td>
 <td><code style="font-size:14px;">#e9ecef</code></td>
 </tr>
 <tr>
 <td><strong>Color 4</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-ffffff.png" alt="#ffffff" height="32"/></td>
 <td><code style="font-size:14px;">#ffffff</code></td>
 </tr>
 <tr>
 <td><strong>Color 5</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#5d646b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-5d646b.png" alt="#5d646b" height="32"/></td>
 <td><code style="font-size:14px;">#5d646b</code></td>
 </tr>
 <tr>
 <td><strong>Color 6</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-14532d.png" alt="#14532d" height="32"/></td>
 <td><code style="font-size:14px;">#14532d</code></td>
 </tr>
 </tbody>
@@ -653,32 +653,32 @@ Sample colors from this theme:
 <tbody>
 <tr>
 <td><strong>Primary Text</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#bfbdb6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-bfbdb6.png" alt="#bfbdb6" height="32"/></td>
 <td><code style="font-size:14px;">#bfbdb6</code></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-0f1419.png" alt="#0f1419" height="32"/></td>
 <td><code style="font-size:14px;">#0f1419</code></td>
 </tr>
 <tr>
 <td><strong>Color 3</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#131920;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-131920.png" alt="#131920" height="32"/></td>
 <td><code style="font-size:14px;">#131920</code></td>
 </tr>
 <tr>
 <td><strong>Color 4</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-0b0e14.png" alt="#0b0e14" height="32"/></td>
 <td><code style="font-size:14px;">#0b0e14</code></td>
 </tr>
 <tr>
 <td><strong>Color 5</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#7a8999;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-7a8999.png" alt="#7a8999" height="32"/></td>
 <td><code style="font-size:14px;">#7a8999</code></td>
 </tr>
 <tr>
 <td><strong>Color 6</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#87d96c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-87d96c.png" alt="#87d96c" height="32"/></td>
 <td><code style="font-size:14px;">#87d96c</code></td>
 </tr>
 </tbody>
@@ -866,27 +866,27 @@ Sample colors from this theme:
 <tbody>
 <tr>
 <td><strong>Primary Text</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-14532d.png" alt="#14532d" height="32"/></td>
 <td><code style="font-size:14px;">#14532d</code></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#f6fdf6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-f6fdf6.png" alt="#f6fdf6" height="32"/></td>
 <td><code style="font-size:14px;">#f6fdf6</code></td>
 </tr>
 <tr>
 <td><strong>Color 3</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#e6ffe6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-e6ffe6.png" alt="#e6ffe6" height="32"/></td>
 <td><code style="font-size:14px;">#e6ffe6</code></td>
 </tr>
 <tr>
 <td><strong>Color 4</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-ffffff.png" alt="#ffffff" height="32"/></td>
 <td><code style="font-size:14px;">#ffffff</code></td>
 </tr>
 <tr>
 <td><strong>Color 5</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#6b7280;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-6b7280.png" alt="#6b7280" height="32"/></td>
 <td><code style="font-size:14px;">#6b7280</code></td>
 </tr>
 </tbody>
@@ -1074,32 +1074,32 @@ Sample colors from this theme:
 <tbody>
 <tr>
 <td><strong>Primary Text</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-1f2937.png" alt="#1f2937" height="32"/></td>
 <td><code style="font-size:14px;">#1f2937</code></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#faf7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-faf7ff.png" alt="#faf7ff" height="32"/></td>
 <td><code style="font-size:14px;">#faf7ff</code></td>
 </tr>
 <tr>
 <td><strong>Color 3</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#ede7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-ede7ff.png" alt="#ede7ff" height="32"/></td>
 <td><code style="font-size:14px;">#ede7ff</code></td>
 </tr>
 <tr>
 <td><strong>Color 4</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-fefefe.png" alt="#fefefe" height="32"/></td>
 <td><code style="font-size:14px;">#fefefe</code></td>
 </tr>
 <tr>
 <td><strong>Color 5</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#5456cc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-5456cc.png" alt="#5456cc" height="32"/></td>
 <td><code style="font-size:14px;">#5456cc</code></td>
 </tr>
 <tr>
 <td><strong>Color 6</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-14532d.png" alt="#14532d" height="32"/></td>
 <td><code style="font-size:14px;">#14532d</code></td>
 </tr>
 </tbody>
@@ -1287,32 +1287,32 @@ Sample colors from this theme:
 <tbody>
 <tr>
 <td><strong>Primary Text</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#e2e8f0;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-e2e8f0.png" alt="#e2e8f0" height="32"/></td>
 <td><code style="font-size:14px;">#e2e8f0</code></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#0a0a0f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-0a0a0f.png" alt="#0a0a0f" height="32"/></td>
 <td><code style="font-size:14px;">#0a0a0f</code></td>
 </tr>
 <tr>
 <td><strong>Color 3</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#0f0f1a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-0f0f1a.png" alt="#0f0f1a" height="32"/></td>
 <td><code style="font-size:14px;">#0f0f1a</code></td>
 </tr>
 <tr>
 <td><strong>Color 4</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-000000.png" alt="#000000" height="32"/></td>
 <td><code style="font-size:14px;">#000000</code></td>
 </tr>
 <tr>
 <td><strong>Color 5</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#94a3b8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-94a3b8.png" alt="#94a3b8" height="32"/></td>
 <td><code style="font-size:14px;">#94a3b8</code></td>
 </tr>
 <tr>
 <td><strong>Color 6</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-34d399.png" alt="#34d399" height="32"/></td>
 <td><code style="font-size:14px;">#34d399</code></td>
 </tr>
 </tbody>
@@ -1500,32 +1500,32 @@ Sample colors from this theme:
 <tbody>
 <tr>
 <td><strong>Primary Text</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#0c4a6e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-0c4a6e.png" alt="#0c4a6e" height="32"/></td>
 <td><code style="font-size:14px;">#0c4a6e</code></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#f0f9ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-f0f9ff.png" alt="#f0f9ff" height="32"/></td>
 <td><code style="font-size:14px;">#f0f9ff</code></td>
 </tr>
 <tr>
 <td><strong>Color 3</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#e0f2fe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-e0f2fe.png" alt="#e0f2fe" height="32"/></td>
 <td><code style="font-size:14px;">#e0f2fe</code></td>
 </tr>
 <tr>
 <td><strong>Color 4</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-fefefe.png" alt="#fefefe" height="32"/></td>
 <td><code style="font-size:14px;">#fefefe</code></td>
 </tr>
 <tr>
 <td><strong>Color 5</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#5b6a7f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-5b6a7f.png" alt="#5b6a7f" height="32"/></td>
 <td><code style="font-size:14px;">#5b6a7f</code></td>
 </tr>
 <tr>
 <td><strong>Color 6</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-14532d.png" alt="#14532d" height="32"/></td>
 <td><code style="font-size:14px;">#14532d</code></td>
 </tr>
 </tbody>
@@ -1713,32 +1713,32 @@ Sample colors from this theme:
 <tbody>
 <tr>
 <td><strong>Primary Text</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-1e293b.png" alt="#1e293b" height="32"/></td>
 <td><code style="font-size:14px;">#1e293b</code></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-f8fafc.png" alt="#f8fafc" height="32"/></td>
 <td><code style="font-size:14px;">#f8fafc</code></td>
 </tr>
 <tr>
 <td><strong>Color 3</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#f1f5f9;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-f1f5f9.png" alt="#f1f5f9" height="32"/></td>
 <td><code style="font-size:14px;">#f1f5f9</code></td>
 </tr>
 <tr>
 <td><strong>Color 4</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-ffffff.png" alt="#ffffff" height="32"/></td>
 <td><code style="font-size:14px;">#ffffff</code></td>
 </tr>
 <tr>
 <td><strong>Color 5</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-475569.png" alt="#475569" height="32"/></td>
 <td><code style="font-size:14px;">#475569</code></td>
 </tr>
 <tr>
 <td><strong>Color 6</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-14532d.png" alt="#14532d" height="32"/></td>
 <td><code style="font-size:14px;">#14532d</code></td>
 </tr>
 </tbody>
@@ -1926,32 +1926,32 @@ Sample colors from this theme:
 <tbody>
 <tr>
 <td><strong>Primary Text</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-f8fafc.png" alt="#f8fafc" height="32"/></td>
 <td><code style="font-size:14px;">#f8fafc</code></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-1e293b.png" alt="#1e293b" height="32"/></td>
 <td><code style="font-size:14px;">#1e293b</code></td>
 </tr>
 <tr>
 <td><strong>Color 3</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#334155;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-334155.png" alt="#334155" height="32"/></td>
 <td><code style="font-size:14px;">#334155</code></td>
 </tr>
 <tr>
 <td><strong>Color 4</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-0f172a.png" alt="#0f172a" height="32"/></td>
 <td><code style="font-size:14px;">#0f172a</code></td>
 </tr>
 <tr>
 <td><strong>Color 5</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#cbd5e1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-cbd5e1.png" alt="#cbd5e1" height="32"/></td>
 <td><code style="font-size:14px;">#cbd5e1</code></td>
 </tr>
 <tr>
 <td><strong>Color 6</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-34d399.png" alt="#34d399" height="32"/></td>
 <td><code style="font-size:14px;">#34d399</code></td>
 </tr>
 </tbody>
@@ -2139,32 +2139,32 @@ Sample colors from this theme:
 <tbody>
 <tr>
 <td><strong>Primary Text</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-1f2937.png" alt="#1f2937" height="32"/></td>
 <td><code style="font-size:14px;">#1f2937</code></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#fef7f7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-fef7f7.png" alt="#fef7f7" height="32"/></td>
 <td><code style="font-size:14px;">#fef7f7</code></td>
 </tr>
 <tr>
 <td><strong>Color 3</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#fce7e7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-fce7e7.png" alt="#fce7e7" height="32"/></td>
 <td><code style="font-size:14px;">#fce7e7</code></td>
 </tr>
 <tr>
 <td><strong>Color 4</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-ffffff.png" alt="#ffffff" height="32"/></td>
 <td><code style="font-size:14px;">#ffffff</code></td>
 </tr>
 <tr>
 <td><strong>Color 5</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#616774;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-616774.png" alt="#616774" height="32"/></td>
 <td><code style="font-size:14px;">#616774</code></td>
 </tr>
 <tr>
 <td><strong>Color 6</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-14532d.png" alt="#14532d" height="32"/></td>
 <td><code style="font-size:14px;">#14532d</code></td>
 </tr>
 </tbody>
@@ -2352,32 +2352,32 @@ Sample colors from this theme:
 <tbody>
 <tr>
 <td><strong>Primary Text</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#1c1917;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-1c1917.png" alt="#1c1917" height="32"/></td>
 <td><code style="font-size:14px;">#1c1917</code></td>
 </tr>
 <tr>
 <td><strong>Background</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#fff7ed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-fff7ed.png" alt="#fff7ed" height="32"/></td>
 <td><code style="font-size:14px;">#fff7ed</code></td>
 </tr>
 <tr>
 <td><strong>Color 3</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#fed7aa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-fed7aa.png" alt="#fed7aa" height="32"/></td>
 <td><code style="font-size:14px;">#fed7aa</code></td>
 </tr>
 <tr>
 <td><strong>Color 4</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-fffbf5.png" alt="#fffbf5" height="32"/></td>
 <td><code style="font-size:14px;">#fffbf5</code></td>
 </tr>
 <tr>
 <td><strong>Color 5</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#615b57;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-615b57.png" alt="#615b57" height="32"/></td>
 <td><code style="font-size:14px;">#615b57</code></td>
 </tr>
 <tr>
 <td><strong>Color 6</strong></td>
-<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><img src="images/color-swatches/swatch-14532d.png" alt="#14532d" height="32"/></td>
 <td><code style="font-size:14px;">#14532d</code></td>
 </tr>
 </tbody>
