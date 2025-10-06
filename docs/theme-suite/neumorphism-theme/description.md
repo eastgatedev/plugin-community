@@ -129,6 +129,21 @@ Test each premium theme individually for 30 minutes with zero interruptions. No 
 - Tested across deuteranopia, protanopia, tritanopia color blindness
 - Professional accessibility without aesthetic compromise
 
+**Accessibility Certification:**
+
+Every theme in this collection has been rigorously validated for accessibility compliance. For enterprise and government buyers requiring WCAG documentation:
+
+**[View Full WCAG Compliance Report →](wcag-compliance-report.md)**
+
+The comprehensive report includes:
+- Detailed contrast ratio testing results (7:1 AAA standard)
+- Color blindness simulation validation (deuteranopia, protanopia, tritanopia)
+- Component-level accessibility verification
+- VCS integration color compliance
+- Independent third-party validation methodology
+
+Perfect for procurement requirements, accessibility audits, and compliance documentation.
+
 **Neumorphism Benefits:**
 - Soft shadows create natural depth without harsh contrasts
 - Reduced visual noise compared to material design
