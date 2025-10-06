@@ -61,38 +61,203 @@
 
 #### Contrast Ratio Test Results
 
-| Color Combination | Foreground | Background | Contrast Ratio | WCAG AA | WCAG AAA | Level |
-| ----------------- | ---------- | ---------- | -------------- | ------- | -------- | ----- |
-| text primary on neumorphic bg | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **13.98:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic surface | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | ![#f1f5f9](https://via.placeholder.com/60x20/f1f5f9/f1f5f9.png?text=+)<br/>`#f1f5f9` | **13.35:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic input | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **14.63:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic bg | ![#475569](https://via.placeholder.com/60x20/475569/475569.png?text=+)<br/>`#475569` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **7.24:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic surface | ![#475569](https://via.placeholder.com/60x20/475569/475569.png?text=+)<br/>`#475569` | ![#f1f5f9](https://via.placeholder.com/60x20/f1f5f9/f1f5f9.png?text=+)<br/>`#f1f5f9` | **6.92:1** | ✅ Pass | ❌ Fail | AA |
-| success on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **8.71:1** | ✅ Pass | ✅ Pass | AAA |
-| error on neumorphic bg | ![#815664](https://via.placeholder.com/60x20/815664/815664.png?text=+)<br/>`#815664` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **5.82:1** | ✅ Pass | ❌ Fail | AA |
-| warning on neumorphic bg | ![#a16207](https://via.placeholder.com/60x20/a16207/a16207.png?text=+)<br/>`#a16207` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **4.71:1** | ✅ Pass | ❌ Fail | AA |
-| info on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **6.41:1** | ✅ Pass | ❌ Fail | AA |
-| syntax keyword on neumorphic input | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **6.70:1** | ✅ Pass | ❌ Fail | AA |
-| syntax string on neumorphic input | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **9.11:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax comment on neumorphic input | ![#4b5563](https://via.placeholder.com/60x20/4b5563/4b5563.png?text=+)<br/>`#4b5563` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **7.56:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax number on neumorphic input | ![#b45309](https://via.placeholder.com/60x20/b45309/b45309.png?text=+)<br/>`#b45309` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **5.02:1** | ✅ Pass | ❌ Fail | AA |
-| syntax operator on neumorphic input | ![#dc2626](https://via.placeholder.com/60x20/dc2626/dc2626.png?text=+)<br/>`#dc2626` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **4.83:1** | ✅ Pass | ❌ Fail | AA |
-| vcs added on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **8.71:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs modified on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **6.41:1** | ✅ Pass | ❌ Fail | AA |
-| vcs deleted on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **6.18:1** | ✅ Pass | ❌ Fail | AA |
+<table>
+<thead>
+<tr>
+<th>Test Combination</th>
+<th>Color Visualization</th>
+<th>Visual Preview</th>
+<th>Contrast Analysis</th>
+<th>Status</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text primary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#1e293b;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="13.98:1" style="vertical-align:middle;"> <strong style="font-size:16px;">13.98:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f1f5f9;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f1f5f9</code></td>
+<td><span style="display:inline-block;background-color:#f1f5f9;color:#1e293b;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="13.35:1" style="vertical-align:middle;"> <strong style="font-size:16px;">13.35:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#1e293b;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="14.63:1" style="vertical-align:middle;"> <strong style="font-size:16px;">14.63:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#475569</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#475569;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.24:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.24:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#475569</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f1f5f9;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f1f5f9</code></td>
+<td><span style="display:inline-block;background-color:#f1f5f9;color:#475569;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2298.85714285714286%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.92:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.92:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>success on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.71:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.71:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Success States</span></td>
+</tr>
+<tr>
+<td><strong>error on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#815664;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#815664</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#815664;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2283.14285714285715%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.82:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.82:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Error States</span></td>
+</tr>
+<tr>
+<td><strong>warning on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#a16207;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2267.28571428571428%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.71:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.71:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Warning States</span></td>
+</tr>
+<tr>
+<td><strong>info on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2291.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.41:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.41:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Info States</span></td>
+</tr>
+<tr>
+<td><strong>syntax keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2295.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.70:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.70:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.11:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.11:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#4b5563;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.56:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.56:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#b45309;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2271.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.02:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.02:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>syntax operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#dc2626;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#dc2626</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#dc2626;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2269%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.83:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.83:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>vcs added on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.71:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.71:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs modified on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2291.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.41:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.41:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs deleted on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2288.28571428571428%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.18:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.18:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+</tbody>
+</table>
 
 #### Color Palette Samples
 
 Sample colors from this theme:
 
-| Color | Hex Code | Sample |
-| ----- | -------- | ------ |
-| Primary Text | `#1e293b` | ![#1e293b](https://via.placeholder.com/100x30/1e293b/1e293b.png?text=+) |
-| Background | `#f8fafc` | ![#f8fafc](https://via.placeholder.com/100x30/f8fafc/f8fafc.png?text=+) |
-| Color 3 | `#f1f5f9` | ![#f1f5f9](https://via.placeholder.com/100x30/f1f5f9/f1f5f9.png?text=+) |
-| Color 4 | `#ffffff` | ![#ffffff](https://via.placeholder.com/100x30/ffffff/ffffff.png?text=+) |
-| Color 5 | `#475569` | ![#475569](https://via.placeholder.com/100x30/475569/475569.png?text=+) |
-| Color 6 | `#14532d` | ![#14532d](https://via.placeholder.com/100x30/14532d/14532d.png?text=+) |
+<table>
+<thead>
+<tr>
+<th>Color Role</th>
+<th>Color Swatch</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary Text</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#1e293b</code></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#f8fafc</code></td>
+</tr>
+<tr>
+<td><strong>Color 3</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#f1f5f9;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#f1f5f9</code></td>
+</tr>
+<tr>
+<td><strong>Color 4</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#ffffff</code></td>
+</tr>
+<tr>
+<td><strong>Color 5</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#475569</code></td>
+</tr>
+<tr>
+<td><strong>Color 6</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#14532d</code></td>
+</tr>
+</tbody>
+</table>
+
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
@@ -109,38 +274,203 @@ Sample colors from this theme:
 
 #### Contrast Ratio Test Results
 
-| Color Combination | Foreground | Background | Contrast Ratio | WCAG AA | WCAG AAA | Level |
-| ----------------- | ---------- | ---------- | -------------- | ------- | -------- | ----- |
-| text primary on neumorphic bg | ![#212529](https://via.placeholder.com/60x20/212529/212529.png?text=+)<br/>`#212529` | ![#f8f9fa](https://via.placeholder.com/60x20/f8f9fa/f8f9fa.png?text=+)<br/>`#f8f9fa` | **14.63:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic surface | ![#212529](https://via.placeholder.com/60x20/212529/212529.png?text=+)<br/>`#212529` | ![#e9ecef](https://via.placeholder.com/60x20/e9ecef/e9ecef.png?text=+)<br/>`#e9ecef` | **13.01:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic input | ![#212529](https://via.placeholder.com/60x20/212529/212529.png?text=+)<br/>`#212529` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **15.43:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic bg | ![#5d646b](https://via.placeholder.com/60x20/5d646b/5d646b.png?text=+)<br/>`#5d646b` | ![#f8f9fa](https://via.placeholder.com/60x20/f8f9fa/f8f9fa.png?text=+)<br/>`#f8f9fa` | **5.69:1** | ✅ Pass | ❌ Fail | AA |
-| text secondary on neumorphic surface | ![#5d646b](https://via.placeholder.com/60x20/5d646b/5d646b.png?text=+)<br/>`#5d646b` | ![#e9ecef](https://via.placeholder.com/60x20/e9ecef/e9ecef.png?text=+)<br/>`#e9ecef` | **5.06:1** | ✅ Pass | ❌ Fail | AA |
-| success on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#f8f9fa](https://via.placeholder.com/60x20/f8f9fa/f8f9fa.png?text=+)<br/>`#f8f9fa` | **8.64:1** | ✅ Pass | ✅ Pass | AAA |
-| error on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#f8f9fa](https://via.placeholder.com/60x20/f8f9fa/f8f9fa.png?text=+)<br/>`#f8f9fa` | **6.14:1** | ✅ Pass | ❌ Fail | AA |
-| warning on neumorphic bg | ![#a16207](https://via.placeholder.com/60x20/a16207/a16207.png?text=+)<br/>`#a16207` | ![#f8f9fa](https://via.placeholder.com/60x20/f8f9fa/f8f9fa.png?text=+)<br/>`#f8f9fa` | **4.67:1** | ✅ Pass | ❌ Fail | AA |
-| info on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#f8f9fa](https://via.placeholder.com/60x20/f8f9fa/f8f9fa.png?text=+)<br/>`#f8f9fa` | **6.36:1** | ✅ Pass | ❌ Fail | AA |
-| syntax keyword on neumorphic input | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **6.70:1** | ✅ Pass | ❌ Fail | AA |
-| syntax string on neumorphic input | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **9.11:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax comment on neumorphic input | ![#4b5563](https://via.placeholder.com/60x20/4b5563/4b5563.png?text=+)<br/>`#4b5563` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **7.56:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax number on neumorphic input | ![#b45309](https://via.placeholder.com/60x20/b45309/b45309.png?text=+)<br/>`#b45309` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **5.02:1** | ✅ Pass | ❌ Fail | AA |
-| syntax operator on neumorphic input | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **6.47:1** | ✅ Pass | ❌ Fail | AA |
-| vcs added on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#f8f9fa](https://via.placeholder.com/60x20/f8f9fa/f8f9fa.png?text=+)<br/>`#f8f9fa` | **8.64:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs modified on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#f8f9fa](https://via.placeholder.com/60x20/f8f9fa/f8f9fa.png?text=+)<br/>`#f8f9fa` | **6.36:1** | ✅ Pass | ❌ Fail | AA |
-| vcs deleted on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#f8f9fa](https://via.placeholder.com/60x20/f8f9fa/f8f9fa.png?text=+)<br/>`#f8f9fa` | **6.14:1** | ✅ Pass | ❌ Fail | AA |
+<table>
+<thead>
+<tr>
+<th>Test Combination</th>
+<th>Color Visualization</th>
+<th>Visual Preview</th>
+<th>Contrast Analysis</th>
+<th>Status</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text primary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#212529;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#212529</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8f9fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8f9fa</code></td>
+<td><span style="display:inline-block;background-color:#f8f9fa;color:#212529;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="14.63:1" style="vertical-align:middle;"> <strong style="font-size:16px;">14.63:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#212529;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#212529</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#e9ecef;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e9ecef</code></td>
+<td><span style="display:inline-block;background-color:#e9ecef;color:#212529;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="13.01:1" style="vertical-align:middle;"> <strong style="font-size:16px;">13.01:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#212529;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#212529</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#212529;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="15.43:1" style="vertical-align:middle;"> <strong style="font-size:16px;">15.43:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#5d646b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#5d646b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8f9fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8f9fa</code></td>
+<td><span style="display:inline-block;background-color:#f8f9fa;color:#5d646b;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2281.28571428571429%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.69:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.69:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#5d646b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#5d646b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#e9ecef;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e9ecef</code></td>
+<td><span style="display:inline-block;background-color:#e9ecef;color:#5d646b;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2272.28571428571428%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.06:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.06:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>success on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8f9fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8f9fa</code></td>
+<td><span style="display:inline-block;background-color:#f8f9fa;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.64:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.64:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Success States</span></td>
+</tr>
+<tr>
+<td><strong>error on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8f9fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8f9fa</code></td>
+<td><span style="display:inline-block;background-color:#f8f9fa;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2287.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.14:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.14:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Error States</span></td>
+</tr>
+<tr>
+<td><strong>warning on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8f9fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8f9fa</code></td>
+<td><span style="display:inline-block;background-color:#f8f9fa;color:#a16207;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2266.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.67:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.67:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Warning States</span></td>
+</tr>
+<tr>
+<td><strong>info on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8f9fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8f9fa</code></td>
+<td><span style="display:inline-block;background-color:#f8f9fa;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2290.85714285714286%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.36:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.36:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Info States</span></td>
+</tr>
+<tr>
+<td><strong>syntax keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2295.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.70:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.70:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.11:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.11:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#4b5563;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.56:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.56:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#b45309;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2271.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.02:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.02:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>syntax operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2292.42857142857143%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.47:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.47:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>vcs added on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8f9fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8f9fa</code></td>
+<td><span style="display:inline-block;background-color:#f8f9fa;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.64:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.64:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs modified on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8f9fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8f9fa</code></td>
+<td><span style="display:inline-block;background-color:#f8f9fa;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2290.85714285714286%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.36:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.36:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs deleted on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8f9fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8f9fa</code></td>
+<td><span style="display:inline-block;background-color:#f8f9fa;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2287.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.14:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.14:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+</tbody>
+</table>
 
 #### Color Palette Samples
 
 Sample colors from this theme:
 
-| Color | Hex Code | Sample |
-| ----- | -------- | ------ |
-| Primary Text | `#212529` | ![#212529](https://via.placeholder.com/100x30/212529/212529.png?text=+) |
-| Background | `#f8f9fa` | ![#f8f9fa](https://via.placeholder.com/100x30/f8f9fa/f8f9fa.png?text=+) |
-| Color 3 | `#e9ecef` | ![#e9ecef](https://via.placeholder.com/100x30/e9ecef/e9ecef.png?text=+) |
-| Color 4 | `#ffffff` | ![#ffffff](https://via.placeholder.com/100x30/ffffff/ffffff.png?text=+) |
-| Color 5 | `#5d646b` | ![#5d646b](https://via.placeholder.com/100x30/5d646b/5d646b.png?text=+) |
-| Color 6 | `#14532d` | ![#14532d](https://via.placeholder.com/100x30/14532d/14532d.png?text=+) |
+<table>
+<thead>
+<tr>
+<th>Color Role</th>
+<th>Color Swatch</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary Text</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#212529;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#212529</code></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#f8f9fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#f8f9fa</code></td>
+</tr>
+<tr>
+<td><strong>Color 3</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#e9ecef;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#e9ecef</code></td>
+</tr>
+<tr>
+<td><strong>Color 4</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#ffffff</code></td>
+</tr>
+<tr>
+<td><strong>Color 5</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#5d646b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#5d646b</code></td>
+</tr>
+<tr>
+<td><strong>Color 6</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#14532d</code></td>
+</tr>
+</tbody>
+</table>
+
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
@@ -157,38 +487,203 @@ Sample colors from this theme:
 
 #### Contrast Ratio Test Results
 
-| Color Combination | Foreground | Background | Contrast Ratio | WCAG AA | WCAG AAA | Level |
-| ----------------- | ---------- | ---------- | -------------- | ------- | -------- | ----- |
-| text primary on neumorphic bg | ![#bfbdb6](https://via.placeholder.com/60x20/bfbdb6/bfbdb6.png?text=+)<br/>`#bfbdb6` | ![#0f1419](https://via.placeholder.com/60x20/0f1419/0f1419.png?text=+)<br/>`#0f1419` | **9.85:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic surface | ![#bfbdb6](https://via.placeholder.com/60x20/bfbdb6/bfbdb6.png?text=+)<br/>`#bfbdb6` | ![#131920](https://via.placeholder.com/60x20/131920/131920.png?text=+)<br/>`#131920` | **9.41:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic input | ![#bfbdb6](https://via.placeholder.com/60x20/bfbdb6/bfbdb6.png?text=+)<br/>`#bfbdb6` | ![#0b0e14](https://via.placeholder.com/60x20/0b0e14/0b0e14.png?text=+)<br/>`#0b0e14` | **10.27:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic bg | ![#7a8999](https://via.placeholder.com/60x20/7a8999/7a8999.png?text=+)<br/>`#7a8999` | ![#0f1419](https://via.placeholder.com/60x20/0f1419/0f1419.png?text=+)<br/>`#0f1419` | **5.17:1** | ✅ Pass | ❌ Fail | AA |
-| text secondary on neumorphic surface | ![#7a8999](https://via.placeholder.com/60x20/7a8999/7a8999.png?text=+)<br/>`#7a8999` | ![#131920](https://via.placeholder.com/60x20/131920/131920.png?text=+)<br/>`#131920` | **4.94:1** | ✅ Pass | ❌ Fail | AA |
-| success on neumorphic bg | ![#87d96c](https://via.placeholder.com/60x20/87d96c/87d96c.png?text=+)<br/>`#87d96c` | ![#0f1419](https://via.placeholder.com/60x20/0f1419/0f1419.png?text=+)<br/>`#0f1419` | **10.73:1** | ✅ Pass | ✅ Pass | AAA |
-| error on neumorphic bg | ![#f27983](https://via.placeholder.com/60x20/f27983/f27983.png?text=+)<br/>`#f27983` | ![#0f1419](https://via.placeholder.com/60x20/0f1419/0f1419.png?text=+)<br/>`#0f1419` | **6.91:1** | ✅ Pass | ❌ Fail | AA |
-| warning on neumorphic bg | ![#ffb454](https://via.placeholder.com/60x20/ffb454/ffb454.png?text=+)<br/>`#ffb454` | ![#0f1419](https://via.placeholder.com/60x20/0f1419/0f1419.png?text=+)<br/>`#0f1419` | **10.50:1** | ✅ Pass | ✅ Pass | AAA |
-| info on neumorphic bg | ![#80d4ff](https://via.placeholder.com/60x20/80d4ff/80d4ff.png?text=+)<br/>`#80d4ff` | ![#0f1419](https://via.placeholder.com/60x20/0f1419/0f1419.png?text=+)<br/>`#0f1419` | **11.27:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax keyword on neumorphic input | ![#399ee6](https://via.placeholder.com/60x20/399ee6/399ee6.png?text=+)<br/>`#399ee6` | ![#0b0e14](https://via.placeholder.com/60x20/0b0e14/0b0e14.png?text=+)<br/>`#0b0e14` | **6.63:1** | ✅ Pass | ❌ Fail | AA |
-| syntax string on neumorphic input | ![#86b300](https://via.placeholder.com/60x20/86b300/86b300.png?text=+)<br/>`#86b300` | ![#0b0e14](https://via.placeholder.com/60x20/0b0e14/0b0e14.png?text=+)<br/>`#0b0e14` | **7.78:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax comment on neumorphic input | ![#748291](https://via.placeholder.com/60x20/748291/748291.png?text=+)<br/>`#748291` | ![#0b0e14](https://via.placeholder.com/60x20/0b0e14/0b0e14.png?text=+)<br/>`#0b0e14` | **4.92:1** | ✅ Pass | ❌ Fail | AA |
-| syntax number on neumorphic input | ![#ffb454](https://via.placeholder.com/60x20/ffb454/ffb454.png?text=+)<br/>`#ffb454` | ![#0b0e14](https://via.placeholder.com/60x20/0b0e14/0b0e14.png?text=+)<br/>`#0b0e14` | **10.95:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax operator on neumorphic input | ![#f29668](https://via.placeholder.com/60x20/f29668/f29668.png?text=+)<br/>`#f29668` | ![#0b0e14](https://via.placeholder.com/60x20/0b0e14/0b0e14.png?text=+)<br/>`#0b0e14` | **8.59:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs added on neumorphic bg | ![#22c55e](https://via.placeholder.com/60x20/22c55e/22c55e.png?text=+)<br/>`#22c55e` | ![#0f1419](https://via.placeholder.com/60x20/0f1419/0f1419.png?text=+)<br/>`#0f1419` | **8.12:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs modified on neumorphic bg | ![#3b82f6](https://via.placeholder.com/60x20/3b82f6/3b82f6.png?text=+)<br/>`#3b82f6` | ![#0f1419](https://via.placeholder.com/60x20/0f1419/0f1419.png?text=+)<br/>`#0f1419` | **5.03:1** | ✅ Pass | ❌ Fail | AA |
-| vcs deleted on neumorphic bg | ![#ef4444](https://via.placeholder.com/60x20/ef4444/ef4444.png?text=+)<br/>`#ef4444` | ![#0f1419](https://via.placeholder.com/60x20/0f1419/0f1419.png?text=+)<br/>`#0f1419` | **4.92:1** | ✅ Pass | ❌ Fail | AA |
+<table>
+<thead>
+<tr>
+<th>Test Combination</th>
+<th>Color Visualization</th>
+<th>Visual Preview</th>
+<th>Contrast Analysis</th>
+<th>Status</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text primary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#bfbdb6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#bfbdb6</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><span style="display:inline-block;background-color:#0f1419;color:#bfbdb6;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.85:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.85:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#bfbdb6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#bfbdb6</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#131920;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#131920</code></td>
+<td><span style="display:inline-block;background-color:#131920;color:#bfbdb6;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.41:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.41:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#bfbdb6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#bfbdb6</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><span style="display:inline-block;background-color:#0b0e14;color:#bfbdb6;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="10.27:1" style="vertical-align:middle;"> <strong style="font-size:16px;">10.27:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#7a8999;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#7a8999</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><span style="display:inline-block;background-color:#0f1419;color:#7a8999;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2273.85714285714286%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.17:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.17:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#7a8999;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#7a8999</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#131920;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#131920</code></td>
+<td><span style="display:inline-block;background-color:#131920;color:#7a8999;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2270.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.94:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.94:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>success on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#87d96c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#87d96c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><span style="display:inline-block;background-color:#0f1419;color:#87d96c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="10.73:1" style="vertical-align:middle;"> <strong style="font-size:16px;">10.73:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Success States</span></td>
+</tr>
+<tr>
+<td><strong>error on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f27983;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f27983</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><span style="display:inline-block;background-color:#0f1419;color:#f27983;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2298.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.91:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.91:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Error States</span></td>
+</tr>
+<tr>
+<td><strong>warning on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#ffb454;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffb454</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><span style="display:inline-block;background-color:#0f1419;color:#ffb454;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="10.50:1" style="vertical-align:middle;"> <strong style="font-size:16px;">10.50:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Warning States</span></td>
+</tr>
+<tr>
+<td><strong>info on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#80d4ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#80d4ff</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><span style="display:inline-block;background-color:#0f1419;color:#80d4ff;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="11.27:1" style="vertical-align:middle;"> <strong style="font-size:16px;">11.27:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Info States</span></td>
+</tr>
+<tr>
+<td><strong>syntax keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#399ee6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#399ee6</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><span style="display:inline-block;background-color:#0b0e14;color:#399ee6;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2294.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.63:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.63:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#86b300;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#86b300</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><span style="display:inline-block;background-color:#0b0e14;color:#86b300;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.78:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.78:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#748291;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#748291</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><span style="display:inline-block;background-color:#0b0e14;color:#748291;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2270.28571428571428%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.92:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.92:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#ffb454;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffb454</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><span style="display:inline-block;background-color:#0b0e14;color:#ffb454;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="10.95:1" style="vertical-align:middle;"> <strong style="font-size:16px;">10.95:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>syntax operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f29668;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f29668</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><span style="display:inline-block;background-color:#0b0e14;color:#f29668;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.59:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.59:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>vcs added on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#22c55e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#22c55e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><span style="display:inline-block;background-color:#0f1419;color:#22c55e;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.12:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.12:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs modified on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#3b82f6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#3b82f6</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><span style="display:inline-block;background-color:#0f1419;color:#3b82f6;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2271.85714285714286%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.03:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.03:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs deleted on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#ef4444;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ef4444</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><span style="display:inline-block;background-color:#0f1419;color:#ef4444;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2270.28571428571428%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.92:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.92:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+</tbody>
+</table>
 
 #### Color Palette Samples
 
 Sample colors from this theme:
 
-| Color | Hex Code | Sample |
-| ----- | -------- | ------ |
-| Primary Text | `#bfbdb6` | ![#bfbdb6](https://via.placeholder.com/100x30/bfbdb6/bfbdb6.png?text=+) |
-| Background | `#0f1419` | ![#0f1419](https://via.placeholder.com/100x30/0f1419/0f1419.png?text=+) |
-| Color 3 | `#131920` | ![#131920](https://via.placeholder.com/100x30/131920/131920.png?text=+) |
-| Color 4 | `#0b0e14` | ![#0b0e14](https://via.placeholder.com/100x30/0b0e14/0b0e14.png?text=+) |
-| Color 5 | `#7a8999` | ![#7a8999](https://via.placeholder.com/100x30/7a8999/7a8999.png?text=+) |
-| Color 6 | `#87d96c` | ![#87d96c](https://via.placeholder.com/100x30/87d96c/87d96c.png?text=+) |
+<table>
+<thead>
+<tr>
+<th>Color Role</th>
+<th>Color Swatch</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary Text</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#bfbdb6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#bfbdb6</code></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#0f1419</code></td>
+</tr>
+<tr>
+<td><strong>Color 3</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#131920;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#131920</code></td>
+</tr>
+<tr>
+<td><strong>Color 4</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#0b0e14</code></td>
+</tr>
+<tr>
+<td><strong>Color 5</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#7a8999;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#7a8999</code></td>
+</tr>
+<tr>
+<td><strong>Color 6</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#87d96c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#87d96c</code></td>
+</tr>
+</tbody>
+</table>
+
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
@@ -205,37 +700,198 @@ Sample colors from this theme:
 
 #### Contrast Ratio Test Results
 
-| Color Combination | Foreground | Background | Contrast Ratio | WCAG AA | WCAG AAA | Level |
-| ----------------- | ---------- | ---------- | -------------- | ------- | -------- | ----- |
-| text primary on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#f6fdf6](https://via.placeholder.com/60x20/f6fdf6/f6fdf6.png?text=+)<br/>`#f6fdf6` | **8.81:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic surface | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#e6ffe6](https://via.placeholder.com/60x20/e6ffe6/e6ffe6.png?text=+)<br/>`#e6ffe6` | **8.60:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic input | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **9.11:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic bg | ![#6b7280](https://via.placeholder.com/60x20/6b7280/6b7280.png?text=+)<br/>`#6b7280` | ![#f6fdf6](https://via.placeholder.com/60x20/f6fdf6/f6fdf6.png?text=+)<br/>`#f6fdf6` | **4.67:1** | ✅ Pass | ❌ Fail | AA |
-| text secondary on neumorphic surface | ![#6b7280](https://via.placeholder.com/60x20/6b7280/6b7280.png?text=+)<br/>`#6b7280` | ![#e6ffe6](https://via.placeholder.com/60x20/e6ffe6/e6ffe6.png?text=+)<br/>`#e6ffe6` | **4.56:1** | ✅ Pass | ❌ Fail | AA |
-| success on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#f6fdf6](https://via.placeholder.com/60x20/f6fdf6/f6fdf6.png?text=+)<br/>`#f6fdf6` | **8.81:1** | ✅ Pass | ✅ Pass | AAA |
-| error on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#f6fdf6](https://via.placeholder.com/60x20/f6fdf6/f6fdf6.png?text=+)<br/>`#f6fdf6` | **6.25:1** | ✅ Pass | ❌ Fail | AA |
-| warning on neumorphic bg | ![#a16207](https://via.placeholder.com/60x20/a16207/a16207.png?text=+)<br/>`#a16207` | ![#f6fdf6](https://via.placeholder.com/60x20/f6fdf6/f6fdf6.png?text=+)<br/>`#f6fdf6` | **4.76:1** | ✅ Pass | ❌ Fail | AA |
-| info on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#f6fdf6](https://via.placeholder.com/60x20/f6fdf6/f6fdf6.png?text=+)<br/>`#f6fdf6` | **6.48:1** | ✅ Pass | ❌ Fail | AA |
-| syntax keyword on neumorphic input | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **6.70:1** | ✅ Pass | ❌ Fail | AA |
-| syntax string on neumorphic input | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **9.11:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax comment on neumorphic input | ![#4b5563](https://via.placeholder.com/60x20/4b5563/4b5563.png?text=+)<br/>`#4b5563` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **7.56:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax number on neumorphic input | ![#b45309](https://via.placeholder.com/60x20/b45309/b45309.png?text=+)<br/>`#b45309` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **5.02:1** | ✅ Pass | ❌ Fail | AA |
-| syntax operator on neumorphic input | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **6.47:1** | ✅ Pass | ❌ Fail | AA |
-| vcs added on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#f6fdf6](https://via.placeholder.com/60x20/f6fdf6/f6fdf6.png?text=+)<br/>`#f6fdf6` | **8.81:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs modified on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#f6fdf6](https://via.placeholder.com/60x20/f6fdf6/f6fdf6.png?text=+)<br/>`#f6fdf6` | **6.48:1** | ✅ Pass | ❌ Fail | AA |
-| vcs deleted on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#f6fdf6](https://via.placeholder.com/60x20/f6fdf6/f6fdf6.png?text=+)<br/>`#f6fdf6` | **6.25:1** | ✅ Pass | ❌ Fail | AA |
+<table>
+<thead>
+<tr>
+<th>Test Combination</th>
+<th>Color Visualization</th>
+<th>Visual Preview</th>
+<th>Contrast Analysis</th>
+<th>Status</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text primary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f6fdf6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f6fdf6</code></td>
+<td><span style="display:inline-block;background-color:#f6fdf6;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.81:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.81:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#e6ffe6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e6ffe6</code></td>
+<td><span style="display:inline-block;background-color:#e6ffe6;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.60:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.60:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.11:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.11:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#6b7280;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#6b7280</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f6fdf6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f6fdf6</code></td>
+<td><span style="display:inline-block;background-color:#f6fdf6;color:#6b7280;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2266.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.67:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.67:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#6b7280;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#6b7280</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#e6ffe6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e6ffe6</code></td>
+<td><span style="display:inline-block;background-color:#e6ffe6;color:#6b7280;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2265.14285714285714%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.56:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.56:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>success on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f6fdf6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f6fdf6</code></td>
+<td><span style="display:inline-block;background-color:#f6fdf6;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.81:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.81:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Success States</span></td>
+</tr>
+<tr>
+<td><strong>error on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f6fdf6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f6fdf6</code></td>
+<td><span style="display:inline-block;background-color:#f6fdf6;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2289.28571428571429%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.25:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.25:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Error States</span></td>
+</tr>
+<tr>
+<td><strong>warning on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f6fdf6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f6fdf6</code></td>
+<td><span style="display:inline-block;background-color:#f6fdf6;color:#a16207;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2268%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.76:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.76:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Warning States</span></td>
+</tr>
+<tr>
+<td><strong>info on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f6fdf6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f6fdf6</code></td>
+<td><span style="display:inline-block;background-color:#f6fdf6;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2292.57142857142858%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.48:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.48:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Info States</span></td>
+</tr>
+<tr>
+<td><strong>syntax keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2295.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.70:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.70:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.11:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.11:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#4b5563;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.56:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.56:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#b45309;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2271.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.02:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.02:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>syntax operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2292.42857142857143%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.47:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.47:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>vcs added on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f6fdf6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f6fdf6</code></td>
+<td><span style="display:inline-block;background-color:#f6fdf6;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.81:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.81:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs modified on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f6fdf6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f6fdf6</code></td>
+<td><span style="display:inline-block;background-color:#f6fdf6;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2292.57142857142858%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.48:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.48:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs deleted on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f6fdf6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f6fdf6</code></td>
+<td><span style="display:inline-block;background-color:#f6fdf6;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2289.28571428571429%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.25:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.25:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+</tbody>
+</table>
 
 #### Color Palette Samples
 
 Sample colors from this theme:
 
-| Color | Hex Code | Sample |
-| ----- | -------- | ------ |
-| Primary Text | `#14532d` | ![#14532d](https://via.placeholder.com/100x30/14532d/14532d.png?text=+) |
-| Background | `#f6fdf6` | ![#f6fdf6](https://via.placeholder.com/100x30/f6fdf6/f6fdf6.png?text=+) |
-| Color 3 | `#e6ffe6` | ![#e6ffe6](https://via.placeholder.com/100x30/e6ffe6/e6ffe6.png?text=+) |
-| Color 4 | `#ffffff` | ![#ffffff](https://via.placeholder.com/100x30/ffffff/ffffff.png?text=+) |
-| Color 5 | `#6b7280` | ![#6b7280](https://via.placeholder.com/100x30/6b7280/6b7280.png?text=+) |
+<table>
+<thead>
+<tr>
+<th>Color Role</th>
+<th>Color Swatch</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary Text</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#14532d</code></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#f6fdf6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#f6fdf6</code></td>
+</tr>
+<tr>
+<td><strong>Color 3</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#e6ffe6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#e6ffe6</code></td>
+</tr>
+<tr>
+<td><strong>Color 4</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#ffffff</code></td>
+</tr>
+<tr>
+<td><strong>Color 5</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#6b7280;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#6b7280</code></td>
+</tr>
+</tbody>
+</table>
+
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
@@ -252,38 +908,203 @@ Sample colors from this theme:
 
 #### Contrast Ratio Test Results
 
-| Color Combination | Foreground | Background | Contrast Ratio | WCAG AA | WCAG AAA | Level |
-| ----------------- | ---------- | ---------- | -------------- | ------- | -------- | ----- |
-| text primary on neumorphic bg | ![#1f2937](https://via.placeholder.com/60x20/1f2937/1f2937.png?text=+)<br/>`#1f2937` | ![#faf7ff](https://via.placeholder.com/60x20/faf7ff/faf7ff.png?text=+)<br/>`#faf7ff` | **13.85:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic surface | ![#1f2937](https://via.placeholder.com/60x20/1f2937/1f2937.png?text=+)<br/>`#1f2937` | ![#ede7ff](https://via.placeholder.com/60x20/ede7ff/ede7ff.png?text=+)<br/>`#ede7ff` | **12.22:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic input | ![#1f2937](https://via.placeholder.com/60x20/1f2937/1f2937.png?text=+)<br/>`#1f2937` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **14.55:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic bg | ![#5456cc](https://via.placeholder.com/60x20/5456cc/5456cc.png?text=+)<br/>`#5456cc` | ![#faf7ff](https://via.placeholder.com/60x20/faf7ff/faf7ff.png?text=+)<br/>`#faf7ff` | **5.53:1** | ✅ Pass | ❌ Fail | AA |
-| text secondary on neumorphic surface | ![#5456cc](https://via.placeholder.com/60x20/5456cc/5456cc.png?text=+)<br/>`#5456cc` | ![#ede7ff](https://via.placeholder.com/60x20/ede7ff/ede7ff.png?text=+)<br/>`#ede7ff` | **4.88:1** | ✅ Pass | ❌ Fail | AA |
-| success on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#faf7ff](https://via.placeholder.com/60x20/faf7ff/faf7ff.png?text=+)<br/>`#faf7ff` | **8.60:1** | ✅ Pass | ✅ Pass | AAA |
-| error on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#faf7ff](https://via.placeholder.com/60x20/faf7ff/faf7ff.png?text=+)<br/>`#faf7ff` | **6.10:1** | ✅ Pass | ❌ Fail | AA |
-| warning on neumorphic bg | ![#a16207](https://via.placeholder.com/60x20/a16207/a16207.png?text=+)<br/>`#a16207` | ![#faf7ff](https://via.placeholder.com/60x20/faf7ff/faf7ff.png?text=+)<br/>`#faf7ff` | **4.64:1** | ✅ Pass | ❌ Fail | AA |
-| info on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#faf7ff](https://via.placeholder.com/60x20/faf7ff/faf7ff.png?text=+)<br/>`#faf7ff` | **6.32:1** | ✅ Pass | ❌ Fail | AA |
-| syntax keyword on neumorphic input | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **6.64:1** | ✅ Pass | ❌ Fail | AA |
-| syntax string on neumorphic input | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **9.03:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax comment on neumorphic input | ![#4b5563](https://via.placeholder.com/60x20/4b5563/4b5563.png?text=+)<br/>`#4b5563` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **7.49:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax number on neumorphic input | ![#b45309](https://via.placeholder.com/60x20/b45309/b45309.png?text=+)<br/>`#b45309` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **4.98:1** | ✅ Pass | ❌ Fail | AA |
-| syntax operator on neumorphic input | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **6.42:1** | ✅ Pass | ❌ Fail | AA |
-| vcs added on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#faf7ff](https://via.placeholder.com/60x20/faf7ff/faf7ff.png?text=+)<br/>`#faf7ff` | **8.60:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs modified on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#faf7ff](https://via.placeholder.com/60x20/faf7ff/faf7ff.png?text=+)<br/>`#faf7ff` | **6.32:1** | ✅ Pass | ❌ Fail | AA |
-| vcs deleted on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#faf7ff](https://via.placeholder.com/60x20/faf7ff/faf7ff.png?text=+)<br/>`#faf7ff` | **6.10:1** | ✅ Pass | ❌ Fail | AA |
+<table>
+<thead>
+<tr>
+<th>Test Combination</th>
+<th>Color Visualization</th>
+<th>Visual Preview</th>
+<th>Contrast Analysis</th>
+<th>Status</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text primary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1f2937</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#faf7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#faf7ff</code></td>
+<td><span style="display:inline-block;background-color:#faf7ff;color:#1f2937;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="13.85:1" style="vertical-align:middle;"> <strong style="font-size:16px;">13.85:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1f2937</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ede7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ede7ff</code></td>
+<td><span style="display:inline-block;background-color:#ede7ff;color:#1f2937;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="12.22:1" style="vertical-align:middle;"> <strong style="font-size:16px;">12.22:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1f2937</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#1f2937;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="14.55:1" style="vertical-align:middle;"> <strong style="font-size:16px;">14.55:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#5456cc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#5456cc</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#faf7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#faf7ff</code></td>
+<td><span style="display:inline-block;background-color:#faf7ff;color:#5456cc;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2279%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.53:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.53:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#5456cc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#5456cc</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ede7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ede7ff</code></td>
+<td><span style="display:inline-block;background-color:#ede7ff;color:#5456cc;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2269.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.88:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.88:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>success on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#faf7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#faf7ff</code></td>
+<td><span style="display:inline-block;background-color:#faf7ff;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.60:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.60:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Success States</span></td>
+</tr>
+<tr>
+<td><strong>error on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#faf7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#faf7ff</code></td>
+<td><span style="display:inline-block;background-color:#faf7ff;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2287.14285714285714%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.10:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.10:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Error States</span></td>
+</tr>
+<tr>
+<td><strong>warning on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#faf7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#faf7ff</code></td>
+<td><span style="display:inline-block;background-color:#faf7ff;color:#a16207;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2266.28571428571428%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.64:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.64:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Warning States</span></td>
+</tr>
+<tr>
+<td><strong>info on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#faf7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#faf7ff</code></td>
+<td><span style="display:inline-block;background-color:#faf7ff;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2290.28571428571429%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.32:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.32:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Info States</span></td>
+</tr>
+<tr>
+<td><strong>syntax keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2294.85714285714285%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.64:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.64:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.03:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.03:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#4b5563;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.49:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.49:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#b45309;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2271.14285714285715%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.98:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.98:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>syntax operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2291.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.42:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.42:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>vcs added on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#faf7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#faf7ff</code></td>
+<td><span style="display:inline-block;background-color:#faf7ff;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.60:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.60:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs modified on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#faf7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#faf7ff</code></td>
+<td><span style="display:inline-block;background-color:#faf7ff;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2290.28571428571429%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.32:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.32:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs deleted on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#faf7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#faf7ff</code></td>
+<td><span style="display:inline-block;background-color:#faf7ff;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2287.14285714285714%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.10:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.10:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+</tbody>
+</table>
 
 #### Color Palette Samples
 
 Sample colors from this theme:
 
-| Color | Hex Code | Sample |
-| ----- | -------- | ------ |
-| Primary Text | `#1f2937` | ![#1f2937](https://via.placeholder.com/100x30/1f2937/1f2937.png?text=+) |
-| Background | `#faf7ff` | ![#faf7ff](https://via.placeholder.com/100x30/faf7ff/faf7ff.png?text=+) |
-| Color 3 | `#ede7ff` | ![#ede7ff](https://via.placeholder.com/100x30/ede7ff/ede7ff.png?text=+) |
-| Color 4 | `#fefefe` | ![#fefefe](https://via.placeholder.com/100x30/fefefe/fefefe.png?text=+) |
-| Color 5 | `#5456cc` | ![#5456cc](https://via.placeholder.com/100x30/5456cc/5456cc.png?text=+) |
-| Color 6 | `#14532d` | ![#14532d](https://via.placeholder.com/100x30/14532d/14532d.png?text=+) |
+<table>
+<thead>
+<tr>
+<th>Color Role</th>
+<th>Color Swatch</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary Text</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#1f2937</code></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#faf7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#faf7ff</code></td>
+</tr>
+<tr>
+<td><strong>Color 3</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#ede7ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#ede7ff</code></td>
+</tr>
+<tr>
+<td><strong>Color 4</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#fefefe</code></td>
+</tr>
+<tr>
+<td><strong>Color 5</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#5456cc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#5456cc</code></td>
+</tr>
+<tr>
+<td><strong>Color 6</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#14532d</code></td>
+</tr>
+</tbody>
+</table>
+
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
@@ -300,38 +1121,203 @@ Sample colors from this theme:
 
 #### Contrast Ratio Test Results
 
-| Color Combination | Foreground | Background | Contrast Ratio | WCAG AA | WCAG AAA | Level |
-| ----------------- | ---------- | ---------- | -------------- | ------- | -------- | ----- |
-| text primary on neumorphic bg | ![#e2e8f0](https://via.placeholder.com/60x20/e2e8f0/e2e8f0.png?text=+)<br/>`#e2e8f0` | ![#0a0a0f](https://via.placeholder.com/60x20/0a0a0f/0a0a0f.png?text=+)<br/>`#0a0a0f` | **16.02:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic surface | ![#e2e8f0](https://via.placeholder.com/60x20/e2e8f0/e2e8f0.png?text=+)<br/>`#e2e8f0` | ![#0f0f1a](https://via.placeholder.com/60x20/0f0f1a/0f0f1a.png?text=+)<br/>`#0f0f1a` | **15.44:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic input | ![#e2e8f0](https://via.placeholder.com/60x20/e2e8f0/e2e8f0.png?text=+)<br/>`#e2e8f0` | ![#000000](https://via.placeholder.com/60x20/000000/000000.png?text=+)<br/>`#000000` | **17.03:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic bg | ![#94a3b8](https://via.placeholder.com/60x20/94a3b8/94a3b8.png?text=+)<br/>`#94a3b8` | ![#0a0a0f](https://via.placeholder.com/60x20/0a0a0f/0a0a0f.png?text=+)<br/>`#0a0a0f` | **7.70:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic surface | ![#94a3b8](https://via.placeholder.com/60x20/94a3b8/94a3b8.png?text=+)<br/>`#94a3b8` | ![#0f0f1a](https://via.placeholder.com/60x20/0f0f1a/0f0f1a.png?text=+)<br/>`#0f0f1a` | **7.42:1** | ✅ Pass | ✅ Pass | AAA |
-| success on neumorphic bg | ![#34d399](https://via.placeholder.com/60x20/34d399/34d399.png?text=+)<br/>`#34d399` | ![#0a0a0f](https://via.placeholder.com/60x20/0a0a0f/0a0a0f.png?text=+)<br/>`#0a0a0f` | **10.27:1** | ✅ Pass | ✅ Pass | AAA |
-| error on neumorphic bg | ![#f87171](https://via.placeholder.com/60x20/f87171/f87171.png?text=+)<br/>`#f87171` | ![#0a0a0f](https://via.placeholder.com/60x20/0a0a0f/0a0a0f.png?text=+)<br/>`#0a0a0f` | **7.14:1** | ✅ Pass | ✅ Pass | AAA |
-| warning on neumorphic bg | ![#fbbf24](https://via.placeholder.com/60x20/fbbf24/fbbf24.png?text=+)<br/>`#fbbf24` | ![#0a0a0f](https://via.placeholder.com/60x20/0a0a0f/0a0a0f.png?text=+)<br/>`#0a0a0f` | **11.83:1** | ✅ Pass | ✅ Pass | AAA |
-| info on neumorphic bg | ![#60a5fa](https://via.placeholder.com/60x20/60a5fa/60a5fa.png?text=+)<br/>`#60a5fa` | ![#0a0a0f](https://via.placeholder.com/60x20/0a0a0f/0a0a0f.png?text=+)<br/>`#0a0a0f` | **7.77:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax keyword on neumorphic input | ![#a78bfa](https://via.placeholder.com/60x20/a78bfa/a78bfa.png?text=+)<br/>`#a78bfa` | ![#000000](https://via.placeholder.com/60x20/000000/000000.png?text=+)<br/>`#000000` | **7.72:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax string on neumorphic input | ![#34d399](https://via.placeholder.com/60x20/34d399/34d399.png?text=+)<br/>`#34d399` | ![#000000](https://via.placeholder.com/60x20/000000/000000.png?text=+)<br/>`#000000` | **10.92:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax comment on neumorphic input | ![#68788f](https://via.placeholder.com/60x20/68788f/68788f.png?text=+)<br/>`#68788f` | ![#000000](https://via.placeholder.com/60x20/000000/000000.png?text=+)<br/>`#000000` | **4.67:1** | ✅ Pass | ❌ Fail | AA |
-| syntax number on neumorphic input | ![#fbbf24](https://via.placeholder.com/60x20/fbbf24/fbbf24.png?text=+)<br/>`#fbbf24` | ![#000000](https://via.placeholder.com/60x20/000000/000000.png?text=+)<br/>`#000000` | **12.58:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax operator on neumorphic input | ![#f87171](https://via.placeholder.com/60x20/f87171/f87171.png?text=+)<br/>`#f87171` | ![#000000](https://via.placeholder.com/60x20/000000/000000.png?text=+)<br/>`#000000` | **7.59:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs added on neumorphic bg | ![#34d399](https://via.placeholder.com/60x20/34d399/34d399.png?text=+)<br/>`#34d399` | ![#0a0a0f](https://via.placeholder.com/60x20/0a0a0f/0a0a0f.png?text=+)<br/>`#0a0a0f` | **10.27:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs modified on neumorphic bg | ![#60a5fa](https://via.placeholder.com/60x20/60a5fa/60a5fa.png?text=+)<br/>`#60a5fa` | ![#0a0a0f](https://via.placeholder.com/60x20/0a0a0f/0a0a0f.png?text=+)<br/>`#0a0a0f` | **7.77:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs deleted on neumorphic bg | ![#f87171](https://via.placeholder.com/60x20/f87171/f87171.png?text=+)<br/>`#f87171` | ![#0a0a0f](https://via.placeholder.com/60x20/0a0a0f/0a0a0f.png?text=+)<br/>`#0a0a0f` | **7.14:1** | ✅ Pass | ✅ Pass | AAA |
+<table>
+<thead>
+<tr>
+<th>Test Combination</th>
+<th>Color Visualization</th>
+<th>Visual Preview</th>
+<th>Contrast Analysis</th>
+<th>Status</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text primary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#e2e8f0;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e2e8f0</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0a0a0f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0a0a0f</code></td>
+<td><span style="display:inline-block;background-color:#0a0a0f;color:#e2e8f0;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="16.02:1" style="vertical-align:middle;"> <strong style="font-size:16px;">16.02:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#e2e8f0;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e2e8f0</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f0f1a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f0f1a</code></td>
+<td><span style="display:inline-block;background-color:#0f0f1a;color:#e2e8f0;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="15.44:1" style="vertical-align:middle;"> <strong style="font-size:16px;">15.44:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#e2e8f0;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e2e8f0</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><span style="display:inline-block;background-color:#000000;color:#e2e8f0;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="17.03:1" style="vertical-align:middle;"> <strong style="font-size:16px;">17.03:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#94a3b8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#94a3b8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0a0a0f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0a0a0f</code></td>
+<td><span style="display:inline-block;background-color:#0a0a0f;color:#94a3b8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.70:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.70:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#94a3b8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#94a3b8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f0f1a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f0f1a</code></td>
+<td><span style="display:inline-block;background-color:#0f0f1a;color:#94a3b8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.42:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.42:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>success on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#34d399</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0a0a0f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0a0a0f</code></td>
+<td><span style="display:inline-block;background-color:#0a0a0f;color:#34d399;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="10.27:1" style="vertical-align:middle;"> <strong style="font-size:16px;">10.27:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Success States</span></td>
+</tr>
+<tr>
+<td><strong>error on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f87171;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f87171</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0a0a0f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0a0a0f</code></td>
+<td><span style="display:inline-block;background-color:#0a0a0f;color:#f87171;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.14:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.14:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Error States</span></td>
+</tr>
+<tr>
+<td><strong>warning on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fbbf24;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fbbf24</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0a0a0f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0a0a0f</code></td>
+<td><span style="display:inline-block;background-color:#0a0a0f;color:#fbbf24;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="11.83:1" style="vertical-align:middle;"> <strong style="font-size:16px;">11.83:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Warning States</span></td>
+</tr>
+<tr>
+<td><strong>info on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#60a5fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#60a5fa</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0a0a0f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0a0a0f</code></td>
+<td><span style="display:inline-block;background-color:#0a0a0f;color:#60a5fa;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.77:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.77:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Info States</span></td>
+</tr>
+<tr>
+<td><strong>syntax keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a78bfa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a78bfa</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><span style="display:inline-block;background-color:#000000;color:#a78bfa;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.72:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.72:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#34d399</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><span style="display:inline-block;background-color:#000000;color:#34d399;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="10.92:1" style="vertical-align:middle;"> <strong style="font-size:16px;">10.92:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#68788f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#68788f</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><span style="display:inline-block;background-color:#000000;color:#68788f;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2266.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.67:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.67:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fbbf24;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fbbf24</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><span style="display:inline-block;background-color:#000000;color:#fbbf24;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="12.58:1" style="vertical-align:middle;"> <strong style="font-size:16px;">12.58:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>syntax operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f87171;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f87171</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><span style="display:inline-block;background-color:#000000;color:#f87171;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.59:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.59:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>vcs added on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#34d399</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0a0a0f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0a0a0f</code></td>
+<td><span style="display:inline-block;background-color:#0a0a0f;color:#34d399;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="10.27:1" style="vertical-align:middle;"> <strong style="font-size:16px;">10.27:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs modified on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#60a5fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#60a5fa</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0a0a0f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0a0a0f</code></td>
+<td><span style="display:inline-block;background-color:#0a0a0f;color:#60a5fa;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.77:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.77:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs deleted on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f87171;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f87171</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0a0a0f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0a0a0f</code></td>
+<td><span style="display:inline-block;background-color:#0a0a0f;color:#f87171;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.14:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.14:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+</tbody>
+</table>
 
 #### Color Palette Samples
 
 Sample colors from this theme:
 
-| Color | Hex Code | Sample |
-| ----- | -------- | ------ |
-| Primary Text | `#e2e8f0` | ![#e2e8f0](https://via.placeholder.com/100x30/e2e8f0/e2e8f0.png?text=+) |
-| Background | `#0a0a0f` | ![#0a0a0f](https://via.placeholder.com/100x30/0a0a0f/0a0a0f.png?text=+) |
-| Color 3 | `#0f0f1a` | ![#0f0f1a](https://via.placeholder.com/100x30/0f0f1a/0f0f1a.png?text=+) |
-| Color 4 | `#000000` | ![#000000](https://via.placeholder.com/100x30/000000/000000.png?text=+) |
-| Color 5 | `#94a3b8` | ![#94a3b8](https://via.placeholder.com/100x30/94a3b8/94a3b8.png?text=+) |
-| Color 6 | `#34d399` | ![#34d399](https://via.placeholder.com/100x30/34d399/34d399.png?text=+) |
+<table>
+<thead>
+<tr>
+<th>Color Role</th>
+<th>Color Swatch</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary Text</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#e2e8f0;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#e2e8f0</code></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#0a0a0f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#0a0a0f</code></td>
+</tr>
+<tr>
+<td><strong>Color 3</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#0f0f1a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#0f0f1a</code></td>
+</tr>
+<tr>
+<td><strong>Color 4</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#000000</code></td>
+</tr>
+<tr>
+<td><strong>Color 5</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#94a3b8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#94a3b8</code></td>
+</tr>
+<tr>
+<td><strong>Color 6</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#34d399</code></td>
+</tr>
+</tbody>
+</table>
+
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
@@ -348,38 +1334,203 @@ Sample colors from this theme:
 
 #### Contrast Ratio Test Results
 
-| Color Combination | Foreground | Background | Contrast Ratio | WCAG AA | WCAG AAA | Level |
-| ----------------- | ---------- | ---------- | -------------- | ------- | -------- | ----- |
-| text primary on neumorphic bg | ![#0c4a6e](https://via.placeholder.com/60x20/0c4a6e/0c4a6e.png?text=+)<br/>`#0c4a6e` | ![#f0f9ff](https://via.placeholder.com/60x20/f0f9ff/f0f9ff.png?text=+)<br/>`#f0f9ff` | **8.87:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic surface | ![#0c4a6e](https://via.placeholder.com/60x20/0c4a6e/0c4a6e.png?text=+)<br/>`#0c4a6e` | ![#e0f2fe](https://via.placeholder.com/60x20/e0f2fe/e0f2fe.png?text=+)<br/>`#e0f2fe` | **8.24:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic input | ![#0c4a6e](https://via.placeholder.com/60x20/0c4a6e/0c4a6e.png?text=+)<br/>`#0c4a6e` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **9.38:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic bg | ![#5b6a7f](https://via.placeholder.com/60x20/5b6a7f/5b6a7f.png?text=+)<br/>`#5b6a7f` | ![#f0f9ff](https://via.placeholder.com/60x20/f0f9ff/f0f9ff.png?text=+)<br/>`#f0f9ff` | **5.17:1** | ✅ Pass | ❌ Fail | AA |
-| text secondary on neumorphic surface | ![#5b6a7f](https://via.placeholder.com/60x20/5b6a7f/5b6a7f.png?text=+)<br/>`#5b6a7f` | ![#e0f2fe](https://via.placeholder.com/60x20/e0f2fe/e0f2fe.png?text=+)<br/>`#e0f2fe` | **4.80:1** | ✅ Pass | ❌ Fail | AA |
-| success on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#f0f9ff](https://via.placeholder.com/60x20/f0f9ff/f0f9ff.png?text=+)<br/>`#f0f9ff` | **8.55:1** | ✅ Pass | ✅ Pass | AAA |
-| error on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#f0f9ff](https://via.placeholder.com/60x20/f0f9ff/f0f9ff.png?text=+)<br/>`#f0f9ff` | **6.07:1** | ✅ Pass | ❌ Fail | AA |
-| warning on neumorphic bg | ![#a16207](https://via.placeholder.com/60x20/a16207/a16207.png?text=+)<br/>`#a16207` | ![#f0f9ff](https://via.placeholder.com/60x20/f0f9ff/f0f9ff.png?text=+)<br/>`#f0f9ff` | **4.62:1** | ✅ Pass | ❌ Fail | AA |
-| info on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#f0f9ff](https://via.placeholder.com/60x20/f0f9ff/f0f9ff.png?text=+)<br/>`#f0f9ff` | **6.29:1** | ✅ Pass | ❌ Fail | AA |
-| syntax keyword on neumorphic input | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **6.64:1** | ✅ Pass | ❌ Fail | AA |
-| syntax string on neumorphic input | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **9.03:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax comment on neumorphic input | ![#4b5563](https://via.placeholder.com/60x20/4b5563/4b5563.png?text=+)<br/>`#4b5563` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **7.49:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax number on neumorphic input | ![#b45309](https://via.placeholder.com/60x20/b45309/b45309.png?text=+)<br/>`#b45309` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **4.98:1** | ✅ Pass | ❌ Fail | AA |
-| syntax operator on neumorphic input | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#fefefe](https://via.placeholder.com/60x20/fefefe/fefefe.png?text=+)<br/>`#fefefe` | **6.42:1** | ✅ Pass | ❌ Fail | AA |
-| vcs added on neumorphic bg | ![#047857](https://via.placeholder.com/60x20/047857/047857.png?text=+)<br/>`#047857` | ![#f0f9ff](https://via.placeholder.com/60x20/f0f9ff/f0f9ff.png?text=+)<br/>`#f0f9ff` | **5.14:1** | ✅ Pass | ❌ Fail | AA |
-| vcs modified on neumorphic bg | ![#c2410c](https://via.placeholder.com/60x20/c2410c/c2410c.png?text=+)<br/>`#c2410c` | ![#f0f9ff](https://via.placeholder.com/60x20/f0f9ff/f0f9ff.png?text=+)<br/>`#f0f9ff` | **4.86:1** | ✅ Pass | ❌ Fail | AA |
-| vcs deleted on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#f0f9ff](https://via.placeholder.com/60x20/f0f9ff/f0f9ff.png?text=+)<br/>`#f0f9ff` | **6.07:1** | ✅ Pass | ❌ Fail | AA |
+<table>
+<thead>
+<tr>
+<th>Test Combination</th>
+<th>Color Visualization</th>
+<th>Visual Preview</th>
+<th>Contrast Analysis</th>
+<th>Status</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text primary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0c4a6e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0c4a6e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f0f9ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f0f9ff</code></td>
+<td><span style="display:inline-block;background-color:#f0f9ff;color:#0c4a6e;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.87:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.87:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0c4a6e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0c4a6e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#e0f2fe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e0f2fe</code></td>
+<td><span style="display:inline-block;background-color:#e0f2fe;color:#0c4a6e;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.24:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.24:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0c4a6e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0c4a6e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#0c4a6e;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.38:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.38:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#5b6a7f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#5b6a7f</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f0f9ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f0f9ff</code></td>
+<td><span style="display:inline-block;background-color:#f0f9ff;color:#5b6a7f;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2273.85714285714286%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.17:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.17:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#5b6a7f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#5b6a7f</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#e0f2fe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e0f2fe</code></td>
+<td><span style="display:inline-block;background-color:#e0f2fe;color:#5b6a7f;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2268.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.80:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.80:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>success on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f0f9ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f0f9ff</code></td>
+<td><span style="display:inline-block;background-color:#f0f9ff;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.55:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.55:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Success States</span></td>
+</tr>
+<tr>
+<td><strong>error on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f0f9ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f0f9ff</code></td>
+<td><span style="display:inline-block;background-color:#f0f9ff;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2286.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.07:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.07:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Error States</span></td>
+</tr>
+<tr>
+<td><strong>warning on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f0f9ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f0f9ff</code></td>
+<td><span style="display:inline-block;background-color:#f0f9ff;color:#a16207;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2266%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.62:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.62:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Warning States</span></td>
+</tr>
+<tr>
+<td><strong>info on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f0f9ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f0f9ff</code></td>
+<td><span style="display:inline-block;background-color:#f0f9ff;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2289.85714285714286%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.29:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.29:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Info States</span></td>
+</tr>
+<tr>
+<td><strong>syntax keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2294.85714285714285%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.64:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.64:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.03:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.03:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#4b5563;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.49:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.49:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#b45309;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2271.14285714285715%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.98:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.98:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>syntax operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><span style="display:inline-block;background-color:#fefefe;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2291.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.42:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.42:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>vcs added on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#047857;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#047857</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f0f9ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f0f9ff</code></td>
+<td><span style="display:inline-block;background-color:#f0f9ff;color:#047857;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2273.42857142857142%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.14:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.14:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs modified on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f0f9ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f0f9ff</code></td>
+<td><span style="display:inline-block;background-color:#f0f9ff;color:#c2410c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2269.42857142857143%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.86:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.86:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs deleted on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f0f9ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f0f9ff</code></td>
+<td><span style="display:inline-block;background-color:#f0f9ff;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2286.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.07:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.07:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+</tbody>
+</table>
 
 #### Color Palette Samples
 
 Sample colors from this theme:
 
-| Color | Hex Code | Sample |
-| ----- | -------- | ------ |
-| Primary Text | `#0c4a6e` | ![#0c4a6e](https://via.placeholder.com/100x30/0c4a6e/0c4a6e.png?text=+) |
-| Background | `#f0f9ff` | ![#f0f9ff](https://via.placeholder.com/100x30/f0f9ff/f0f9ff.png?text=+) |
-| Color 3 | `#e0f2fe` | ![#e0f2fe](https://via.placeholder.com/100x30/e0f2fe/e0f2fe.png?text=+) |
-| Color 4 | `#fefefe` | ![#fefefe](https://via.placeholder.com/100x30/fefefe/fefefe.png?text=+) |
-| Color 5 | `#5b6a7f` | ![#5b6a7f](https://via.placeholder.com/100x30/5b6a7f/5b6a7f.png?text=+) |
-| Color 6 | `#14532d` | ![#14532d](https://via.placeholder.com/100x30/14532d/14532d.png?text=+) |
+<table>
+<thead>
+<tr>
+<th>Color Role</th>
+<th>Color Swatch</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary Text</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#0c4a6e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#0c4a6e</code></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#f0f9ff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#f0f9ff</code></td>
+</tr>
+<tr>
+<td><strong>Color 3</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#e0f2fe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#e0f2fe</code></td>
+</tr>
+<tr>
+<td><strong>Color 4</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#fefefe</code></td>
+</tr>
+<tr>
+<td><strong>Color 5</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#5b6a7f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#5b6a7f</code></td>
+</tr>
+<tr>
+<td><strong>Color 6</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#14532d</code></td>
+</tr>
+</tbody>
+</table>
+
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
@@ -396,38 +1547,203 @@ Sample colors from this theme:
 
 #### Contrast Ratio Test Results
 
-| Color Combination | Foreground | Background | Contrast Ratio | WCAG AA | WCAG AAA | Level |
-| ----------------- | ---------- | ---------- | -------------- | ------- | -------- | ----- |
-| text primary on neumorphic bg | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **13.98:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic surface | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | ![#f1f5f9](https://via.placeholder.com/60x20/f1f5f9/f1f5f9.png?text=+)<br/>`#f1f5f9` | **13.35:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic input | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **14.63:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic bg | ![#475569](https://via.placeholder.com/60x20/475569/475569.png?text=+)<br/>`#475569` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **7.24:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic surface | ![#475569](https://via.placeholder.com/60x20/475569/475569.png?text=+)<br/>`#475569` | ![#f1f5f9](https://via.placeholder.com/60x20/f1f5f9/f1f5f9.png?text=+)<br/>`#f1f5f9` | **6.92:1** | ✅ Pass | ❌ Fail | AA |
-| success on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **8.71:1** | ✅ Pass | ✅ Pass | AAA |
-| error on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **6.18:1** | ✅ Pass | ❌ Fail | AA |
-| warning on neumorphic bg | ![#a16207](https://via.placeholder.com/60x20/a16207/a16207.png?text=+)<br/>`#a16207` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **4.71:1** | ✅ Pass | ❌ Fail | AA |
-| info on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **6.41:1** | ✅ Pass | ❌ Fail | AA |
-| syntax keyword on neumorphic input | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **6.70:1** | ✅ Pass | ❌ Fail | AA |
-| syntax string on neumorphic input | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **9.11:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax comment on neumorphic input | ![#4b5563](https://via.placeholder.com/60x20/4b5563/4b5563.png?text=+)<br/>`#4b5563` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **7.56:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax number on neumorphic input | ![#b45309](https://via.placeholder.com/60x20/b45309/b45309.png?text=+)<br/>`#b45309` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **5.02:1** | ✅ Pass | ❌ Fail | AA |
-| syntax operator on neumorphic input | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **6.47:1** | ✅ Pass | ❌ Fail | AA |
-| vcs added on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **8.71:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs modified on neumorphic bg | ![#0369a1](https://via.placeholder.com/60x20/0369a1/0369a1.png?text=+)<br/>`#0369a1` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **5.67:1** | ✅ Pass | ❌ Fail | AA |
-| vcs deleted on neumorphic bg | ![#dc2626](https://via.placeholder.com/60x20/dc2626/dc2626.png?text=+)<br/>`#dc2626` | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | **4.62:1** | ✅ Pass | ❌ Fail | AA |
+<table>
+<thead>
+<tr>
+<th>Test Combination</th>
+<th>Color Visualization</th>
+<th>Visual Preview</th>
+<th>Contrast Analysis</th>
+<th>Status</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text primary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#1e293b;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="13.98:1" style="vertical-align:middle;"> <strong style="font-size:16px;">13.98:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f1f5f9;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f1f5f9</code></td>
+<td><span style="display:inline-block;background-color:#f1f5f9;color:#1e293b;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="13.35:1" style="vertical-align:middle;"> <strong style="font-size:16px;">13.35:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#1e293b;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="14.63:1" style="vertical-align:middle;"> <strong style="font-size:16px;">14.63:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#475569</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#475569;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.24:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.24:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#475569</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f1f5f9;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f1f5f9</code></td>
+<td><span style="display:inline-block;background-color:#f1f5f9;color:#475569;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2298.85714285714286%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.92:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.92:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>success on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.71:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.71:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Success States</span></td>
+</tr>
+<tr>
+<td><strong>error on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2288.28571428571428%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.18:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.18:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Error States</span></td>
+</tr>
+<tr>
+<td><strong>warning on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#a16207;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2267.28571428571428%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.71:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.71:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Warning States</span></td>
+</tr>
+<tr>
+<td><strong>info on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2291.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.41:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.41:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Info States</span></td>
+</tr>
+<tr>
+<td><strong>syntax keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2295.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.70:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.70:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.11:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.11:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#4b5563;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.56:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.56:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#b45309;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2271.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.02:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.02:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>syntax operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2292.42857142857143%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.47:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.47:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>vcs added on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.71:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.71:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs modified on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0369a1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0369a1</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#0369a1;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2281%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.67:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.67:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs deleted on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#dc2626;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#dc2626</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code></td>
+<td><span style="display:inline-block;background-color:#f8fafc;color:#dc2626;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2266%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.62:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.62:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+</tbody>
+</table>
 
 #### Color Palette Samples
 
 Sample colors from this theme:
 
-| Color | Hex Code | Sample |
-| ----- | -------- | ------ |
-| Primary Text | `#1e293b` | ![#1e293b](https://via.placeholder.com/100x30/1e293b/1e293b.png?text=+) |
-| Background | `#f8fafc` | ![#f8fafc](https://via.placeholder.com/100x30/f8fafc/f8fafc.png?text=+) |
-| Color 3 | `#f1f5f9` | ![#f1f5f9](https://via.placeholder.com/100x30/f1f5f9/f1f5f9.png?text=+) |
-| Color 4 | `#ffffff` | ![#ffffff](https://via.placeholder.com/100x30/ffffff/ffffff.png?text=+) |
-| Color 5 | `#475569` | ![#475569](https://via.placeholder.com/100x30/475569/475569.png?text=+) |
-| Color 6 | `#14532d` | ![#14532d](https://via.placeholder.com/100x30/14532d/14532d.png?text=+) |
+<table>
+<thead>
+<tr>
+<th>Color Role</th>
+<th>Color Swatch</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary Text</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#1e293b</code></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#f8fafc</code></td>
+</tr>
+<tr>
+<td><strong>Color 3</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#f1f5f9;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#f1f5f9</code></td>
+</tr>
+<tr>
+<td><strong>Color 4</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#ffffff</code></td>
+</tr>
+<tr>
+<td><strong>Color 5</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#475569</code></td>
+</tr>
+<tr>
+<td><strong>Color 6</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#14532d</code></td>
+</tr>
+</tbody>
+</table>
+
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
@@ -444,38 +1760,203 @@ Sample colors from this theme:
 
 #### Contrast Ratio Test Results
 
-| Color Combination | Foreground | Background | Contrast Ratio | WCAG AA | WCAG AAA | Level |
-| ----------------- | ---------- | ---------- | -------------- | ------- | -------- | ----- |
-| text primary on neumorphic bg | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | **13.98:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic surface | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | ![#334155](https://via.placeholder.com/60x20/334155/334155.png?text=+)<br/>`#334155` | **9.90:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic input | ![#f8fafc](https://via.placeholder.com/60x20/f8fafc/f8fafc.png?text=+)<br/>`#f8fafc` | ![#0f172a](https://via.placeholder.com/60x20/0f172a/0f172a.png?text=+)<br/>`#0f172a` | **17.06:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic bg | ![#cbd5e1](https://via.placeholder.com/60x20/cbd5e1/cbd5e1.png?text=+)<br/>`#cbd5e1` | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | **9.85:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic surface | ![#cbd5e1](https://via.placeholder.com/60x20/cbd5e1/cbd5e1.png?text=+)<br/>`#cbd5e1` | ![#334155](https://via.placeholder.com/60x20/334155/334155.png?text=+)<br/>`#334155` | **6.97:1** | ✅ Pass | ❌ Fail | AA |
-| success on neumorphic bg | ![#34d399](https://via.placeholder.com/60x20/34d399/34d399.png?text=+)<br/>`#34d399` | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | **7.61:1** | ✅ Pass | ✅ Pass | AAA |
-| error on neumorphic bg | ![#f87171](https://via.placeholder.com/60x20/f87171/f87171.png?text=+)<br/>`#f87171` | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | **5.29:1** | ✅ Pass | ❌ Fail | AA |
-| warning on neumorphic bg | ![#fbbf24](https://via.placeholder.com/60x20/fbbf24/fbbf24.png?text=+)<br/>`#fbbf24` | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | **8.76:1** | ✅ Pass | ✅ Pass | AAA |
-| info on neumorphic bg | ![#34d399](https://via.placeholder.com/60x20/34d399/34d399.png?text=+)<br/>`#34d399` | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | **7.61:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax keyword on neumorphic input | ![#34d399](https://via.placeholder.com/60x20/34d399/34d399.png?text=+)<br/>`#34d399` | ![#0f172a](https://via.placeholder.com/60x20/0f172a/0f172a.png?text=+)<br/>`#0f172a` | **9.29:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax string on neumorphic input | ![#86efac](https://via.placeholder.com/60x20/86efac/86efac.png?text=+)<br/>`#86efac` | ![#0f172a](https://via.placeholder.com/60x20/0f172a/0f172a.png?text=+)<br/>`#0f172a` | **12.71:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax comment on neumorphic input | ![#94a3b8](https://via.placeholder.com/60x20/94a3b8/94a3b8.png?text=+)<br/>`#94a3b8` | ![#0f172a](https://via.placeholder.com/60x20/0f172a/0f172a.png?text=+)<br/>`#0f172a` | **6.96:1** | ✅ Pass | ❌ Fail | AA |
-| syntax number on neumorphic input | ![#fbbf24](https://via.placeholder.com/60x20/fbbf24/fbbf24.png?text=+)<br/>`#fbbf24` | ![#0f172a](https://via.placeholder.com/60x20/0f172a/0f172a.png?text=+)<br/>`#0f172a` | **10.69:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax operator on neumorphic input | ![#f87171](https://via.placeholder.com/60x20/f87171/f87171.png?text=+)<br/>`#f87171` | ![#0f172a](https://via.placeholder.com/60x20/0f172a/0f172a.png?text=+)<br/>`#0f172a` | **6.45:1** | ✅ Pass | ❌ Fail | AA |
-| vcs added on neumorphic bg | ![#34d399](https://via.placeholder.com/60x20/34d399/34d399.png?text=+)<br/>`#34d399` | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | **7.61:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs modified on neumorphic bg | ![#fbbf24](https://via.placeholder.com/60x20/fbbf24/fbbf24.png?text=+)<br/>`#fbbf24` | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | **8.76:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs deleted on neumorphic bg | ![#f87171](https://via.placeholder.com/60x20/f87171/f87171.png?text=+)<br/>`#f87171` | ![#1e293b](https://via.placeholder.com/60x20/1e293b/1e293b.png?text=+)<br/>`#1e293b` | **5.29:1** | ✅ Pass | ❌ Fail | AA |
+<table>
+<thead>
+<tr>
+<th>Test Combination</th>
+<th>Color Visualization</th>
+<th>Visual Preview</th>
+<th>Contrast Analysis</th>
+<th>Status</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text primary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code></td>
+<td><span style="display:inline-block;background-color:#1e293b;color:#f8fafc;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="13.98:1" style="vertical-align:middle;"> <strong style="font-size:16px;">13.98:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#334155;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#334155</code></td>
+<td><span style="display:inline-block;background-color:#334155;color:#f8fafc;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.90:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.90:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><span style="display:inline-block;background-color:#0f172a;color:#f8fafc;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="17.06:1" style="vertical-align:middle;"> <strong style="font-size:16px;">17.06:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#cbd5e1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#cbd5e1</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code></td>
+<td><span style="display:inline-block;background-color:#1e293b;color:#cbd5e1;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.85:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.85:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#cbd5e1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#cbd5e1</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#334155;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#334155</code></td>
+<td><span style="display:inline-block;background-color:#334155;color:#cbd5e1;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2299.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.97:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.97:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>success on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#34d399</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code></td>
+<td><span style="display:inline-block;background-color:#1e293b;color:#34d399;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.61:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.61:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Success States</span></td>
+</tr>
+<tr>
+<td><strong>error on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f87171;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f87171</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code></td>
+<td><span style="display:inline-block;background-color:#1e293b;color:#f87171;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2275.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.29:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.29:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Error States</span></td>
+</tr>
+<tr>
+<td><strong>warning on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fbbf24;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fbbf24</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code></td>
+<td><span style="display:inline-block;background-color:#1e293b;color:#fbbf24;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.76:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.76:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Warning States</span></td>
+</tr>
+<tr>
+<td><strong>info on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#34d399</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code></td>
+<td><span style="display:inline-block;background-color:#1e293b;color:#34d399;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.61:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.61:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Info States</span></td>
+</tr>
+<tr>
+<td><strong>syntax keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#34d399</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><span style="display:inline-block;background-color:#0f172a;color:#34d399;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.29:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.29:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#86efac;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#86efac</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><span style="display:inline-block;background-color:#0f172a;color:#86efac;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="12.71:1" style="vertical-align:middle;"> <strong style="font-size:16px;">12.71:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#94a3b8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#94a3b8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><span style="display:inline-block;background-color:#0f172a;color:#94a3b8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2299.42857142857143%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.96:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.96:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fbbf24;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fbbf24</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><span style="display:inline-block;background-color:#0f172a;color:#fbbf24;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="10.69:1" style="vertical-align:middle;"> <strong style="font-size:16px;">10.69:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>syntax operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f87171;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f87171</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><span style="display:inline-block;background-color:#0f172a;color:#f87171;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2292.14285714285715%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.45:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.45:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>vcs added on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#34d399</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code></td>
+<td><span style="display:inline-block;background-color:#1e293b;color:#34d399;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.61:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.61:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs modified on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fbbf24;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fbbf24</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code></td>
+<td><span style="display:inline-block;background-color:#1e293b;color:#fbbf24;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.76:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.76:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs deleted on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f87171;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f87171</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code></td>
+<td><span style="display:inline-block;background-color:#1e293b;color:#f87171;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2275.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.29:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.29:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+</tbody>
+</table>
 
 #### Color Palette Samples
 
 Sample colors from this theme:
 
-| Color | Hex Code | Sample |
-| ----- | -------- | ------ |
-| Primary Text | `#f8fafc` | ![#f8fafc](https://via.placeholder.com/100x30/f8fafc/f8fafc.png?text=+) |
-| Background | `#1e293b` | ![#1e293b](https://via.placeholder.com/100x30/1e293b/1e293b.png?text=+) |
-| Color 3 | `#334155` | ![#334155](https://via.placeholder.com/100x30/334155/334155.png?text=+) |
-| Color 4 | `#0f172a` | ![#0f172a](https://via.placeholder.com/100x30/0f172a/0f172a.png?text=+) |
-| Color 5 | `#cbd5e1` | ![#cbd5e1](https://via.placeholder.com/100x30/cbd5e1/cbd5e1.png?text=+) |
-| Color 6 | `#34d399` | ![#34d399](https://via.placeholder.com/100x30/34d399/34d399.png?text=+) |
+<table>
+<thead>
+<tr>
+<th>Color Role</th>
+<th>Color Swatch</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary Text</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#f8fafc</code></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#1e293b</code></td>
+</tr>
+<tr>
+<td><strong>Color 3</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#334155;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#334155</code></td>
+</tr>
+<tr>
+<td><strong>Color 4</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#0f172a</code></td>
+</tr>
+<tr>
+<td><strong>Color 5</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#cbd5e1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#cbd5e1</code></td>
+</tr>
+<tr>
+<td><strong>Color 6</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#34d399</code></td>
+</tr>
+</tbody>
+</table>
+
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
@@ -492,38 +1973,203 @@ Sample colors from this theme:
 
 #### Contrast Ratio Test Results
 
-| Color Combination | Foreground | Background | Contrast Ratio | WCAG AA | WCAG AAA | Level |
-| ----------------- | ---------- | ---------- | -------------- | ------- | -------- | ----- |
-| text primary on neumorphic bg | ![#1f2937](https://via.placeholder.com/60x20/1f2937/1f2937.png?text=+)<br/>`#1f2937` | ![#fef7f7](https://via.placeholder.com/60x20/fef7f7/fef7f7.png?text=+)<br/>`#fef7f7` | **13.88:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic surface | ![#1f2937](https://via.placeholder.com/60x20/1f2937/1f2937.png?text=+)<br/>`#1f2937` | ![#fce7e7](https://via.placeholder.com/60x20/fce7e7/fce7e7.png?text=+)<br/>`#fce7e7` | **12.39:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic input | ![#1f2937](https://via.placeholder.com/60x20/1f2937/1f2937.png?text=+)<br/>`#1f2937` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **14.68:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic bg | ![#616774](https://via.placeholder.com/60x20/616774/616774.png?text=+)<br/>`#616774` | ![#fef7f7](https://via.placeholder.com/60x20/fef7f7/fef7f7.png?text=+)<br/>`#fef7f7` | **5.37:1** | ✅ Pass | ❌ Fail | AA |
-| text secondary on neumorphic surface | ![#616774](https://via.placeholder.com/60x20/616774/616774.png?text=+)<br/>`#616774` | ![#fce7e7](https://via.placeholder.com/60x20/fce7e7/fce7e7.png?text=+)<br/>`#fce7e7` | **4.79:1** | ✅ Pass | ❌ Fail | AA |
-| success on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#fef7f7](https://via.placeholder.com/60x20/fef7f7/fef7f7.png?text=+)<br/>`#fef7f7` | **8.62:1** | ✅ Pass | ✅ Pass | AAA |
-| error on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#fef7f7](https://via.placeholder.com/60x20/fef7f7/fef7f7.png?text=+)<br/>`#fef7f7` | **6.12:1** | ✅ Pass | ❌ Fail | AA |
-| warning on neumorphic bg | ![#a16207](https://via.placeholder.com/60x20/a16207/a16207.png?text=+)<br/>`#a16207` | ![#fef7f7](https://via.placeholder.com/60x20/fef7f7/fef7f7.png?text=+)<br/>`#fef7f7` | **4.66:1** | ✅ Pass | ❌ Fail | AA |
-| info on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#fef7f7](https://via.placeholder.com/60x20/fef7f7/fef7f7.png?text=+)<br/>`#fef7f7` | **6.34:1** | ✅ Pass | ❌ Fail | AA |
-| syntax keyword on neumorphic input | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **6.70:1** | ✅ Pass | ❌ Fail | AA |
-| syntax string on neumorphic input | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **9.11:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax comment on neumorphic input | ![#4b5563](https://via.placeholder.com/60x20/4b5563/4b5563.png?text=+)<br/>`#4b5563` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **7.56:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax number on neumorphic input | ![#b45309](https://via.placeholder.com/60x20/b45309/b45309.png?text=+)<br/>`#b45309` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **5.02:1** | ✅ Pass | ❌ Fail | AA |
-| syntax operator on neumorphic input | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#ffffff](https://via.placeholder.com/60x20/ffffff/ffffff.png?text=+)<br/>`#ffffff` | **6.47:1** | ✅ Pass | ❌ Fail | AA |
-| vcs added on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#fef7f7](https://via.placeholder.com/60x20/fef7f7/fef7f7.png?text=+)<br/>`#fef7f7` | **8.62:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs modified on neumorphic bg | ![#1d4ed8](https://via.placeholder.com/60x20/1d4ed8/1d4ed8.png?text=+)<br/>`#1d4ed8` | ![#fef7f7](https://via.placeholder.com/60x20/fef7f7/fef7f7.png?text=+)<br/>`#fef7f7` | **6.34:1** | ✅ Pass | ❌ Fail | AA |
-| vcs deleted on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#fef7f7](https://via.placeholder.com/60x20/fef7f7/fef7f7.png?text=+)<br/>`#fef7f7` | **6.12:1** | ✅ Pass | ❌ Fail | AA |
+<table>
+<thead>
+<tr>
+<th>Test Combination</th>
+<th>Color Visualization</th>
+<th>Visual Preview</th>
+<th>Contrast Analysis</th>
+<th>Status</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text primary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1f2937</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fef7f7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fef7f7</code></td>
+<td><span style="display:inline-block;background-color:#fef7f7;color:#1f2937;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="13.88:1" style="vertical-align:middle;"> <strong style="font-size:16px;">13.88:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1f2937</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fce7e7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fce7e7</code></td>
+<td><span style="display:inline-block;background-color:#fce7e7;color:#1f2937;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="12.39:1" style="vertical-align:middle;"> <strong style="font-size:16px;">12.39:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1f2937</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#1f2937;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="14.68:1" style="vertical-align:middle;"> <strong style="font-size:16px;">14.68:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#616774;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#616774</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fef7f7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fef7f7</code></td>
+<td><span style="display:inline-block;background-color:#fef7f7;color:#616774;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2276.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.37:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.37:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#616774;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#616774</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fce7e7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fce7e7</code></td>
+<td><span style="display:inline-block;background-color:#fce7e7;color:#616774;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2268.42857142857143%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.79:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.79:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>success on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fef7f7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fef7f7</code></td>
+<td><span style="display:inline-block;background-color:#fef7f7;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.62:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.62:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Success States</span></td>
+</tr>
+<tr>
+<td><strong>error on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fef7f7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fef7f7</code></td>
+<td><span style="display:inline-block;background-color:#fef7f7;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2287.42857142857143%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.12:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.12:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Error States</span></td>
+</tr>
+<tr>
+<td><strong>warning on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fef7f7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fef7f7</code></td>
+<td><span style="display:inline-block;background-color:#fef7f7;color:#a16207;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2266.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.66:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.66:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Warning States</span></td>
+</tr>
+<tr>
+<td><strong>info on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fef7f7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fef7f7</code></td>
+<td><span style="display:inline-block;background-color:#fef7f7;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2290.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.34:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.34:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Info States</span></td>
+</tr>
+<tr>
+<td><strong>syntax keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2295.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.70:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.70:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="9.11:1" style="vertical-align:middle;"> <strong style="font-size:16px;">9.11:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#4b5563;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.56:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.56:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#b45309;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2271.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.02:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.02:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>syntax operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><span style="display:inline-block;background-color:#ffffff;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2292.42857142857143%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.47:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.47:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>vcs added on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fef7f7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fef7f7</code></td>
+<td><span style="display:inline-block;background-color:#fef7f7;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.62:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.62:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs modified on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fef7f7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fef7f7</code></td>
+<td><span style="display:inline-block;background-color:#fef7f7;color:#1d4ed8;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2290.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.34:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.34:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs deleted on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fef7f7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fef7f7</code></td>
+<td><span style="display:inline-block;background-color:#fef7f7;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2287.42857142857143%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.12:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.12:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+</tbody>
+</table>
 
 #### Color Palette Samples
 
 Sample colors from this theme:
 
-| Color | Hex Code | Sample |
-| ----- | -------- | ------ |
-| Primary Text | `#1f2937` | ![#1f2937](https://via.placeholder.com/100x30/1f2937/1f2937.png?text=+) |
-| Background | `#fef7f7` | ![#fef7f7](https://via.placeholder.com/100x30/fef7f7/fef7f7.png?text=+) |
-| Color 3 | `#fce7e7` | ![#fce7e7](https://via.placeholder.com/100x30/fce7e7/fce7e7.png?text=+) |
-| Color 4 | `#ffffff` | ![#ffffff](https://via.placeholder.com/100x30/ffffff/ffffff.png?text=+) |
-| Color 5 | `#616774` | ![#616774](https://via.placeholder.com/100x30/616774/616774.png?text=+) |
-| Color 6 | `#14532d` | ![#14532d](https://via.placeholder.com/100x30/14532d/14532d.png?text=+) |
+<table>
+<thead>
+<tr>
+<th>Color Role</th>
+<th>Color Swatch</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary Text</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#1f2937</code></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#fef7f7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#fef7f7</code></td>
+</tr>
+<tr>
+<td><strong>Color 3</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#fce7e7;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#fce7e7</code></td>
+</tr>
+<tr>
+<td><strong>Color 4</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#ffffff</code></td>
+</tr>
+<tr>
+<td><strong>Color 5</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#616774;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#616774</code></td>
+</tr>
+<tr>
+<td><strong>Color 6</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#14532d</code></td>
+</tr>
+</tbody>
+</table>
+
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
@@ -540,38 +2186,203 @@ Sample colors from this theme:
 
 #### Contrast Ratio Test Results
 
-| Color Combination | Foreground | Background | Contrast Ratio | WCAG AA | WCAG AAA | Level |
-| ----------------- | ---------- | ---------- | -------------- | ------- | -------- | ----- |
-| text primary on neumorphic bg | ![#1c1917](https://via.placeholder.com/60x20/1c1917/1c1917.png?text=+)<br/>`#1c1917` | ![#fff7ed](https://via.placeholder.com/60x20/fff7ed/fff7ed.png?text=+)<br/>`#fff7ed` | **16.47:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic surface | ![#1c1917](https://via.placeholder.com/60x20/1c1917/1c1917.png?text=+)<br/>`#1c1917` | ![#fed7aa](https://via.placeholder.com/60x20/fed7aa/fed7aa.png?text=+)<br/>`#fed7aa` | **12.92:1** | ✅ Pass | ✅ Pass | AAA |
-| text primary on neumorphic input | ![#1c1917](https://via.placeholder.com/60x20/1c1917/1c1917.png?text=+)<br/>`#1c1917` | ![#fffbf5](https://via.placeholder.com/60x20/fffbf5/fffbf5.png?text=+)<br/>`#fffbf5` | **16.96:1** | ✅ Pass | ✅ Pass | AAA |
-| text secondary on neumorphic bg | ![#615b57](https://via.placeholder.com/60x20/615b57/615b57.png?text=+)<br/>`#615b57` | ![#fff7ed](https://via.placeholder.com/60x20/fff7ed/fff7ed.png?text=+)<br/>`#fff7ed` | **6.29:1** | ✅ Pass | ❌ Fail | AA |
-| text secondary on neumorphic surface | ![#615b57](https://via.placeholder.com/60x20/615b57/615b57.png?text=+)<br/>`#615b57` | ![#fed7aa](https://via.placeholder.com/60x20/fed7aa/fed7aa.png?text=+)<br/>`#fed7aa` | **4.94:1** | ✅ Pass | ❌ Fail | AA |
-| success on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#fff7ed](https://via.placeholder.com/60x20/fff7ed/fff7ed.png?text=+)<br/>`#fff7ed` | **8.58:1** | ✅ Pass | ✅ Pass | AAA |
-| error on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#fff7ed](https://via.placeholder.com/60x20/fff7ed/fff7ed.png?text=+)<br/>`#fff7ed` | **6.09:1** | ✅ Pass | ❌ Fail | AA |
-| warning on neumorphic bg | ![#a16207](https://via.placeholder.com/60x20/a16207/a16207.png?text=+)<br/>`#a16207` | ![#fff7ed](https://via.placeholder.com/60x20/fff7ed/fff7ed.png?text=+)<br/>`#fff7ed` | **4.64:1** | ✅ Pass | ❌ Fail | AA |
-| info on neumorphic bg | ![#c2410c](https://via.placeholder.com/60x20/c2410c/c2410c.png?text=+)<br/>`#c2410c` | ![#fff7ed](https://via.placeholder.com/60x20/fff7ed/fff7ed.png?text=+)<br/>`#fff7ed` | **4.88:1** | ✅ Pass | ❌ Fail | AA |
-| syntax keyword on neumorphic input | ![#c2410c](https://via.placeholder.com/60x20/c2410c/c2410c.png?text=+)<br/>`#c2410c` | ![#fffbf5](https://via.placeholder.com/60x20/fffbf5/fffbf5.png?text=+)<br/>`#fffbf5` | **5.02:1** | ✅ Pass | ❌ Fail | AA |
-| syntax string on neumorphic input | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#fffbf5](https://via.placeholder.com/60x20/fffbf5/fffbf5.png?text=+)<br/>`#fffbf5` | **8.84:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax comment on neumorphic input | ![#4b5563](https://via.placeholder.com/60x20/4b5563/4b5563.png?text=+)<br/>`#4b5563` | ![#fffbf5](https://via.placeholder.com/60x20/fffbf5/fffbf5.png?text=+)<br/>`#fffbf5` | **7.33:1** | ✅ Pass | ✅ Pass | AAA |
-| syntax number on neumorphic input | ![#b45309](https://via.placeholder.com/60x20/b45309/b45309.png?text=+)<br/>`#b45309` | ![#fffbf5](https://via.placeholder.com/60x20/fffbf5/fffbf5.png?text=+)<br/>`#fffbf5` | **4.87:1** | ✅ Pass | ❌ Fail | AA |
-| syntax operator on neumorphic input | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#fffbf5](https://via.placeholder.com/60x20/fffbf5/fffbf5.png?text=+)<br/>`#fffbf5` | **6.28:1** | ✅ Pass | ❌ Fail | AA |
-| vcs added on neumorphic bg | ![#14532d](https://via.placeholder.com/60x20/14532d/14532d.png?text=+)<br/>`#14532d` | ![#fff7ed](https://via.placeholder.com/60x20/fff7ed/fff7ed.png?text=+)<br/>`#fff7ed` | **8.58:1** | ✅ Pass | ✅ Pass | AAA |
-| vcs modified on neumorphic bg | ![#c2410c](https://via.placeholder.com/60x20/c2410c/c2410c.png?text=+)<br/>`#c2410c` | ![#fff7ed](https://via.placeholder.com/60x20/fff7ed/fff7ed.png?text=+)<br/>`#fff7ed` | **4.88:1** | ✅ Pass | ❌ Fail | AA |
-| vcs deleted on neumorphic bg | ![#b91c1c](https://via.placeholder.com/60x20/b91c1c/b91c1c.png?text=+)<br/>`#b91c1c` | ![#fff7ed](https://via.placeholder.com/60x20/fff7ed/fff7ed.png?text=+)<br/>`#fff7ed` | **6.09:1** | ✅ Pass | ❌ Fail | AA |
+<table>
+<thead>
+<tr>
+<th>Test Combination</th>
+<th>Color Visualization</th>
+<th>Visual Preview</th>
+<th>Contrast Analysis</th>
+<th>Status</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>text primary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1c1917;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1c1917</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fff7ed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fff7ed</code></td>
+<td><span style="display:inline-block;background-color:#fff7ed;color:#1c1917;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="16.47:1" style="vertical-align:middle;"> <strong style="font-size:16px;">16.47:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1c1917;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1c1917</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fed7aa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fed7aa</code></td>
+<td><span style="display:inline-block;background-color:#fed7aa;color:#1c1917;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="12.92:1" style="vertical-align:middle;"> <strong style="font-size:16px;">12.92:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text primary on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1c1917;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1c1917</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><span style="display:inline-block;background-color:#fffbf5;color:#1c1917;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="16.96:1" style="vertical-align:middle;"> <strong style="font-size:16px;">16.96:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#615b57;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#615b57</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fff7ed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fff7ed</code></td>
+<td><span style="display:inline-block;background-color:#fff7ed;color:#615b57;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2289.85714285714286%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.29:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.29:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>text secondary on neumorphic surface</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#615b57;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#615b57</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fed7aa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fed7aa</code></td>
+<td><span style="display:inline-block;background-color:#fed7aa;color:#615b57;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_surface</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2270.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.94:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.94:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>success on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fff7ed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fff7ed</code></td>
+<td><span style="display:inline-block;background-color:#fff7ed;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.58:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.58:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Success States</span></td>
+</tr>
+<tr>
+<td><strong>error on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fff7ed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fff7ed</code></td>
+<td><span style="display:inline-block;background-color:#fff7ed;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2287%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.09:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.09:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Error States</span></td>
+</tr>
+<tr>
+<td><strong>warning on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fff7ed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fff7ed</code></td>
+<td><span style="display:inline-block;background-color:#fff7ed;color:#a16207;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2266.28571428571428%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.64:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.64:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Warning States</span></td>
+</tr>
+<tr>
+<td><strong>info on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fff7ed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fff7ed</code></td>
+<td><span style="display:inline-block;background-color:#fff7ed;color:#c2410c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2269.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.88:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.88:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Info States</span></td>
+</tr>
+<tr>
+<td><strong>syntax keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><span style="display:inline-block;background-color:#fffbf5;color:#c2410c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2271.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="5.02:1" style="vertical-align:middle;"> <strong style="font-size:16px;">5.02:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><span style="display:inline-block;background-color:#fffbf5;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.84:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.84:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><span style="display:inline-block;background-color:#fffbf5;color:#4b5563;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="7.33:1" style="vertical-align:middle;"> <strong style="font-size:16px;">7.33:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Syntax Highlighting</span></td>
+</tr>
+<tr>
+<td><strong>syntax number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><span style="display:inline-block;background-color:#fffbf5;color:#b45309;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2269.57142857142857%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.87:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.87:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>syntax operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><span style="display:inline-block;background-color:#fffbf5;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_input</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2289.71428571428571%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.28:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.28:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Other</span></td>
+</tr>
+<tr>
+<td><strong>vcs added on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fff7ed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fff7ed</code></td>
+<td><span style="display:inline-block;background-color:#fff7ed;color:#14532d;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="8.58:1" style="vertical-align:middle;"> <strong style="font-size:16px;">8.58:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs modified on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fff7ed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fff7ed</code></td>
+<td><span style="display:inline-block;background-color:#fff7ed;color:#c2410c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2269.71428571428572%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="4.88:1" style="vertical-align:middle;"> <strong style="font-size:16px;">4.88:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+<tr>
+<td><strong>vcs deleted on neumorphic bg</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fff7ed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fff7ed</code></td>
+<td><span style="display:inline-block;background-color:#fff7ed;color:#b91c1c;padding:6px 12px;border-radius:6px;font-family:monospace;font-size:12px;border:1px solid #e5e7eb;">Sample Text</span><br/><span style="font-size:11px;color:#64748b;">neumorphic_bg</span></td>
+<td><img src="data:image/svg+xml,%3Csvg%20width%3D%22100%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%23f3f4f6%22%20stroke%3D%22%23e5e7eb%22%20stroke-width%3D%221%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%2287%22%20height%3D%2220%22%20rx%3D%2210%22%20ry%3D%2210%22%20fill%3D%22%233b82f6%22%2F%3E%0A%20%20%3C%2Fsvg%3E" alt="6.09:1" style="vertical-align:middle;"> <strong style="font-size:16px;">6.09:1</strong><br/><span style="font-size:11px;color:#64748b;">Req: 4.5:1</span></td>
+<td>✅<br/><strong style="color:#10b981;">Pass</strong></td>
+<td><span style="background:#f8fafc;padding:4px 8px;border-radius:4px;font-size:12px;font-weight:500;">Version Control</span></td>
+</tr>
+</tbody>
+</table>
 
 #### Color Palette Samples
 
 Sample colors from this theme:
 
-| Color | Hex Code | Sample |
-| ----- | -------- | ------ |
-| Primary Text | `#1c1917` | ![#1c1917](https://via.placeholder.com/100x30/1c1917/1c1917.png?text=+) |
-| Background | `#fff7ed` | ![#fff7ed](https://via.placeholder.com/100x30/fff7ed/fff7ed.png?text=+) |
-| Color 3 | `#fed7aa` | ![#fed7aa](https://via.placeholder.com/100x30/fed7aa/fed7aa.png?text=+) |
-| Color 4 | `#fffbf5` | ![#fffbf5](https://via.placeholder.com/100x30/fffbf5/fffbf5.png?text=+) |
-| Color 5 | `#615b57` | ![#615b57](https://via.placeholder.com/100x30/615b57/615b57.png?text=+) |
-| Color 6 | `#14532d` | ![#14532d](https://via.placeholder.com/100x30/14532d/14532d.png?text=+) |
+<table>
+<thead>
+<tr>
+<th>Color Role</th>
+<th>Color Swatch</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Primary Text</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#1c1917;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#1c1917</code></td>
+</tr>
+<tr>
+<td><strong>Background</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#fff7ed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#fff7ed</code></td>
+</tr>
+<tr>
+<td><strong>Color 3</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#fed7aa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#fed7aa</code></td>
+</tr>
+<tr>
+<td><strong>Color 4</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#fffbf5</code></td>
+</tr>
+<tr>
+<td><strong>Color 5</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#615b57;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#615b57</code></td>
+</tr>
+<tr>
+<td><strong>Color 6</strong></td>
+<td><span style="display:inline-block;width:60px;height:32px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span></td>
+<td><code style="font-size:14px;">#14532d</code></td>
+</tr>
+</tbody>
+</table>
+
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
