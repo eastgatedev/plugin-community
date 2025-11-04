@@ -35,7 +35,7 @@ Eastgate Development **两大专业插件套件**官方社区中心:
 - Kotlin 优先体验,全面支持 Java
 - 原生 JetBrains IDE 集成,支持上下文菜单
 
-**[完整 i18n Translate 文档 →](docs/i18n-translate-suite/README.md)**
+**[完整 i18n Translate 文档 →](docs/i18n-translate-suite/readme.md)**
 
 ---
 
@@ -60,7 +60,7 @@ Eastgate Development **两大专业插件套件**官方社区中心:
 
 一次性付款即可永久解锁全部 8 款高级主题。无续订费用,无升级压力,无订阅疲劳。在决定购买前,每款主题可零打扰试用 30 分钟。
 
-**[完整 Theme Suite 文档 →](docs/theme-suite/README.md)**
+**[完整 Theme Suite 文档 →](docs/theme-suite/readme.md)**
 
 ---
 

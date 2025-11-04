@@ -35,7 +35,7 @@ Transform internationalization from tedious manual work into one-click automatio
 - Kotlin-first experience with comprehensive Java support
 - Native JetBrains IDE integration with context menus
 
-**[Full i18n Translate Documentation →](docs/i18n-translate-suite/README.md)**
+**[Full i18n Translate Documentation →](docs/i18n-translate-suite/readme.md)**
 
 ---
 
@@ -60,7 +60,7 @@ Soft shadows replace harsh lines to create natural depth perception. Your eyes p
 
 One-time payment unlocks all 8 premium themes forever. No renewal fees, no upgrade pressure, no subscription fatigue. Try each theme for 30 minutes with zero interruptions before deciding.
 
-**[Full Theme Suite Documentation →](docs/theme-suite/README.md)**
+**[Full Theme Suite Documentation →](docs/theme-suite/readme.md)**
 
 ---
 
