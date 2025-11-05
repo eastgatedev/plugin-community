@@ -2,6 +2,19 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.1.5 <small>(2025-11-05)</small>
+
+- **🆓 Freemium Model Launch:** Start free with 1 language at a time, upgrade anytime for unlimited languages and batch translation
+- **✨ Free Version Includes:** Full Smart Text to i18n feature (Alt+Shift+]) + single language translation - no trial period, free forever
+- **🔄 Seamless Upgrade Path:** Activate Pro features anytime without reinstallation - same plugin, expanded capabilities
+- **🚀 Pro Features:** Commit panel integration, unlimited languages, batch translation, and advanced VCS integration
+- **🌐 All Frameworks:** React, Vue, Angular, Next.js support included in both free and Pro versions
+- **💎 No Trial Limitations:** Free version works forever - upgrade when you need multiple languages or batch processing
+- **🎯 Same Smart Features:** Identical Smart Text to i18n functionality in both free and Pro versions
+- **⚡ Instant Activation:** Purchase license key and activate Pro features immediately without any interruption
+
+**Freemium Revolution:** Start translating today for free! Get full Smart Text to i18n and single language translation with all framework support. Ready to scale? Activate Pro features instantly for unlimited languages and advanced workflows!
+
 ## Version 2025.1.4 <small>(2025-09-08)</small>
 
 - **🎯 Smart Text to i18n Enhancement:** Better support for all web frameworks with improved JSX/template literal detection

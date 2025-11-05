@@ -32,6 +32,21 @@ Transform your internationalization workflow with **automated translation** usin
 
 ---
 
+## 🎉 Freemium Model - Start Free, Upgrade When Ready!
+
+**As of November 2025**, both **JVM Pro** and **Web Pro** plugins now offer a **freemium model**:
+
+- **🆓 Free Forever:** Start with 1 language at a time + full Smart Text to i18n feature (Alt+Shift+])
+- **✨ No Trial Period:** Free version works forever with no time limits
+- **🔄 Seamless Upgrade:** Activate Pro features anytime for unlimited languages and batch translation
+- **🚀 No Reinstallation:** Upgrade instantly without changing plugins
+
+**Lite Plugins Deprecated:** The separate Lite plugins are no longer supported. Please use the Pro freemium versions which include all Lite features for free.
+
+**[Install JVM Pro (Freemium) →](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)** | **[Install Web Pro (Freemium) →](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)**
+
+---
+
 ## ✨ Advanced IntelliJ Translation Features
 
 *   **🎯 Smart Text to i18n:** Revolutionary feature to **extract hardcoded strings** and convert them to i18n method calls with keyboard shortcut **Alt+Shift+]** - transform your development workflow instantly.
@@ -83,17 +98,21 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 
 **[Install Web Plugin →](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)**
 
-### ☕ i18n Translate Lite: JVM Plugin (FREE)
+### ☕ i18n Translate Lite: JVM Plugin (FREE) - ⚠️ DEPRECATED
 [![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28324-i18n-translate-lite-jvm.svg)](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/28324-i18n-translate-lite-jvm.svg)](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)
 
-**[Install JVM Lite Plugin →](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)**
+> **⚠️ DEPRECATED:** This plugin is no longer supported. Please switch to **[JVM Pro (Freemium)](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)** which includes all Lite features for free.
 
-### 🌐 i18n Translate Lite: Web Plugin (FREE)
+**[~~Install JVM Lite Plugin~~](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)** → **[Switch to JVM Pro (Freemium) →](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)**
+
+### 🌐 i18n Translate Lite: Web Plugin (FREE) - ⚠️ DEPRECATED
 [![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28325-i18n-translate-lite-web.svg)](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/28325-i18n-translate-lite-web.svg)](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)
 
-**[Install Web Lite Plugin →](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)**
+> **⚠️ DEPRECATED:** This plugin is no longer supported. Please switch to **[Web Pro (Freemium)](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)** which includes all Lite features for free.
+
+**[~~Install Web Lite Plugin~~](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)** → **[Switch to Web Pro (Freemium) →](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)**
 
 ## 🔍 Plugin Comparison Guide
 
@@ -113,12 +132,12 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 - **React/Vue/Angular developers** → Choose Web Plugin  
 - **Full-stack teams** → Install both plugins for complete coverage
 
-## Feature Comparison: Pro vs Lite
+## Feature Comparison: Free vs Pro
 
 ### Feature Comparison Matrix
 
-| Feature | Lite (FREE) | Pro (PAID) |
-|---------|-------------|------------|
+| Feature | Free Version | Pro Version |
+|---------|--------------|-------------|
 | **Translation Languages** | 🔒 **1 target language max** | ✅ **Unlimited** |
 | **Smart Text to i18n** | ✅ **Fully enabled** | ✅ **Fully enabled** |
 | **Basic Translation** | ✅ **Enabled** | ✅ **Enabled** |
@@ -129,12 +148,12 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 | **VCS Integration** | ⚠️ **Partial** (New keys only) | ✅ **Full** (Modified + New) |
 | **Translation Dialog Buttons** | ⚠️ **Limited** | ✅ **All enabled** |
 | **Project Settings** | ✅ **All options** | ✅ **All options** |
-| **Trial Period** | N/A | **30 days** |
+| **Time Limit** | ✅ **Free forever** | N/A |
 | **License** | FREE | PAID |
 
 ### Key Upgrade Benefits
 
-#### 🆓 Lite Version Perfect For:
+#### 🆓 Free Version Perfect For:
 - **Individual developers** learning i18n workflows
 - **Small projects** with single language requirements
 - **Testing and evaluation** of plugin capabilities
@@ -154,28 +173,33 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 - **Commit Panel Integration**: Right-click translate directly in commit view
 - **Advanced processing features**: Key sorting and duplicate removal
 - **All dialog buttons enabled**
-- **30-day trial period**
 
 ## 💰 Pricing & Licensing
 
-Choose the right solution for your needs:
-
-### 🆓 **Lite Versions (Free Forever)**
-- **JVM Lite & Web Lite**: Completely free with essential features
+### 🆓 **Free Version (Included in Pro Plugins)**
+- **JVM Pro & Web Pro**: Free version included with 1 language at a time + Smart Text to i18n
 - Perfect for individual developers and small projects
-- No time limits or payment required
+- No time limits, free forever
+- Upgrade to Pro anytime for unlimited languages
 
-### 🔄 **Pro Versions (Commercial)**
-- **30-day full-feature trial** for both plugins
-- No credit card required during trial period
+### 💎 **Pro Upgrade (Commercial)**
+- Activate Pro features anytime - no reinstallation needed
 - **Individual / Organization License**: Check current pricing on JetBrains Marketplace
+- Simple in-app activation
 
-### 📋 **License Benefits**
-- ✅ Unlimited translation projects
+### 📋 **Pro License Benefits**
+- ✅ Unlimited translation languages
+- ✅ Commit panel integration
+- ✅ Advanced VCS features
 - ✅ Priority email support
 - ✅ All future updates included
 - ✅ Commercial usage rights
 - ✅ Team collaboration features
+
+### ⚠️ **Lite Plugins Deprecated**
+The separate Lite plugins (JVM Lite & Web Lite) are no longer supported as of November 2025. All Lite features are now included in the Pro freemium versions. Please migrate to the Pro plugins for continued support and updates.
+
+**Migration Guide:** See release notes for [JVM Lite](docs/jvm-lite-plugin/release-notes.md) | [Web Lite](docs/web-lite-plugin/release-notes.md)
 
 ## 📚 Documentation
 
