@@ -11,29 +11,48 @@ Eastgate Development **两大专业插件套件**官方社区中心:
 
 ---
 
-## i18n Translate Suite
+## 🎉 i18n 翻译套件 - 现已开放免费增值！
 
 **面向 Spring Boot 和现代 Web 框架的 AI 驱动翻译自动化。**
 
-使用 OpenAI 和 Anthropic LLM,将国际化从繁琐的手工工作转变为一键自动化。支持 200+ 种语言,具备智能上下文感知。
+**自 2025 年 11 月起**，JVM 和 Web 插件均提供**免费增值模式**：
+- **🆓 免费开始**：每次一种语言 + 完整的智能文本转 i18n 功能
+- **🚀 升级到专业版**：无限语言、批量翻译、提交面板集成
+- **⚠️ 精简版插件已弃用**：请迁移到专业版免费增值版本
 
-### 4 款可用插件
+**经过验证的质量**：我们的翻译引擎为[印尼语言包](https://plugins.jetbrains.com/plugin/28908-indonesian-language-pack--paket-bahasa-indonesia)提供支持，为整个 IntelliJ IDEA 界面翻译了 12,000 多个字符串。
 
-**Pro 版本(商业版):**
-- **i18n Translate Pro: JVM** - 面向 Spring Boot 项目的 Kotlin/Java .properties 翻译
-- **i18n Translate Pro: Web** - 面向 React、Vue、Angular、Next.js 应用的 JSON/XLF 翻译
+---
 
-**Lite 版本(免费):**
-- **i18n Translate Lite: JVM** - 面向个人开发者的核心功能
-- **i18n Translate Lite: Web** - 面向小型项目的基础功能
+使用 OpenAI 和 Anthropic LLM，将国际化从繁琐的手工工作转变为一键自动化。支持 200+ 种语言，具备智能上下文感知。
 
-### 核心功能
+### 可用插件
 
-- 智能文本转 i18n 提取,支持快捷键 (Alt+Shift+])
-- 使用 OpenAI GPT 和 Anthropic Claude 模型进行批量翻译
-- VCS 集成,自动检测未提交的更改
-- Kotlin 优先体验,全面支持 Java
-- 原生 JetBrains IDE 集成,支持上下文菜单
+#### JVM 插件（属性文件）
+- **[i18n 翻译专业版：JVM](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)** - 免费增值（免费 + 专业版升级）用于 Spring Boot 项目
+- ~~i18n 翻译精简版：JVM~~ - **已弃用** - 请使用专业版免费增值版本
+
+#### Web 插件（JSON/XLF 文件）
+- **[i18n 翻译专业版：Web](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)** - 免费增值（免费 + 专业版升级）用于 React、Vue、Angular、Next.js
+- ~~i18n 翻译精简版：Web~~ - **已弃用** - 请使用专业版免费增值版本
+
+### 功能特性
+
+**免费版（专业版插件包含）：**
+- ✅ 每次翻译一种语言
+- ✅ 智能文本转 i18n（完整功能，支持 Alt+Shift+]）
+- ✅ 支持 200 多种语言
+- ✅ 8 个 LLM 提供商（Google Gemini、OpenAI、Anthropic 等）
+- ✅ 基本翻译工作流程
+- ✅ VCS 集成，自动检测未提交的更改
+- ✅ 原生 JetBrains IDE 集成
+
+**专业版（随时升级）：**
+- 🚀 无限语言 + 批量翻译
+- 🚀 提交面板集成
+- 🚀 高级 VCS 功能
+- 🚀 键值排序和重复删除
+- 🚀 优先支持
 
 **[完整 i18n Translate 文档 →](docs/i18n-translate-suite/readme.md)**
 
@@ -74,11 +93,13 @@ Eastgate Development **两大专业插件套件**官方社区中心:
 4. 点击 Install 并重启 IDE
 
 **直接链接:**
-- [i18n Translate Pro: JVM](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)
-- [i18n Translate Pro: Web](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web)
-- [i18n Translate Lite: JVM](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)
-- [i18n Translate Lite: Web](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)
+- [i18n 翻译专业版：JVM](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm) - 免费增值
+- [i18n 翻译专业版：Web](https://plugins.jetbrains.com/plugin/28020-i18n-translate-pro-web) - 免费增值
 - [Neumorphism Theme Collection](https://plugins.jetbrains.com/plugin/28485-neumorphism-theme-collection)
+
+**已弃用（请使用专业版免费增值版本）：**
+- ~~[i18n 翻译精简版：JVM](https://plugins.jetbrains.com/plugin/28324-i18n-translate-lite-jvm)~~
+- ~~[i18n 翻译精简版：Web](https://plugins.jetbrains.com/plugin/28325-i18n-translate-lite-web)~~
 
 ---
 
