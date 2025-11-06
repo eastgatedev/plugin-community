@@ -1,3 +1,5 @@
+> 🌐 **Language / 语言**: [🇺🇸 English](deprecation-notice.md) | [🇨🇳 简体中文](deprecation-notice.zh.md)
+
 # JVM Lite 插件弃用通知
 
 ## 重要更新
