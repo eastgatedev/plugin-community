@@ -75,19 +75,32 @@ navigation.home=Accueil
 - **UTF-8 encoding:** Proper international character support with BOM handling
 - **Comment preservation:** Maintains existing comments during translation
 
-### 🤖 LLM Provider Configuration (8 Providers, 60+ Models)
-- **Google Gemini (⭐ Recommended):** gemini-2.5-pro, gemini-2.5-flash (default), gemini-2.5-flash-lite with free daily usage limits - perfect for regular development
-- **OpenAI Models:** GPT-4o, GPT-4o-mini, GPT-4-Turbo, GPT-4, GPT-3.5-Turbo, o1, o1-mini
-- **Anthropic Models:** Claude-3.5-Sonnet, Claude-3.5-Haiku, Claude-3-Opus, Claude-3-Sonnet, Claude-3-Haiku
-- **DeepSeek Models:** deepseek-chat, deepseek-reasoner
-- **Azure OpenAI:** Enterprise compliance with all OpenAI models through Azure infrastructure
-- **Ollama (Local):** Local inference with llama3.2, mistral, codellama for offline translation
-- **OpenRouter:** Access to 50+ additional models through unified API
-- **Custom Provider:** Any OpenAI-compatible endpoint for specialized setups
+### 🤖 LLM Provider Configuration (8 Providers, 120+ Models)
+
+**Latest Models:**
+- **Google Gemini:** gemini-2.5-pro, gemini-2.5-flash (⭐ recommended), gemini-2.5-flash-lite - Free tier available
+- **OpenAI (GPT-5 Series):** gpt-5-nano (💰 best value), gpt-5-mini, gpt-5-pro, plus GPT-4.1 series
+- **Anthropic (Claude 4.5):** claude-4.5-sonnet, claude-4.5-haiku, claude-opus-4.1, plus Claude-3.5 series
+- **DeepSeek:** DeepSeek R1, deepseek-chat, deepseek-reasoner
+- **Azure OpenAI:** Enterprise compliance with complete OpenAI model access
+- **OpenRouter:** 50+ additional models through unified API with competitive pricing
+- **Ollama (Local):** llama3.2, mistral, codellama, phi4 - Offline translation without API costs
+- **Custom Providers:** Any OpenAI-compatible endpoint for specialized requirements
+
+**Smart Features:**
+- **Legacy Model Detection:** Automatic alerts when using outdated models with upgrade recommendations
+- **Cost Optimization Intelligence:** View pricing comparisons showing potential savings up to 99.6%
+- **Pricing Dashboard:** Compare current model costs vs. recommended alternatives
+- **Version-Based Alerts:** Smart notifications update with each plugin release featuring new models
 - **API Key Management:** Secure storage with visibility toggle and clipboard integration
 - **Real-time Verification:** Test API connectivity and model access before translation
 - **Rate Limiting Awareness:** Intelligent handling of provider-specific limits
 - **Free Usage Option:** Google Gemini provides free daily usage, making professional translation accessible
+
+**Example Cost Savings:**
+- GPT-4 ($40/1M tokens) → GPT-5 Nano ($0.17/1M tokens) = 99.6% savings
+- GPT-4o ($5/1M tokens) → GPT-5 Nano ($0.17/1M tokens) = 96.6% savings
+- Claude Opus 3.5 ($15/1M tokens) → GPT-5 Nano ($0.17/1M tokens) = 98.9% savings
 
 ### 🎯 Project-Level Management
 - **Per-Project Configuration:** Isolated language settings for each project

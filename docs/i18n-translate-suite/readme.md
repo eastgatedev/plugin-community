@@ -59,6 +59,24 @@ Transform your internationalization workflow with **automated translation** usin
 *   **📋 Batch Processing:** Efficient **bulk translation** with rate limiting, retry logic, and comprehensive error handling
 *   **🎯 Smart Detection:** Automatic recognition of **uncommitted changes** and selective translation of new vs modified keys
 
+## 🎯 Latest Features & Cost Optimization
+
+### 120+ LLM Models Across 8 Providers
+**Save up to 99.6% on translation costs** with our expanded model support including GPT-5 series, Claude 4.5, DeepSeek R1, and Phi4.
+
+**New Features:**
+- **21 New Models:** GPT-5 Nano/Mini/Pro, GPT-4.1 series, Claude 4.5 (Sonnet/Haiku), Claude Opus 4.1, DeepSeek R1, Phi4
+- **Smart Legacy Detection:** Automatic alerts when using outdated models with intelligent upgrade recommendations
+- **Cost Intelligence Dashboard:** View pricing comparisons showing potential savings up to 99.6%
+- **Best Value: GPT-5 Nano** - Professional translations at $0.17 per 1M tokens vs GPT-4 at $40.00
+
+**Example Savings for 10 Languages × 1000 Keys:**
+- Traditional GPT-4: ~$8.00 per translation run
+- Optimized GPT-5 Nano: ~$0.03 per translation run
+- **Annual Savings:** $1000+ for teams with frequent updates
+
+**Learn More:** Check your current model costs in Settings → i18n Translate Pro → LLM Configuration
+
 ## 🚀 Quick Start Guide for IntelliJ Translation
 
 New to **IntelliJ IDEA i18n translation**? Choose your development stack:
@@ -139,6 +157,9 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 | Feature | Free Version | Pro Version |
 |---------|--------------|-------------|
 | **Translation Languages** | 🔒 **1 target language max** | ✅ **Unlimited** |
+| **LLM Models Available** | ✅ **120+ models** (8 providers) | ✅ **120+ models** (8 providers) |
+| **Legacy Model Detection** | ✅ **Automatic alerts** | ✅ **Automatic alerts** |
+| **Cost Intelligence** | ✅ **Savings up to 99.6%** | ✅ **Savings up to 99.6%** |
 | **Smart Text to i18n** | ✅ **Fully enabled** | ✅ **Fully enabled** |
 | **Basic Translation** | ✅ **Enabled** | ✅ **Enabled** |
 | **Commit Panel Translation** | ❌ **Not available** | ✅ **Enabled** |
@@ -150,6 +171,14 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 | **Project Settings** | ✅ **All options** | ✅ **All options** |
 | **Time Limit** | ✅ **Free forever** | N/A |
 | **License** | FREE | PAID |
+
+### Shared Features (Available in Both Free & Pro)
+- **120+ LLM Models** across 8 providers (Gemini, OpenAI, Anthropic, DeepSeek, Azure, OpenRouter, Ollama, Custom)
+- **Legacy Model Detection** with automatic upgrade recommendations
+- **Cost Intelligence Dashboard** showing savings up to 99.6%
+- **Smart Text to i18n** for extracting hardcoded strings
+- **Batch Processing** with no size limits
+- **Project Settings** for customization
 
 ### Key Upgrade Benefits
 

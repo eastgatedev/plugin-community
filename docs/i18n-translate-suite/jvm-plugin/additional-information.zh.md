@@ -75,19 +75,32 @@ navigation.home=Accueil
 - **UTF-8 编码：** 正确的国际字符支持，处理 BOM
 - **注释保留：** 在翻译期间保持现有注释
 
-### 🤖 LLM 提供商配置（8 个提供商，60+ 模型）
-- **Google Gemini（⭐ 推荐）：** gemini-2.5-pro、gemini-2.5-flash（默认）、gemini-2.5-flash-lite，具有免费每日使用限制 - 非常适合常规开发
-- **OpenAI 模型：** GPT-4o、GPT-4o-mini、GPT-4-Turbo、GPT-4、GPT-3.5-Turbo、o1、o1-mini
-- **Anthropic 模型：** Claude-3.5-Sonnet、Claude-3.5-Haiku、Claude-3-Opus、Claude-3-Sonnet、Claude-3-Haiku
-- **DeepSeek 模型：** deepseek-chat、deepseek-reasoner
-- **Azure OpenAI：** 通过 Azure 基础设施提供所有 OpenAI 模型的企业合规性
-- **Ollama（本地）：** 使用 llama3.2、mistral、codellama 进行本地推理以实现离线翻译
-- **OpenRouter：** 通过统一 API 访问 50+ 其他模型
-- **自定义提供商：** 任何 OpenAI 兼容端点用于专门设置
+### 🤖 LLM 提供商配置（8 个提供商，120+ 模型）
+
+**最新模型：**
+- **Google Gemini：** gemini-2.5-pro、gemini-2.5-flash（⭐ 推荐）、gemini-2.5-flash-lite - 免费层可用
+- **OpenAI（GPT-5 系列）：** gpt-5-nano（💰 最佳性价比）、gpt-5-mini、gpt-5-pro，以及 GPT-4.1 系列
+- **Anthropic（Claude 4.5）：** claude-4.5-sonnet、claude-4.5-haiku、claude-opus-4.1，以及 Claude-3.5 系列
+- **DeepSeek：** DeepSeek R1、deepseek-chat、deepseek-reasoner
+- **Azure OpenAI：** 企业合规性，完整访问所有 OpenAI 模型
+- **OpenRouter：** 通过统一 API 访问 50+ 个额外模型，具有竞争性定价
+- **Ollama（本地）：** llama3.2、mistral、codellama、phi4 - 无 API 成本的离线翻译
+- **自定义提供商：** 任何 OpenAI 兼容端点用于专门需求
+
+**智能功能：**
+- **旧模型检测：** 使用过时模型时自动警报，提供升级建议
+- **成本优化智能：** 查看价格对比，显示高达 99.6% 的潜在节省
+- **价格仪表板：** 比较当前模型成本与推荐替代方案
+- **基于版本的警报：** 智能通知随每次插件发布更新，提供新模型建议
 - **API 密钥管理：** 安全存储，支持可见性切换和剪贴板集成
 - **实时验证：** 在翻译前测试 API 连接性和模型访问
 - **速率限制感知：** 智能处理特定提供商的限制
 - **免费使用选项：** Google Gemini 提供免费每日使用，让专业翻译人人可及
+
+**成本节省示例：**
+- GPT-4（每百万 token $40）→ GPT-5 Nano（每百万 token $0.17）= 节省 99.6%
+- GPT-4o（每百万 token $5）→ GPT-5 Nano（每百万 token $0.17）= 节省 96.6%
+- Claude Opus 3.5（每百万 token $15）→ GPT-5 Nano（每百万 token $0.17）= 节省 98.9%
 
 ### 🎯 项目级管理
 - **每个项目配置：** 每个项目的独立语言设置

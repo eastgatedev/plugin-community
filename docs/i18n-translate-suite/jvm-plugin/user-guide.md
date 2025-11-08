@@ -48,6 +48,13 @@ On first use, you'll need to configure your LLM provider for translation service
    - Click Verify to test your configuration
 5. Click Save to store your settings securely
 
+**💡 Smart Cost Optimization Tips:**
+- **GPT-5 Nano Recommended:** Best value at $0.17/1M tokens - 99.6% cheaper than GPT-4
+- **Free Tier Option:** Google Gemini offers free daily usage limits for development
+- **Legacy Model Alerts:** Plugin automatically detects outdated models and suggests upgrades
+- **Pricing Dashboard:** Access **Settings → i18n Translate Pro: JVM → LLM Configuration** to compare model costs
+- **120+ Models Available:** Explore 8 providers to find the perfect balance of cost and quality
+
 ## 🎯 Basic Usage
 
 ### Step 5: Select Target Languages

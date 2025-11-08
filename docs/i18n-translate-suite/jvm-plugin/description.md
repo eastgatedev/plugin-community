@@ -51,13 +51,24 @@ Learn how to turn manual string extraction from a 3-hour nightmare into a 30-sec
 - **100+ Language-Country combinations:** en_US, fr_FR, ms_MY, zh_CN, etc.
 - **Special locales:** ja_JP_u_ca_japanese, sr_Latn_BA, etc.
 
-## Supported LLM Providers
+## Supported LLM Providers (120+ Models Across 8 Providers)
 
-- OpenAI (GPT-3.5-Turbo, GPT-4, GPT-4o, GPT-4-Turbo)
-- Anthropic (Claude-3-Haiku, Claude-3-Sonnet, Claude-3-Opus)
+- **Google Gemini** - gemini-2.5-pro, gemini-2.5-flash (free tier available)
+- **OpenAI** - GPT-5 series (Nano/Mini/Pro), GPT-4.1, GPT-4o, GPT-4-Turbo, GPT-3.5-Turbo
+- **Anthropic** - Claude 4.5 (Sonnet/Haiku), Claude Opus 4.1, Claude-3.5 series
+- **DeepSeek** - DeepSeek R1, deepseek-chat, deepseek-reasoner
+- **Azure OpenAI** - Enterprise-grade access to all OpenAI models
+- **OpenRouter** - 50+ additional models through unified API
+- **Ollama** - Local inference for offline translation
+- **Custom Providers** - Any OpenAI-compatible endpoint
+
+**Smart Cost Optimization:** Intelligent legacy model detection alerts you to upgrade opportunities - save up to 99.6% on translation costs (e.g., GPT-4 → GPT-5 Nano: $40.00 → $0.17 per 1M tokens).
 
 ## Advanced Features
 
+- **120+ LLM Models** - Latest GPT-5, Claude 4.5, DeepSeek R1 with smart legacy detection and cost optimization alerts
+- **Legacy Model Detection** - Automatic outdated model alerts with smart upgrade recommendations
+- **Cost Optimization Intelligence** - Pricing comparison dashboard showing savings up to 99.6%
 - Enhanced Translation Dialog with tabbed interface and base language selection
 - Comprehensive error handling with detailed error collection and summary reporting
 - Team-friendly operation with optional comment headers (disabled by default)

@@ -51,13 +51,24 @@
 - **100+ 语言-国家组合：** en_US、fr_FR、ms_MY、zh_CN 等
 - **特殊区域设置：** ja_JP_u_ca_japanese、sr_Latn_BA 等
 
-## 支持的 LLM 提供商
+## 支持的 LLM 提供商（8个提供商的120+模型）
 
-- OpenAI（GPT-3.5-Turbo、GPT-4、GPT-4o、GPT-4-Turbo）
-- Anthropic（Claude-3-Haiku、Claude-3-Sonnet、Claude-3-Opus）
+- **Google Gemini** - gemini-2.5-pro、gemini-2.5-flash（免费层可用）
+- **OpenAI** - GPT-5系列（Nano/Mini/Pro）、GPT-4.1、GPT-4o、GPT-4-Turbo、GPT-3.5-Turbo
+- **Anthropic** - Claude 4.5（Sonnet/Haiku）、Claude Opus 4.1、Claude-3.5系列
+- **DeepSeek** - DeepSeek R1、deepseek-chat、deepseek-reasoner
+- **Azure OpenAI** - 企业级访问所有OpenAI模型
+- **OpenRouter** - 通过统一API访问50+个额外模型
+- **Ollama** - 离线翻译的本地推理
+- **自定义提供商** - 任何OpenAI兼容的端点
+
+**智能成本优化：** 智能旧模型检测会提醒您升级机会 - 最高可节省99.6%的翻译成本（例如：GPT-4 → GPT-5 Nano：每百万token从$40.00降至$0.17）。
 
 ## 高级功能
 
+- **120+ LLM模型** - 最新的GPT-5、Claude 4.5、DeepSeek R1，具有智能旧模型检测和成本优化警报
+- **旧模型检测** - 使用过时模型时自动警报，提供智能升级建议
+- **成本优化智能** - 价格对比仪表板显示高达99.6%的节省
 - 具有选项卡界面和基础语言选择的增强翻译对话框
 - 全面的错误处理，具有详细的错误收集和摘要报告
 - 团队友好操作，可选注释标头（默认禁用）

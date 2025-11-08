@@ -2,6 +2,39 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.1.6 <small>(2025-11-17)</small>
+
+### 🤖 LLM Model Updates
+- **21 New Models Added:** GPT-5 series (Nano/Mini/Pro), GPT-4.1 series, Claude 4.5 (Sonnet/Haiku), Claude Opus 4.1, DeepSeek R1, Phi4, and more across all 8 providers
+- **120+ Total Models:** Comprehensive model coverage from Google Gemini 2.5, OpenAI GPT-5, Anthropic Claude 4.5, DeepSeek, Azure OpenAI, OpenRouter, Ollama, and Custom providers
+- **Smart Cost Optimization:** New models provide better performance at lower costs - GPT-5 Nano offers best value proposition
+
+### 💰 Legacy Model Detection
+- **Automatic Outdated Model Alerts:** Plugin now detects when you're using legacy models and provides smart upgrade recommendations
+- **Cost-Saving Intelligence:** Shows pricing comparisons to help save up to 99.6% on translation costs (e.g., GPT-4 → GPT-5 Nano: $40.00 → $0.17 per 1M tokens)
+- **Pricing Comparison Dashboard:** View current model costs vs. recommended alternatives with detailed savings analysis
+- **Version-based Dismissal:** Dialog won't show again until next plugin update with new model recommendations
+
+### 🔍 OpenRouter Model Browser
+- **300+ Models at Your Fingertips:** New dialog to browse and compare all available OpenRouter models
+- **Real-time Search & Filtering:** Find models by name, provider, or capabilities with instant results
+- **Pricing Intelligence:** Compare input/output token costs across different models
+- **Context Window Info:** View maximum context window sizes for each model
+- **Smart Recommendations:** Models sorted by popularity and value proposition
+
+### ⚡ API Key Setup Improvements
+- **Redesigned Provider Selection:** Clear comparison between free (Gemini) and premium options
+- **Single-Click Setup:** Streamlined workflow with "Setup" button that defaults to recommended Gemini provider
+- **Visual Provider Comparison:** Side-by-side comparison boxes showing features and benefits
+- **All Providers Listed:** Complete list of 8 supported LLM providers displayed upfront
+
+### 🐛 Bug Fixes
+- **LLM Translation Reliability:** Improved error handling and retry logic for more stable translation operations with JSON and XLF files
+- **Configuration Persistence:** Better handling of API key and provider settings across IDE restarts
+- **Framework Detection:** More robust detection of React, Vue, Angular, and Next.js projects
+
+**Professional Pricing Intelligence:** Stay ahead with automatic legacy model detection! The plugin now alerts you when using outdated models and recommends modern alternatives that can save up to 99.6% on costs while delivering better performance!
+
 ## Version 2025.1.5 <small>(2025-11-05)</small>
 
 - **🆓 Freemium Model Launch:** Start free with 1 language at a time, upgrade anytime for unlimited languages and batch translation
