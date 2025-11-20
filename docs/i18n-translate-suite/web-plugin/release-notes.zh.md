@@ -2,10 +2,24 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## 版本 2025.1.7 <small>(2025-11-20)</small>
+
+### 🤖 GPT-5/5.1 完整支持
+- **新增 GPT-5.1 模型：** 与 OpenAI GPT-5.1 完全兼容（零推理令牌 - 最适合翻译）
+- **增强翻译质量：** 改进所有提供商的系统和用户提示词，防止"啰嗦"并确保简洁、准确的翻译
+- **推理令牌优化：** 智能 reasoning_effort 配置 - GPT-5.1 使用 "none"（0 令牌），GPT-5 使用 "minimal"（约 100-200 令牌）
+- **API 兼容性修复：** 更新为使用 max_completion_tokens 并正确处理 GPT-5 系列的温度参数
+- **成本优化：** GPT-5.1 通过消除推理令牌，相比默认 GPT-5 设置提供 60% 的成本节省
+
+### 🔧 技术改进
+- **增加令牌限制：** GPT-5 系列现在使用 16,000 max_completion_tokens 以防止大批量翻译被截断
+- **模型特定配置：** 基于模型能力的智能参数配置
+- **印地语翻译修复：** 解决了 GPT-5 将所有输出令牌用于内部推理而无空间进行翻译的问题
+
 ## 版本 2025.1.6 <small>(2025-11-17)</small>
 
 ### 🤖 LLM 模型更新
-- **新增 21 个模型：** GPT-5 系列（Nano/Mini/Pro）、GPT-4.1 系列、Claude 4.5（Sonnet/Haiku）、Claude Opus 4.1、DeepSeek R1、Phi4 等，覆盖所有 8 个提供商
+- **新增 21 个模型：** GPT-5 系列（Nano/Mini）、GPT-4.1 系列、Claude 4.5（Sonnet/Haiku）、Claude Opus 4.1、DeepSeek R1、Phi4 等，覆盖所有 8 个提供商
 - **120+ 总模型数：** 全面的模型覆盖，包括 Google Gemini 2.5、OpenAI GPT-5、Anthropic Claude 4.5、DeepSeek、Azure OpenAI、OpenRouter、Ollama 和自定义提供商
 - **智能成本优化：** 新模型以更低的成本提供更好的性能 - GPT-5 Nano 提供最佳性价比
 

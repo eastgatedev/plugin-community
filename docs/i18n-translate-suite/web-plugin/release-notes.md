@@ -2,10 +2,24 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.1.7 <small>(2025-11-20)</small>
+
+### 🤖 GPT-5/5.1 Complete Support
+- **GPT-5.1 Model Added:** Full API compatibility with OpenAI GPT-5.1 (zero reasoning tokens - best for translation)
+- **Enhanced Translation Quality:** Improved system and user prompts across ALL providers to prevent "talkativeness" and ensure concise, accurate translations
+- **Reasoning Token Optimization:** Smart reasoning_effort configuration - GPT-5.1 uses "none" (0 tokens), GPT-5 uses "minimal" (~100-200 tokens)
+- **API Compatibility Fixes:** Updated to use max_completion_tokens and proper temperature handling for GPT-5 series
+- **Cost Optimization:** GPT-5.1 provides 60% cost savings compared to default GPT-5 settings through reasoning token elimination
+
+### 🔧 Technical Improvements
+- **Increased Token Limits:** GPT-5 series now uses 16,000 max_completion_tokens to prevent translation cutoff for large batches
+- **Model-Specific Configuration:** Intelligent parameter configuration based on model capabilities
+- **Hindi Translation Fix:** Resolved issue where GPT-5 consumed all output tokens for internal reasoning, leaving no space for translation
+
 ## Version 2025.1.6 <small>(2025-11-17)</small>
 
 ### 🤖 LLM Model Updates
-- **21 New Models Added:** GPT-5 series (Nano/Mini/Pro), GPT-4.1 series, Claude 4.5 (Sonnet/Haiku), Claude Opus 4.1, DeepSeek R1, Phi4, and more across all 8 providers
+- **21 New Models Added:** GPT-5 series (Nano/Mini), GPT-4.1 series, Claude 4.5 (Sonnet/Haiku), Claude Opus 4.1, DeepSeek R1, Phi4, and more across all 8 providers
 - **120+ Total Models:** Comprehensive model coverage from Google Gemini 2.5, OpenAI GPT-5, Anthropic Claude 4.5, DeepSeek, Azure OpenAI, OpenRouter, Ollama, and Custom providers
 - **Smart Cost Optimization:** New models provide better performance at lower costs - GPT-5 Nano offers best value proposition
 

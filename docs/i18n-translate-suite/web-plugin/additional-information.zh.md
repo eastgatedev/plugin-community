@@ -83,7 +83,7 @@
 
 **最新模型：**
 - **Google Gemini：** gemini-2.5-pro、gemini-2.5-flash（⭐ 推荐）、gemini-2.5-flash-lite - 免费层可用
-- **OpenAI（GPT-5 系列）：** gpt-5-nano（💰 最佳性价比）、gpt-5-mini、gpt-5-pro，以及 GPT-4.1 系列
+- **OpenAI（GPT-5 系列）：** gpt-5.1（零推理令牌 - 最适合翻译）、gpt-5-nano（💰 最佳性价比）、gpt-5-mini、gpt-5，以及 GPT-4.1 系列
 - **Anthropic（Claude 4.5）：** claude-4.5-sonnet、claude-4.5-haiku、claude-opus-4.1，以及 Claude-3.5 系列
 - **DeepSeek：** DeepSeek R1、deepseek-chat、deepseek-reasoner
 - **Azure OpenAI：** 企业合规性，完整访问所有 OpenAI 模型

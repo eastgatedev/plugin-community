@@ -83,7 +83,7 @@
 
 **Latest Models:**
 - **Google Gemini:** gemini-2.5-pro, gemini-2.5-flash (⭐ recommended), gemini-2.5-flash-lite - Free tier available
-- **OpenAI (GPT-5 Series):** gpt-5-nano (💰 best value), gpt-5-mini, gpt-5-pro, plus GPT-4.1 series
+- **OpenAI (GPT-5 Series):** gpt-5.1 (zero reasoning tokens - best for translation), gpt-5-nano (💰 best value), gpt-5-mini, gpt-5, plus GPT-4.1 series
 - **Anthropic (Claude 4.5):** claude-4.5-sonnet, claude-4.5-haiku, claude-opus-4.1, plus Claude-3.5 series
 - **DeepSeek:** DeepSeek R1, deepseek-chat, deepseek-reasoner
 - **Azure OpenAI:** Enterprise compliance with complete OpenAI model access

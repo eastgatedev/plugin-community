@@ -1,8 +1,8 @@
 # WCAG Accessibility Compliance Report
 ## Neumorphism Theme Collection for IntelliJ Platform
 
-**Report Date**: 2025-10-06
-**Plugin Version**: 2025.1.0
+**Report Date**: 2025-11-16
+**Plugin Version**: 2025.1.12
 **WCAG Compliance Level**: AA ✅
 **Validation Tool**: Custom WCAG Validator 2.1
 **Themes Tested**: 11 (3 Free + 8 Premium)
@@ -21,7 +21,7 @@
 - **Total Themes Tested**: 11
 - **Total Color Combinations**: 187 (18 tests × 11 themes)
 - **WCAG AA Pass Rate**: 100.0% (187/187) ✅
-- **WCAG AAA Pass Rate**: 50.8% (95/187)
+- **WCAG AAA Pass Rate**: 51.3% (96/187)
 - **Certification Level**: **WCAG AA Certified** ✅
 
 ### Theme Compliance Overview
@@ -613,25 +613,25 @@ Sample colors from this theme:
 </tr>
 <tr>
 <td><strong>vcs added on neumorphic bg</strong></td>
-<td><span style="display:inline-block;width:40px;height:24px;background-color:#22c55e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#22c55e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
-<td><img src="images/wcag-previews/preview-22c55e-on-0f1419.png" alt="neumorphic_vcs_added on neumorphic_bg" height="70"/></td>
-<td><img src="images/progress-bars/progress-8-12.png" alt="8.12:1" height="24"/><br/>Req: 4.5:1</td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#34d399;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#34d399</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><img src="images/wcag-previews/preview-34d399-on-0f1419.png" alt="neumorphic_vcs_added on neumorphic_bg" height="70"/></td>
+<td><img src="images/progress-bars/progress-9-63.png" alt="9.63:1" height="24"/><br/>Req: 4.5:1</td>
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
 <tr>
 <td><strong>vcs modified on neumorphic bg</strong></td>
-<td><span style="display:inline-block;width:40px;height:24px;background-color:#3b82f6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#3b82f6</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
-<td><img src="images/wcag-previews/preview-3b82f6-on-0f1419.png" alt="neumorphic_vcs_modified on neumorphic_bg" height="70"/></td>
-<td><img src="images/progress-bars/progress-5-03.png" alt="5.03:1" height="24"/><br/>Req: 4.5:1</td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#60a5fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#60a5fa</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><img src="images/wcag-previews/preview-60a5fa-on-0f1419.png" alt="neumorphic_vcs_modified on neumorphic_bg" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-28.png" alt="7.28:1" height="24"/><br/>Req: 4.5:1</td>
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
 <tr>
 <td><strong>vcs deleted on neumorphic bg</strong></td>
-<td><span style="display:inline-block;width:40px;height:24px;background-color:#ef4444;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ef4444</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
-<td><img src="images/wcag-previews/preview-ef4444-on-0f1419.png" alt="neumorphic_vcs_deleted on neumorphic_bg" height="70"/></td>
-<td><img src="images/progress-bars/progress-4-92.png" alt="4.92:1" height="24"/><br/>Req: 4.5:1</td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f87171;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f87171</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f1419;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f1419</code></td>
+<td><img src="images/wcag-previews/preview-f87171-on-0f1419.png" alt="neumorphic_vcs_deleted on neumorphic_bg" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-69.png" alt="6.69:1" height="24"/><br/>Req: 4.5:1</td>
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
@@ -687,7 +687,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 10 tests exceed WCAG AAA (7:1) threshold
+- 11 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -2502,8 +2502,8 @@ node wcag/wcag-validator.js
 
 ---
 
-**Last Updated**: 2025-10-06
-**Plugin Version**: 2025.1.0
+**Last Updated**: 2025-11-16
+**Plugin Version**: 2025.1.12
 **WCAG Validator Version**: 2.1
 **Report Format**: Markdown (GitHub-flavored)
 
