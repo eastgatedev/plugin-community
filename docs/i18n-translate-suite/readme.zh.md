@@ -61,11 +61,22 @@ SEO 中文元标签 - 搜索引擎和社交媒体优化
 
 ## 🎯 最新功能与成本优化
 
-### 跨 8 个提供商的 120+ LLM 模型
-通过我们扩展的模型支持，包括 GPT-5 系列、Claude 4.5、DeepSeek R1 和 Phi4，**最高可节省 99.6% 的翻译成本**。
+### 🌐 插件界面国际化（全新！）
+**插件界面现已支持多语言** - 自动跟随您的 IDE 语言设置：
+- **简体中文** (Chinese Simplified)
+- **韩语** (한국어)
+- **日语** (日本語)
+- **印尼语** (Bahasa Indonesia)
 
-**新功能：**
-- **21 个新模型：** GPT-5 Nano/Mini/Pro、GPT-4.1 系列、Claude 4.5（Sonnet/Haiku）、Claude Opus 4.1、DeepSeek R1、Phi4
+所有对话框、消息、工具提示和模型显示名称均已本地化。无需手动配置！
+
+### 跨 8 个提供商的 120+ LLM 模型
+通过我们扩展的模型支持，包括 GPT-5.2、Claude Opus 4.5 等，**最高可节省 99.6% 的翻译成本**。
+
+**最新模型（2026 年 1 月）：**
+- **OpenAI：** GPT-5.2、GPT-5.2 Pro、O3、GPT-5.1、GPT-5 Nano/Mini/Pro
+- **Anthropic：** Claude Opus 4.5（最强大）、Claude Opus 4、Claude Sonnet 4、Claude Haiku 3.5（最具成本效益）
+- **Google Gemini：** Gemini 2.5 Flash（免费）、Gemini 2.5 Pro
 - **智能旧模型检测：** 使用过时模型时自动警报，提供智能升级建议
 - **成本智能仪表板：** 查看价格对比，显示高达 99.6% 的潜在节省
 - **最佳性价比：GPT-5 Nano** - 每百万 token $0.17 的专业翻译，而 GPT-4 为 $40.00

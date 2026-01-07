@@ -61,11 +61,22 @@ Transform your internationalization workflow with **automated translation** usin
 
 ## 🎯 Latest Features & Cost Optimization
 
-### 120+ LLM Models Across 8 Providers
-**Save up to 99.6% on translation costs** with our expanded model support including GPT-5 series, Claude 4.5, DeepSeek R1, and Phi4.
+### 🌐 Plugin UI Internationalization (NEW!)
+**The plugin UI now supports multiple languages** - automatically follows your IDE's language setting:
+- **Chinese Simplified** (简体中文)
+- **Korean** (한국어)
+- **Japanese** (日本語)
+- **Indonesian** (Bahasa Indonesia)
 
-**New Features:**
-- **21 New Models:** GPT-5 Nano/Mini/Pro, GPT-4.1 series, Claude 4.5 (Sonnet/Haiku), Claude Opus 4.1, DeepSeek R1, Phi4
+All dialogs, messages, tooltips, and model display names are now localized. No manual configuration needed!
+
+### 120+ LLM Models Across 8 Providers
+**Save up to 99.6% on translation costs** with our expanded model support including GPT-5.2, Claude Opus 4.5, and more.
+
+**Latest Models (January 2026):**
+- **OpenAI:** GPT-5.2, GPT-5.2 Pro, O3, GPT-5.1, GPT-5 Nano/Mini/Pro
+- **Anthropic:** Claude Opus 4.5 (Most Capable), Claude Opus 4, Claude Sonnet 4, Claude Haiku 3.5 (Most Cost-Efficient)
+- **Google Gemini:** Gemini 2.5 Flash (FREE), Gemini 2.5 Pro
 - **Smart Legacy Detection:** Automatic alerts when using outdated models with intelligent upgrade recommendations
 - **Cost Intelligence Dashboard:** View pricing comparisons showing potential savings up to 99.6%
 - **Best Value: GPT-5 Nano** - Professional translations at $0.17 per 1M tokens vs GPT-4 at $40.00

@@ -2,6 +2,21 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.1.10 <small>(2026-01-07)</small>
+
+### 🌐 Plugin UI Internationalization
+- **Multi-Language Support:** Plugin UI now available in Chinese Simplified, Korean, Japanese, and Indonesian
+- **Automatic Detection:** Follows your IDE's language setting automatically
+- **Complete Coverage:** All dialogs, messages, tooltips, and model display names are localized
+
+### 🤖 Latest LLM Models
+- **OpenAI:** Added GPT-5.2, GPT-5.2 Pro (Premium), O3 (Reasoning)
+- **Anthropic:** Added Claude Opus 4.5 (Most Capable), Claude Opus 4, Claude Sonnet 4, Claude Haiku 3.5 (Most Cost-Efficient)
+- **New Default:** Changed Anthropic default model to claude-haiku-3-5 for 20% cost savings
+
+### 🐛 Bug Fixes
+- Minor bug fixes and improvements
+
 ## Version 2025.1.9 <small>(2025-11-20)</small>
 
 ### 🤖 GPT-5/5.1 Complete Support

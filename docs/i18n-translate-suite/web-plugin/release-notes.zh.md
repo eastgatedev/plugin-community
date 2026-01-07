@@ -2,6 +2,21 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## 版本 2025.1.8 <small>(2026-01-07)</small>
+
+### 🌐 插件界面国际化
+- **多语言支持：** 插件界面现已支持简体中文、韩语、日语和印尼语
+- **自动检测：** 自动跟随您的 IDE 语言设置
+- **完整覆盖：** 所有对话框、消息、工具提示和模型显示名称均已本地化
+
+### 🤖 最新 LLM 模型
+- **OpenAI：** 新增 GPT-5.2、GPT-5.2 Pro（高级版）、O3（推理模型）
+- **Anthropic：** 新增 Claude Opus 4.5（最强大）、Claude Opus 4、Claude Sonnet 4、Claude Haiku 3.5（最具成本效益）
+- **新默认值：** Anthropic 默认模型更改为 claude-haiku-3-5，节省 20% 成本
+
+### 🐛 错误修复
+- 小错误修复和改进
+
 ## 版本 2025.1.7 <small>(2025-11-20)</small>
 
 ### 🤖 GPT-5/5.1 完整支持
