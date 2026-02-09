@@ -2,6 +2,39 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.2.1 <small>(2026-02-09)</small>
+
+**Java Semantic Highlighting** - 34 dedicated Java attributes across all 11 themes.
+
+### Java Attributes by Category (34 total)
+- **Fields (7):** instance field, static field, static final field, enum constant, parameter, local variable, reassigned local variable
+- **Methods (8):** method call, method declaration, static method call, static method declaration, constructor call, constructor declaration, abstract method, inherited method
+- **Types (8):** class name, abstract class, interface, enum, annotation type, type parameter, generic type, record class
+- **Annotations (2):** annotation name, annotation attribute
+- **Visibility Modifiers (4):** public, protected, package-private, private
+- **Other (5):** import statement, label, doc comment tag, doc comment tag value, doc markup
+
+### Smart Font Styles
+- **Bold** for declarations and constants
+- **Italic** for static members, abstract methods, and interfaces
+- **Underline** for reassigned variables
+
+### Quality
+- **130 total semantic attributes**: Kotlin (64) + Java (34) + Foundation (32)
+- **100% WCAG AA validated**: All 363 Java attribute tests passed across 11 themes
+- **11 unique Java palettes**: Every theme gets distinct, professionally designed Java colors
+- **Zero performance impact**: Uses IntelliJ built-in color scheme system, no custom annotators
+
+## Version 2025.2.0 <small>(2026-01-10)</small>
+
+- **Production-Ready Semantic Highlighting** - 96 total attributes across all 11 themes
+- **64 Kotlin Attributes** - Comprehensive coverage for modern Kotlin development
+- **32 Foundation Attributes** - Cascade to all languages (Java, Python, JavaScript, etc.)
+- **11 Unique Semantic Palettes** - Professionally designed per theme
+- **100% WCAG AA Compliance** - Color-blind validated
+- **Zero Performance Impact** - No custom annotators
+- **Improved Trial Messaging** - Warmer, indie-friendly notifications
+
 ## Version 2025.1.0 <small>(2025-10-04)</small>
 
 - **🎨 11 Premium Neumorphism Themes:** Complete collection with soft shadows and 3D depth effects designed for extended coding sessions

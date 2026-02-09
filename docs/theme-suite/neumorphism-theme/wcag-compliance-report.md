@@ -1,8 +1,8 @@
 # WCAG Accessibility Compliance Report
 ## Neumorphism Theme Collection for IntelliJ Platform
 
-**Report Date**: 2025-11-16
-**Plugin Version**: 2025.1.12
+**Report Date**: 2026-02-09
+**Plugin Version**: 2025.2.1
 **WCAG Compliance Level**: AA ✅
 **Validation Tool**: Custom WCAG Validator 2.1
 **Themes Tested**: 11 (3 Free + 8 Premium)
@@ -19,34 +19,34 @@
 ### Overall Compliance Summary
 
 - **Total Themes Tested**: 11
-- **Total Color Combinations**: 187 (18 tests × 11 themes)
-- **WCAG AA Pass Rate**: 100.0% (187/187) ✅
-- **WCAG AAA Pass Rate**: 51.3% (96/187)
+- **Total Color Combinations**: 363 (18 tests × 11 themes)
+- **WCAG AA Pass Rate**: 100.0% (363/363) ✅
+- **WCAG AAA Pass Rate**: 50.4% (183/363)
 - **Certification Level**: **WCAG AA Certified** ✅
 
 ### Theme Compliance Overview
 
-**🎨 [Neumorphism Arctic Frost (Pro)](#neumorphism-arctic-frost-pro)** (Premium): 100.0% - 17/17 tests passed - WCAG Level AA ✅
+**🎨 [Neumorphism Arctic Frost (Pro)](#neumorphism-arctic-frost-pro)** (Premium): 100.0% - 33/33 tests passed - WCAG Level AA ✅
 
-**🎨 [Neumorphism Classic+](#neumorphism-classic+)** (Premium): 100.0% - 17/17 tests passed - WCAG Level AA ✅
+**🎨 [Neumorphism Classic+](#neumorphism-classic+)** (Premium): 100.0% - 33/33 tests passed - WCAG Level AA ✅
 
-**🎨 [Neumorphism Deep Space](#neumorphism-deep-space)** (Premium): 100.0% - 17/17 tests passed - WCAG Level AA ✅
+**🎨 [Neumorphism Deep Space](#neumorphism-deep-space)** (Premium): 100.0% - 33/33 tests passed - WCAG Level AA ✅
 
-**🎨 [Neumorphism Forest (Pro)](#neumorphism-forest-pro)** (Premium): 100.0% - 17/17 tests passed - WCAG Level AA ✅
+**🎨 [Neumorphism Forest (Pro)](#neumorphism-forest-pro)** (Premium): 100.0% - 33/33 tests passed - WCAG Level AA ✅
 
-**🎨 [Neumorphism Lavender (Pro)](#neumorphism-lavender-pro)** (Premium): 100.0% - 17/17 tests passed - WCAG Level AA ✅
+**🎨 [Neumorphism Lavender (Pro)](#neumorphism-lavender-pro)** (Premium): 100.0% - 33/33 tests passed - WCAG Level AA ✅
 
-**🎨 [Neumorphism Midnight (Pro)](#neumorphism-midnight-pro)** (Premium): 100.0% - 17/17 tests passed - WCAG Level AA ✅
+**🎨 [Neumorphism Midnight (Pro)](#neumorphism-midnight-pro)** (Premium): 100.0% - 33/33 tests passed - WCAG Level AA ✅
 
-**🎨 [Neumorphism Ocean Breeze](#neumorphism-ocean-breeze)** (Premium): 100.0% - 17/17 tests passed - WCAG Level AA ✅
+**🎨 [Neumorphism Ocean Breeze](#neumorphism-ocean-breeze)** (Premium): 100.0% - 33/33 tests passed - WCAG Level AA ✅
 
-**🎨 [Neumorphism Recording Studio (Pro)](#neumorphism-recording-studio-pro)** (Premium): 100.0% - 17/17 tests passed - WCAG Level AA ✅
+**🎨 [Neumorphism Recording Studio (Pro)](#neumorphism-recording-studio-pro)** (Premium): 100.0% - 33/33 tests passed - WCAG Level AA ✅
 
-**🎨 [Neumorphism Recording Studio Live (Pro)](#neumorphism-recording-studio-live-pro)** (Premium): 100.0% - 17/17 tests passed - WCAG Level AA ✅
+**🎨 [Neumorphism Recording Studio Live (Pro)](#neumorphism-recording-studio-live-pro)** (Premium): 100.0% - 33/33 tests passed - WCAG Level AA ✅
 
-**🎨 [Neumorphism Rose Gold (Pro)](#neumorphism-rose-gold-pro)** (Premium): 100.0% - 17/17 tests passed - WCAG Level AA ✅
+**🎨 [Neumorphism Rose Gold (Pro)](#neumorphism-rose-gold-pro)** (Premium): 100.0% - 33/33 tests passed - WCAG Level AA ✅
 
-**🎨 [Neumorphism Sunset (Pro)](#neumorphism-sunset-pro)** (Premium): 100.0% - 17/17 tests passed - WCAG Level AA ✅
+**🎨 [Neumorphism Sunset (Pro)](#neumorphism-sunset-pro)** (Premium): 100.0% - 33/33 tests passed - WCAG Level AA ✅
 
 
 
@@ -57,7 +57,7 @@
 ### 🎨 Neumorphism Arctic Frost (Pro) {#neumorphism-arctic-frost-pro}
 
 **Compliance Status**: ✅ WCAG AA Certified
-**Test Results**: 17/17 passed (100.0%)
+**Test Results**: 33/33 passed (100.0%)
 
 #### Contrast Ratio Test Results
 
@@ -209,6 +209,134 @@
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
+<tr>
+<td><strong>semantic keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#2563eb;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#2563eb</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-2563eb-on-ffffff.png" alt="neumorphic_semantic_keyword on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-17.png" alt="5.17:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic function on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#047857;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#047857</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-047857-on-ffffff.png" alt="neumorphic_semantic_function on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-48.png" alt="5.48:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#7c3aed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#7c3aed</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-7c3aed-on-ffffff.png" alt="neumorphic_semantic_type on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-70.png" alt="5.70:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0f766e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f766e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-0f766e-on-ffffff.png" alt="neumorphic_semantic_string on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-47.png" alt="5.47:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-c2410c-on-ffffff.png" alt="neumorphic_semantic_number on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-18.png" alt="5.18:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic annotation on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-b45309-on-ffffff.png" alt="neumorphic_semantic_annotation on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic variable on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1e293b-on-ffffff.png" alt="neumorphic_semantic_variable on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-14-63.png" alt="14.63:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic constant on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#2563eb;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#2563eb</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-2563eb-on-ffffff.png" alt="neumorphic_semantic_constant on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-17.png" alt="5.17:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic instance on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e40af;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e40af</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1e40af-on-ffffff.png" alt="neumorphic_semantic_instance on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-8-72.png" alt="8.72:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1d4ed8-on-ffffff.png" alt="neumorphic_semantic_operator on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-70.png" alt="6.70:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1e293b-on-ffffff.png" alt="neumorphic_semantic_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-14-63.png" alt="14.63:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#7c3aed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#7c3aed</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-7c3aed-on-ffffff.png" alt="neumorphic_semantic_type_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-70.png" alt="5.70:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic property on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#475569</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-475569-on-ffffff.png" alt="neumorphic_semantic_property on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-58.png" alt="7.58:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#64748b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#64748b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-64748b-on-ffffff.png" alt="neumorphic_semantic_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-76.png" alt="4.76:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic doc comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#475569</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-475569-on-ffffff.png" alt="neumorphic_semantic_doc_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-58.png" alt="7.58:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic danger on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-b91c1c-on-ffffff.png" alt="neumorphic_semantic_danger on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-47.png" alt="6.47:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
 </tbody>
 </table>
 
@@ -261,7 +389,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 8 tests exceed WCAG AAA (7:1) threshold
+- 13 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -270,7 +398,7 @@ Sample colors from this theme:
 ### 🎨 Neumorphism Classic+ {#neumorphism-classic+}
 
 **Compliance Status**: ✅ WCAG AA Certified
-**Test Results**: 17/17 passed (100.0%)
+**Test Results**: 33/33 passed (100.0%)
 
 #### Contrast Ratio Test Results
 
@@ -422,6 +550,134 @@ Sample colors from this theme:
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
+<tr>
+<td><strong>semantic keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1d4ed8-on-ffffff.png" alt="neumorphic_semantic_keyword on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-70.png" alt="6.70:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic function on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0f766e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f766e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-0f766e-on-ffffff.png" alt="neumorphic_semantic_function on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-47.png" alt="5.47:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#7c3aed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#7c3aed</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-7c3aed-on-ffffff.png" alt="neumorphic_semantic_type on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-70.png" alt="5.70:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#15803d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#15803d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-15803d-on-ffffff.png" alt="neumorphic_semantic_string on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-b91c1c-on-ffffff.png" alt="neumorphic_semantic_number on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-47.png" alt="6.47:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic annotation on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-a16207-on-ffffff.png" alt="neumorphic_semantic_annotation on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-92.png" alt="4.92:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic variable on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1f2937</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1f2937-on-ffffff.png" alt="neumorphic_semantic_variable on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-14-68.png" alt="14.68:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic constant on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1d4ed8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1d4ed8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1d4ed8-on-ffffff.png" alt="neumorphic_semantic_constant on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-70.png" alt="6.70:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic instance on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#475569</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-475569-on-ffffff.png" alt="neumorphic_semantic_instance on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-58.png" alt="7.58:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e3a8a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e3a8a</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1e3a8a-on-ffffff.png" alt="neumorphic_semantic_operator on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-10-36.png" alt="10.36:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1f2937</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1f2937-on-ffffff.png" alt="neumorphic_semantic_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-14-68.png" alt="14.68:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#7c3aed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#7c3aed</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-7c3aed-on-ffffff.png" alt="neumorphic_semantic_type_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-70.png" alt="5.70:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic property on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#374151;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#374151</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-374151-on-ffffff.png" alt="neumorphic_semantic_property on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-10-31.png" alt="10.31:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#6c757d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#6c757d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-6c757d-on-ffffff.png" alt="neumorphic_semantic_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-69.png" alt="4.69:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic doc comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#495057;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#495057</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-495057-on-ffffff.png" alt="neumorphic_semantic_doc_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-8-18.png" alt="8.18:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic danger on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-b91c1c-on-ffffff.png" alt="neumorphic_semantic_danger on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-47.png" alt="6.47:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
 </tbody>
 </table>
 
@@ -474,7 +730,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 7 tests exceed WCAG AAA (7:1) threshold
+- 13 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -483,7 +739,7 @@ Sample colors from this theme:
 ### 🎨 Neumorphism Deep Space {#neumorphism-deep-space}
 
 **Compliance Status**: ✅ WCAG AA Certified
-**Test Results**: 17/17 passed (100.0%)
+**Test Results**: 33/33 passed (100.0%)
 
 #### Contrast Ratio Test Results
 
@@ -635,6 +891,134 @@ Sample colors from this theme:
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
+<tr>
+<td><strong>semantic keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#60a5fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#60a5fa</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-60a5fa-on-0b0e14.png" alt="neumorphic_semantic_keyword on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-60.png" alt="7.60:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic function on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#22d3ee;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#22d3ee</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-22d3ee-on-0b0e14.png" alt="neumorphic_semantic_function on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-10-69.png" alt="10.69:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a78bfa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a78bfa</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-a78bfa-on-0b0e14.png" alt="neumorphic_semantic_type on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-10.png" alt="7.10:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fbbf24;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fbbf24</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-fbbf24-on-0b0e14.png" alt="neumorphic_semantic_string on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-11-57.png" alt="11.57:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fb923c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fb923c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-fb923c-on-0b0e14.png" alt="neumorphic_semantic_number on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-8-53.png" alt="8.53:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic annotation on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#facc15;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#facc15</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-facc15-on-0b0e14.png" alt="neumorphic_semantic_annotation on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-12-61.png" alt="12.61:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic variable on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#e2e8f0;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e2e8f0</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-e2e8f0-on-0b0e14.png" alt="neumorphic_semantic_variable on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-15-67.png" alt="15.67:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic constant on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#60a5fa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#60a5fa</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-60a5fa-on-0b0e14.png" alt="neumorphic_semantic_constant on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-60.png" alt="7.60:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic instance on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fbbf24;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fbbf24</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-fbbf24-on-0b0e14.png" alt="neumorphic_semantic_instance on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-11-57.png" alt="11.57:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f472b6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f472b6</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-f472b6-on-0b0e14.png" alt="neumorphic_semantic_operator on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-29.png" alt="7.29:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#e2e8f0;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e2e8f0</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-e2e8f0-on-0b0e14.png" alt="neumorphic_semantic_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-15-67.png" alt="15.67:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c4b5fd;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c4b5fd</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-c4b5fd-on-0b0e14.png" alt="neumorphic_semantic_type_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-10-46.png" alt="10.46:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic property on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#facc15;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#facc15</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-facc15-on-0b0e14.png" alt="neumorphic_semantic_property on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-12-61.png" alt="12.61:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#748291;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#748291</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-748291-on-0b0e14.png" alt="neumorphic_semantic_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-92.png" alt="4.92:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic doc comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#748291;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#748291</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-748291-on-0b0e14.png" alt="neumorphic_semantic_doc_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-92.png" alt="4.92:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic danger on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f87171;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f87171</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0b0e14;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0b0e14</code></td>
+<td><img src="images/wcag-previews/preview-f87171-on-0b0e14.png" alt="neumorphic_semantic_danger on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-98.png" alt="6.98:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
 </tbody>
 </table>
 
@@ -687,7 +1071,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 11 tests exceed WCAG AAA (7:1) threshold
+- 24 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -696,7 +1080,7 @@ Sample colors from this theme:
 ### 🎨 Neumorphism Forest (Pro) {#neumorphism-forest-pro}
 
 **Compliance Status**: ✅ WCAG AA Certified
-**Test Results**: 17/17 passed (100.0%)
+**Test Results**: 33/33 passed (100.0%)
 
 #### Contrast Ratio Test Results
 
@@ -848,6 +1232,134 @@ Sample colors from this theme:
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
+<tr>
+<td><strong>semantic keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#15803d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#15803d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-15803d-on-ffffff.png" alt="neumorphic_semantic_keyword on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic function on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-c2410c-on-ffffff.png" alt="neumorphic_semantic_function on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-18.png" alt="5.18:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#6d28d9;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#6d28d9</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-6d28d9-on-ffffff.png" alt="neumorphic_semantic_type on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-10.png" alt="7.10:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#166534;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#166534</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-166534-on-ffffff.png" alt="neumorphic_semantic_string on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-13.png" alt="7.13:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-b45309-on-ffffff.png" alt="neumorphic_semantic_number on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic annotation on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-a16207-on-ffffff.png" alt="neumorphic_semantic_annotation on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-92.png" alt="4.92:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic variable on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-14532d-on-ffffff.png" alt="neumorphic_semantic_variable on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-9-11.png" alt="9.11:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic constant on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#15803d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#15803d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-15803d-on-ffffff.png" alt="neumorphic_semantic_constant on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic instance on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#047857;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#047857</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-047857-on-ffffff.png" alt="neumorphic_semantic_instance on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-48.png" alt="5.48:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#065f46;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#065f46</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-065f46-on-ffffff.png" alt="neumorphic_semantic_operator on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-68.png" alt="7.68:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#14532d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#14532d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-14532d-on-ffffff.png" alt="neumorphic_semantic_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-9-11.png" alt="9.11:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#7c3aed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#7c3aed</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-7c3aed-on-ffffff.png" alt="neumorphic_semantic_type_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-70.png" alt="5.70:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic property on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#44403c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#44403c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-44403c-on-ffffff.png" alt="neumorphic_semantic_property on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-10-27.png" alt="10.27:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-ffffff.png" alt="neumorphic_semantic_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-56.png" alt="7.56:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic doc comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-ffffff.png" alt="neumorphic_semantic_doc_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-56.png" alt="7.56:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic danger on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-b91c1c-on-ffffff.png" alt="neumorphic_semantic_danger on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-47.png" alt="6.47:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
 </tbody>
 </table>
 
@@ -895,7 +1407,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 7 tests exceed WCAG AAA (7:1) threshold
+- 15 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -904,7 +1416,7 @@ Sample colors from this theme:
 ### 🎨 Neumorphism Lavender (Pro) {#neumorphism-lavender-pro}
 
 **Compliance Status**: ✅ WCAG AA Certified
-**Test Results**: 17/17 passed (100.0%)
+**Test Results**: 33/33 passed (100.0%)
 
 #### Contrast Ratio Test Results
 
@@ -1056,6 +1568,134 @@ Sample colors from this theme:
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
+<tr>
+<td><strong>semantic keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#7c3aed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#7c3aed</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-7c3aed-on-fefefe.png" alt="neumorphic_semantic_keyword on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-65.png" alt="5.65:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic function on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#2563eb;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#2563eb</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-2563eb-on-fefefe.png" alt="neumorphic_semantic_function on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-12.png" alt="5.12:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#6d28d9;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#6d28d9</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-6d28d9-on-fefefe.png" alt="neumorphic_semantic_type on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-04.png" alt="7.04:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#be185d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#be185d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-be185d-on-fefefe.png" alt="neumorphic_semantic_string on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-99.png" alt="5.99:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-c2410c-on-fefefe.png" alt="neumorphic_semantic_number on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-13.png" alt="5.13:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic annotation on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-a16207-on-fefefe.png" alt="neumorphic_semantic_annotation on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-88.png" alt="4.88:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic variable on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1f2937</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-1f2937-on-fefefe.png" alt="neumorphic_semantic_variable on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-14-55.png" alt="14.55:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic constant on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4f46e5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4f46e5</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-4f46e5-on-fefefe.png" alt="neumorphic_semantic_constant on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-23.png" alt="6.23:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic instance on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0f766e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f766e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-0f766e-on-fefefe.png" alt="neumorphic_semantic_instance on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-43.png" alt="5.43:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#5b21b6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#5b21b6</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-5b21b6-on-fefefe.png" alt="neumorphic_semantic_operator on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-8-91.png" alt="8.91:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1f2937</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-1f2937-on-fefefe.png" alt="neumorphic_semantic_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-14-55.png" alt="14.55:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#7c3aed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#7c3aed</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-7c3aed-on-fefefe.png" alt="neumorphic_semantic_type_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-65.png" alt="5.65:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic property on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-fefefe.png" alt="neumorphic_semantic_property on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-49.png" alt="7.49:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-fefefe.png" alt="neumorphic_semantic_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-49.png" alt="7.49:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic doc comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-fefefe.png" alt="neumorphic_semantic_doc_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-49.png" alt="7.49:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic danger on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-b91c1c-on-fefefe.png" alt="neumorphic_semantic_danger on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-42.png" alt="6.42:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
 </tbody>
 </table>
 
@@ -1108,7 +1748,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 7 tests exceed WCAG AAA (7:1) threshold
+- 14 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -1117,7 +1757,7 @@ Sample colors from this theme:
 ### 🎨 Neumorphism Midnight (Pro) {#neumorphism-midnight-pro}
 
 **Compliance Status**: ✅ WCAG AA Certified
-**Test Results**: 17/17 passed (100.0%)
+**Test Results**: 33/33 passed (100.0%)
 
 #### Contrast Ratio Test Results
 
@@ -1269,6 +1909,134 @@ Sample colors from this theme:
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
+<tr>
+<td><strong>semantic keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a78bfa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a78bfa</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-a78bfa-on-000000.png" alt="neumorphic_semantic_keyword on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-72.png" alt="7.72:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic function on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#22d3ee;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#22d3ee</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-22d3ee-on-000000.png" alt="neumorphic_semantic_function on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-11-62.png" alt="11.62:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c4b5fd;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c4b5fd</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-c4b5fd-on-000000.png" alt="neumorphic_semantic_type on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-11-38.png" alt="11.38:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fbbf24;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fbbf24</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-fbbf24-on-000000.png" alt="neumorphic_semantic_string on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-12-58.png" alt="12.58:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fb923c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fb923c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-fb923c-on-000000.png" alt="neumorphic_semantic_number on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-9-28.png" alt="9.28:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic annotation on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#facc15;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#facc15</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-facc15-on-000000.png" alt="neumorphic_semantic_annotation on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-13-71.png" alt="13.71:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic variable on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#e2e8f0;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e2e8f0</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-e2e8f0-on-000000.png" alt="neumorphic_semantic_variable on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-17-03.png" alt="17.03:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic constant on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a78bfa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a78bfa</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-a78bfa-on-000000.png" alt="neumorphic_semantic_constant on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-72.png" alt="7.72:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic instance on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f472b6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f472b6</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-f472b6-on-000000.png" alt="neumorphic_semantic_instance on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-93.png" alt="7.93:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#38bdf8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#38bdf8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-38bdf8-on-000000.png" alt="neumorphic_semantic_operator on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-9-80.png" alt="9.80:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#e2e8f0;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#e2e8f0</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-e2e8f0-on-000000.png" alt="neumorphic_semantic_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-17-03.png" alt="17.03:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f0abfc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f0abfc</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-f0abfc-on-000000.png" alt="neumorphic_semantic_type_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-11-94.png" alt="11.94:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic property on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#cbd5e1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#cbd5e1</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-cbd5e1-on-000000.png" alt="neumorphic_semantic_property on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-14-14.png" alt="14.14:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#68788f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#68788f</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-68788f-on-000000.png" alt="neumorphic_semantic_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-67.png" alt="4.67:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic doc comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#68788f;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#68788f</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-68788f-on-000000.png" alt="neumorphic_semantic_doc_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-67.png" alt="4.67:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic danger on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f87171;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f87171</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#000000;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#000000</code></td>
+<td><img src="images/wcag-previews/preview-f87171-on-000000.png" alt="neumorphic_semantic_danger on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-59.png" alt="7.59:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
 </tbody>
 </table>
 
@@ -1321,7 +2089,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 16 tests exceed WCAG AAA (7:1) threshold
+- 30 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -1330,7 +2098,7 @@ Sample colors from this theme:
 ### 🎨 Neumorphism Ocean Breeze {#neumorphism-ocean-breeze}
 
 **Compliance Status**: ✅ WCAG AA Certified
-**Test Results**: 17/17 passed (100.0%)
+**Test Results**: 33/33 passed (100.0%)
 
 #### Contrast Ratio Test Results
 
@@ -1482,6 +2250,134 @@ Sample colors from this theme:
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
+<tr>
+<td><strong>semantic keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0369a1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0369a1</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-0369a1-on-fefefe.png" alt="neumorphic_semantic_keyword on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-88.png" alt="5.88:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic function on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-c2410c-on-fefefe.png" alt="neumorphic_semantic_function on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-13.png" alt="5.13:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#9333ea;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#9333ea</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-9333ea-on-fefefe.png" alt="neumorphic_semantic_type on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-34.png" alt="5.34:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#15803d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#15803d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-15803d-on-fefefe.png" alt="neumorphic_semantic_string on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-97.png" alt="4.97:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-c2410c-on-fefefe.png" alt="neumorphic_semantic_number on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-13.png" alt="5.13:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic annotation on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-b45309-on-fefefe.png" alt="neumorphic_semantic_annotation on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-98.png" alt="4.98:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic variable on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#334155;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#334155</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-334155-on-fefefe.png" alt="neumorphic_semantic_variable on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-10-27.png" alt="10.27:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic constant on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#9333ea;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#9333ea</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-9333ea-on-fefefe.png" alt="neumorphic_semantic_constant on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-34.png" alt="5.34:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic instance on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0e7490;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0e7490</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-0e7490-on-fefefe.png" alt="neumorphic_semantic_instance on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-31.png" alt="5.31:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0369a1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0369a1</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-0369a1-on-fefefe.png" alt="neumorphic_semantic_operator on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-88.png" alt="5.88:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0c4a6e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0c4a6e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-0c4a6e-on-fefefe.png" alt="neumorphic_semantic_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-9-38.png" alt="9.38:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#9333ea;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#9333ea</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-9333ea-on-fefefe.png" alt="neumorphic_semantic_type_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-34.png" alt="5.34:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic property on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#334155;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#334155</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-334155-on-fefefe.png" alt="neumorphic_semantic_property on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-10-27.png" alt="10.27:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-fefefe.png" alt="neumorphic_semantic_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-49.png" alt="7.49:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic doc comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-fefefe.png" alt="neumorphic_semantic_doc_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-49.png" alt="7.49:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic danger on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fefefe;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fefefe</code></td>
+<td><img src="images/wcag-previews/preview-b91c1c-on-fefefe.png" alt="neumorphic_semantic_danger on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-42.png" alt="6.42:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
 </tbody>
 </table>
 
@@ -1534,7 +2430,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 6 tests exceed WCAG AAA (7:1) threshold
+- 11 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -1543,7 +2439,7 @@ Sample colors from this theme:
 ### 🎨 Neumorphism Recording Studio (Pro) {#neumorphism-recording-studio-pro}
 
 **Compliance Status**: ✅ WCAG AA Certified
-**Test Results**: 17/17 passed (100.0%)
+**Test Results**: 33/33 passed (100.0%)
 
 #### Contrast Ratio Test Results
 
@@ -1695,6 +2591,134 @@ Sample colors from this theme:
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
+<tr>
+<td><strong>semantic keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#15803d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#15803d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-15803d-on-ffffff.png" alt="neumorphic_semantic_keyword on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic function on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0369a1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0369a1</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-0369a1-on-ffffff.png" alt="neumorphic_semantic_function on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-93.png" alt="5.93:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#7c3aed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#7c3aed</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-7c3aed-on-ffffff.png" alt="neumorphic_semantic_type on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-70.png" alt="5.70:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-c2410c-on-ffffff.png" alt="neumorphic_semantic_string on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-18.png" alt="5.18:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-a16207-on-ffffff.png" alt="neumorphic_semantic_number on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-92.png" alt="4.92:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic annotation on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-b45309-on-ffffff.png" alt="neumorphic_semantic_annotation on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic variable on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1e293b-on-ffffff.png" alt="neumorphic_semantic_variable on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-14-63.png" alt="14.63:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic constant on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#15803d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#15803d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-15803d-on-ffffff.png" alt="neumorphic_semantic_constant on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic instance on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#92400e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#92400e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-92400e-on-ffffff.png" alt="neumorphic_semantic_instance on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-09.png" alt="7.09:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0f766e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f766e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-0f766e-on-ffffff.png" alt="neumorphic_semantic_operator on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-47.png" alt="5.47:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1e293b;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1e293b</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1e293b-on-ffffff.png" alt="neumorphic_semantic_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-14-63.png" alt="14.63:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#9333ea;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#9333ea</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-9333ea-on-ffffff.png" alt="neumorphic_semantic_type_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-38.png" alt="5.38:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic property on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#374151;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#374151</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-374151-on-ffffff.png" alt="neumorphic_semantic_property on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-10-31.png" alt="10.31:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-ffffff.png" alt="neumorphic_semantic_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-56.png" alt="7.56:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic doc comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#374151;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#374151</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-374151-on-ffffff.png" alt="neumorphic_semantic_doc_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-10-31.png" alt="10.31:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic danger on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-b91c1c-on-ffffff.png" alt="neumorphic_semantic_danger on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-47.png" alt="6.47:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
 </tbody>
 </table>
 
@@ -1747,7 +2771,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 8 tests exceed WCAG AAA (7:1) threshold
+- 14 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -1756,7 +2780,7 @@ Sample colors from this theme:
 ### 🎨 Neumorphism Recording Studio Live (Pro) {#neumorphism-recording-studio-live-pro}
 
 **Compliance Status**: ✅ WCAG AA Certified
-**Test Results**: 17/17 passed (100.0%)
+**Test Results**: 33/33 passed (100.0%)
 
 #### Contrast Ratio Test Results
 
@@ -1908,6 +2932,134 @@ Sample colors from this theme:
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
+<tr>
+<td><strong>semantic keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#10b981;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#10b981</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-10b981-on-0f172a.png" alt="neumorphic_semantic_keyword on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-04.png" alt="7.04:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic function on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0ea5e9;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0ea5e9</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-0ea5e9-on-0f172a.png" alt="neumorphic_semantic_function on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-44.png" alt="6.44:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a78bfa;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a78bfa</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-a78bfa-on-0f172a.png" alt="neumorphic_semantic_type on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-56.png" alt="6.56:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fbbf24;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fbbf24</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-fbbf24-on-0f172a.png" alt="neumorphic_semantic_string on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-10-69.png" alt="10.69:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#fb923c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fb923c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-fb923c-on-0f172a.png" alt="neumorphic_semantic_number on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-89.png" alt="7.89:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic annotation on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#facc15;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#facc15</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-facc15-on-0f172a.png" alt="neumorphic_semantic_annotation on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-11-66.png" alt="11.66:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic variable on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-f8fafc-on-0f172a.png" alt="neumorphic_semantic_variable on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-17-06.png" alt="17.06:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic constant on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#10b981;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#10b981</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-10b981-on-0f172a.png" alt="neumorphic_semantic_constant on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-04.png" alt="7.04:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic instance on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f472b6;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f472b6</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-f472b6-on-0f172a.png" alt="neumorphic_semantic_instance on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-74.png" alt="6.74:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#22d3ee;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#22d3ee</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-22d3ee-on-0f172a.png" alt="neumorphic_semantic_operator on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-9-88.png" alt="9.88:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f8fafc;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f8fafc</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-f8fafc-on-0f172a.png" alt="neumorphic_semantic_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-17-06.png" alt="17.06:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c4b5fd;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c4b5fd</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-c4b5fd-on-0f172a.png" alt="neumorphic_semantic_type_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-9-67.png" alt="9.67:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic property on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#cbd5e1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#cbd5e1</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-cbd5e1-on-0f172a.png" alt="neumorphic_semantic_property on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-12-02.png" alt="12.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#94a3b8;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#94a3b8</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-94a3b8-on-0f172a.png" alt="neumorphic_semantic_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-96.png" alt="6.96:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic doc comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#cbd5e1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#cbd5e1</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-cbd5e1-on-0f172a.png" alt="neumorphic_semantic_doc_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-12-02.png" alt="12.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic danger on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#f87171;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#f87171</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#0f172a;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f172a</code></td>
+<td><img src="images/wcag-previews/preview-f87171-on-0f172a.png" alt="neumorphic_semantic_danger on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-45.png" alt="6.45:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
 </tbody>
 </table>
 
@@ -1960,7 +3112,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 12 tests exceed WCAG AAA (7:1) threshold
+- 23 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -1969,7 +3121,7 @@ Sample colors from this theme:
 ### 🎨 Neumorphism Rose Gold (Pro) {#neumorphism-rose-gold-pro}
 
 **Compliance Status**: ✅ WCAG AA Certified
-**Test Results**: 17/17 passed (100.0%)
+**Test Results**: 33/33 passed (100.0%)
 
 #### Contrast Ratio Test Results
 
@@ -2121,6 +3273,134 @@ Sample colors from this theme:
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
+<tr>
+<td><strong>semantic keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#be185d;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#be185d</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-be185d-on-ffffff.png" alt="neumorphic_semantic_keyword on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-04.png" alt="6.04:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic function on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0369a1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0369a1</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-0369a1-on-ffffff.png" alt="neumorphic_semantic_function on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-93.png" alt="5.93:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#9333ea;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#9333ea</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-9333ea-on-ffffff.png" alt="neumorphic_semantic_type on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-38.png" alt="5.38:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#9f1239;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#9f1239</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-9f1239-on-ffffff.png" alt="neumorphic_semantic_string on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-8-02.png" alt="8.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-b45309-on-ffffff.png" alt="neumorphic_semantic_number on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic annotation on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0f766e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f766e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-0f766e-on-ffffff.png" alt="neumorphic_semantic_annotation on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-47.png" alt="5.47:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic variable on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#475569</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-475569-on-ffffff.png" alt="neumorphic_semantic_variable on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-58.png" alt="7.58:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic constant on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-b45309-on-ffffff.png" alt="neumorphic_semantic_constant on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic instance on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0f766e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0f766e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-0f766e-on-ffffff.png" alt="neumorphic_semantic_instance on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-47.png" alt="5.47:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#9f1239;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#9f1239</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-9f1239-on-ffffff.png" alt="neumorphic_semantic_operator on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-8-02.png" alt="8.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1f2937;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1f2937</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-1f2937-on-ffffff.png" alt="neumorphic_semantic_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-14-68.png" alt="14.68:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#9333ea;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#9333ea</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-9333ea-on-ffffff.png" alt="neumorphic_semantic_type_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-38.png" alt="5.38:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic property on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#475569;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#475569</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-475569-on-ffffff.png" alt="neumorphic_semantic_property on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-58.png" alt="7.58:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-ffffff.png" alt="neumorphic_semantic_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-56.png" alt="7.56:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic doc comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-ffffff.png" alt="neumorphic_semantic_doc_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-56.png" alt="7.56:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic danger on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#ffffff;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#ffffff</code></td>
+<td><img src="images/wcag-previews/preview-b91c1c-on-ffffff.png" alt="neumorphic_semantic_danger on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-47.png" alt="6.47:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
 </tbody>
 </table>
 
@@ -2173,7 +3453,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 7 tests exceed WCAG AAA (7:1) threshold
+- 14 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -2182,7 +3462,7 @@ Sample colors from this theme:
 ### 🎨 Neumorphism Sunset (Pro) {#neumorphism-sunset-pro}
 
 **Compliance Status**: ✅ WCAG AA Certified
-**Test Results**: 17/17 passed (100.0%)
+**Test Results**: 33/33 passed (100.0%)
 
 #### Contrast Ratio Test Results
 
@@ -2334,6 +3614,134 @@ Sample colors from this theme:
 <td>✅ <strong>Pass</strong></td>
 <td>Version Control</td>
 </tr>
+<tr>
+<td><strong>semantic keyword on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-c2410c-on-fffbf5.png" alt="neumorphic_semantic_keyword on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic function on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#0369a1;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#0369a1</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-0369a1-on-fffbf5.png" alt="neumorphic_semantic_function on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-76.png" alt="5.76:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#9333ea;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#9333ea</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-9333ea-on-fffbf5.png" alt="neumorphic_semantic_type on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-22.png" alt="5.22:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic string on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#a16207;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#a16207</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-a16207-on-fffbf5.png" alt="neumorphic_semantic_string on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-78.png" alt="4.78:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic number on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-b45309-on-fffbf5.png" alt="neumorphic_semantic_number on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-87.png" alt="4.87:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic annotation on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b45309;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b45309</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-b45309-on-fffbf5.png" alt="neumorphic_semantic_annotation on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-4-87.png" alt="4.87:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic variable on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#44403c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#44403c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-44403c-on-fffbf5.png" alt="neumorphic_semantic_variable on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-9-96.png" alt="9.96:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic constant on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#9333ea;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#9333ea</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-9333ea-on-fffbf5.png" alt="neumorphic_semantic_constant on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-22.png" alt="5.22:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic instance on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#92400e;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#92400e</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-92400e-on-fffbf5.png" alt="neumorphic_semantic_instance on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-88.png" alt="6.88:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic operator on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#c2410c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#c2410c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-c2410c-on-fffbf5.png" alt="neumorphic_semantic_operator on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-02.png" alt="5.02:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#1c1917;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#1c1917</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-1c1917-on-fffbf5.png" alt="neumorphic_semantic_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-16-96.png" alt="16.96:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic type parameter on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#7c3aed;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#7c3aed</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-7c3aed-on-fffbf5.png" alt="neumorphic_semantic_type_parameter on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-5-53.png" alt="5.53:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic property on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#44403c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#44403c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-44403c-on-fffbf5.png" alt="neumorphic_semantic_property on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-9-96.png" alt="9.96:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
+<tr>
+<td><strong>semantic comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-fffbf5.png" alt="neumorphic_semantic_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-33.png" alt="7.33:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic doc comment on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#4b5563;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#4b5563</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-4b5563-on-fffbf5.png" alt="neumorphic_semantic_doc_comment on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-7-33.png" alt="7.33:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Syntax Highlighting</td>
+</tr>
+<tr>
+<td><strong>semantic danger on neumorphic input</strong></td>
+<td><span style="display:inline-block;width:40px;height:24px;background-color:#b91c1c;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#b91c1c</code> <span style="color:#94a3b8;font-weight:500;">on</span> <span style="display:inline-block;width:40px;height:24px;background-color:#fffbf5;border:1.5px solid #e5e7eb;border-radius:4px;vertical-align:middle;"></span> <code>#fffbf5</code></td>
+<td><img src="images/wcag-previews/preview-b91c1c-on-fffbf5.png" alt="neumorphic_semantic_danger on neumorphic_input" height="70"/></td>
+<td><img src="images/progress-bars/progress-6-28.png" alt="6.28:1" height="24"/><br/>Req: 4.5:1</td>
+<td>✅ <strong>Pass</strong></td>
+<td>Other</td>
+</tr>
 </tbody>
 </table>
 
@@ -2386,7 +3794,7 @@ Sample colors from this theme:
 
 **Accessibility Achievements**:
 - ✅ All primary text combinations meet WCAG AA standards
-- 7 tests exceed WCAG AAA (7:1) threshold
+- 12 tests exceed WCAG AAA (7:1) threshold
 - Color contrast optimized for excellent readability
 
 ---
@@ -2398,7 +3806,7 @@ Sample colors from this theme:
 
 ### Standards Compliance
 
-This report validates **17 critical color combinations per theme** across all 11 neumorphism themes against WCAG 2.1 Level AA standards:
+This report validates **33 critical color combinations per theme** across all 11 neumorphism themes against WCAG 2.1 Level AA standards:
 
 **WCAG Contrast Requirements**:
 - **WCAG AA**: Minimum 4.5:1 contrast ratio for normal text (required)
@@ -2414,7 +3822,7 @@ This report validates **17 critical color combinations per theme** across all 11
 | **Syntax Highlighting** | 5 | Keywords, strings, comments, numbers, operators |
 | **Version Control** | 3 | VCS added, modified, deleted indicators |
 | **Component Visibility** | 1 | Focus indicators and interactive states |
-| **Total per Theme** | **17** | Comprehensive UI coverage |
+| **Total per Theme** | **33** | Comprehensive UI coverage |
 
 ### Calculation Method
 
@@ -2502,8 +3910,8 @@ node wcag/wcag-validator.js
 
 ---
 
-**Last Updated**: 2025-11-16
-**Plugin Version**: 2025.1.12
+**Last Updated**: 2026-02-09
+**Plugin Version**: 2025.2.1
 **WCAG Validator Version**: 2.1
 **Report Format**: Markdown (GitHub-flavored)
 

@@ -15,6 +15,7 @@ Most themes force developers into a painful tradeoff: gorgeous aesthetics with b
 
 **Our Promise:**
 - WCAG AAA accessibility in every theme
+- Production-ready semantic highlighting with 130 attributes across Kotlin, Java, and foundation languages
 - Professional color schemes optimized for 8+ hour coding sessions
 - Zero subscription fatigue - one-time purchases, lifetime access
 - Respect for developer flow state - no intrusive trial popups
@@ -140,6 +141,22 @@ Test each premium theme individually for 30 minutes with zero interruptions. No 
 ---
 
 ## Key Features
+
+**Production-Ready Semantic Highlighting (130 Attributes):**
+
+| Language | Attributes |
+|---|---|
+| **Kotlin** | **64** |
+| **Java** | **34** |
+| **Foundation** | **32** |
+| **Total** | **130** |
+
+- **64 Kotlin attributes** – functions, properties, type parameters, annotations, companion objects, extension functions, and more all get distinct, meaningful colors
+- **34 Java attributes** – variables, fields, methods, constructors, types, annotations, and visibility modifiers with smart font styles (bold for declarations, italic for static/abstract, underline for reassigned variables)
+- **32 foundation attributes** cascade to all languages – keywords, strings, numbers, comments work consistently whether you're in Python, JavaScript, or TypeScript
+- **11 unique palettes** – every theme gets its own professionally designed semantic color scheme, not just hue shifts
+- 100% WCAG AA validated across all 11 themes
+- Zero performance impact – uses IntelliJ built-in color scheme system, no custom annotators
 
 **Professional Design Excellence:**
 - 11 themes covering light, dark, warm, and cool aesthetics
