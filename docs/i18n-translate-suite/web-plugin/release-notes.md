@@ -2,6 +2,20 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.1.9 <small>(2026-04-02)</small>
+
+### 🐛 Bug Fixes
+- Fixed misleading translation failure messages caused by OkHttp double-reading the error body in provider error paths
+- Improved response parsing to handle wrapped, fenced, or noisy LLM JSON output reliably
+- Fixed TransactionGuard warnings triggered by the translation progress dialog
+
+### 🤖 New LLM Models
+- **OpenAI:** Added GPT-5.4 family (gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro)
+- **Anthropic:** Added Claude 4.6 family (claude-opus-4-6, claude-sonnet-4-6)
+
+### ⚡ Token Usage Optimization
+- Added compact internal key aliasing: long source keys are converted to short IDs (e.g. a00001) before sending to the LLM and restored after parsing, reducing prompt token usage for projects with long translation keys
+
 ## Version 2025.1.8 <small>(2026-01-07)</small>
 
 ### 🌐 Plugin UI Internationalization

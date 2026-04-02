@@ -2,6 +2,21 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## 版本 2025.1.11 <small>(2026-04-02)</small>
+
+### 🐛 错误修复
+- 修复了提供商错误路径中 OkHttp 重复读取错误体导致的误导性翻译失败提示
+- 改进了响应解析，可靠处理包装、代码块围栏或含噪声的 LLM JSON 输出
+- 修复了属性文件保存和刷新周期中的 VFS 写安全性违规问题
+- 修复了翻译进度对话框触发的 TransactionGuard 警告
+
+### 🤖 新增 LLM 模型
+- **OpenAI：** 新增 GPT-5.4 系列（gpt-5.4、gpt-5.4-mini、gpt-5.4-nano、gpt-5.4-pro）
+- **Anthropic：** 新增 Claude 4.6 系列（claude-opus-4-6、claude-sonnet-4-6）
+
+### ⚡ Token 用量优化
+- 新增紧凑内部键别名机制：将长源键转换为短 ID（如 a00001）后发送给 LLM，解析响应后恢复原始键，有效减少使用长翻译键的项目的提示词 token 用量
+
 ## 版本 2025.1.10 <small>(2026-01-07)</small>
 
 ### 🌐 插件界面国际化
