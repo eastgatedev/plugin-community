@@ -2,6 +2,76 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.2.2 <small>(2026-04-03)</small>
+
+**Full Web Stack Semantic Highlighting** — 110 new attributes covering JavaScript, TypeScript, HTML, XML, CSS, SASS/SCSS, and Angular across all 11 themes.
+
+### JavaScript & TypeScript (50 attributes)
+
+Semantic highlighting now covers the complete JS/TS surface area that IntelliJ exposes:
+
+- **Variables:** local variables, parameters, global variables, exported variables — each visually distinct
+- **Functions:** local functions, global functions, exported functions — with exported symbols rendered **bold** to signal public API boundaries at a glance
+- **Classes & Types:** class names, interfaces, type aliases, type parameters, enums, enum members, type guards (TypeScript)
+- **Members:** instance and static member functions, instance and static member variables
+- **React/JSX/TSX:** JSX client components get dedicated highlighting; works in `.jsx`, `.tsx`, and inline JSX in `.ts`
+- **Other:** decorators, module names, primitive types, regexp literals, labels, JSDoc tags and type paths
+
+**Cross-language consistency:** decorators in JS/TS use the same palette slot as annotations in Kotlin and Java. Exported symbols are bold in both JS and TS, making public API surface immediately visible without reading the code.
+
+### HTML, XML, CSS & SASS/SCSS (50 attributes)
+
+**HTML (5):** tag names, attribute names, attribute values, custom elements, entity references.
+
+**XML (7):** tag names, attribute names, attribute values, custom elements, namespace prefixes, entity references, XML prologue.
+
+**CSS (15):** property names, class selectors, tag selectors, ID selectors, pseudo-classes, functions, `!important`, keywords, values, URLs, color values, unit values, attribute selectors, `&` parent selector.
+
+**SASS/SCSS (23):** variables, property names, identifiers, tag/class/ID selectors, mixins, functions, `@if`/`@each`/`@for` keywords, `!important`, value colors, pseudo-classes, URLs, units, `@extend`, interpolation `#{}`, `!default`/`!global`/`!optional` flags, `&` parent selector.
+
+### Angular (10 attributes)
+
+Comprehensive Angular template semantic highlighting — the most complete Angular coverage available in any IntelliJ theme:
+
+- **Signals (Angular 16+):** signal reads and writes distinguished from regular variables
+- **Template variables:** `#templateRef` variable declarations
+- **Bindings:** two-way `[(ngModel)]`, event `(click)`, property `[value]` — each binding type gets a distinct color
+- **Structural directives:** `*ngIf`, `*ngFor`
+- **Control flow (Angular 17+):** new `@if`, `@for`, `@switch` block syntax
+- **Interpolation:** `{{ }}` delimiters highlighted separately from the expression content
+- **::ng-deep:** pseudo-element for component style encapsulation
+
+### Platform & Compatibility
+
+- **Kotlin:** Added `KOTLIN_CONTEXT_ARGUMENT` (new in IntelliJ 2026.1) for context receiver highlighting
+- **Build range:** `sinceBuild` updated from 241 to 251 (IntelliJ 2025.1+)
+- Legacy XML/CSS attribute entries corrected to current dot-notation names used by IntelliJ
+
+### Quality
+
+- **1,210 new XML entries** — 110 attributes x 11 themes
+- **2,317 validated attribute-color pairs** — up from 1,096 in 2025.2.1
+- **100% WCAG AA** — 363/363 contrast tests pass across all 11 themes
+- **0 consistency mismatches** — all themes share the same structural palette logic
+- **Zero performance impact** — uses IntelliJ's built-in color scheme system, no custom annotators
+
+### Languages Now Covered
+
+| Language | Attributes |
+|---|---|
+| Kotlin | 65 |
+| Java | 34 |
+| JavaScript / TypeScript | 50 (shared + TS-unique) |
+| SASS / SCSS | 23 |
+| CSS | 15 |
+| XML | 7 |
+| HTML | 5 |
+| Angular | 10 |
+| Foundation | 32 |
+| **Total** | **241** |
+
+---
+
 ## Version 2025.2.1 <small>(2026-02-09)</small>
 
 **Java Semantic Highlighting** - 34 dedicated Java attributes across all 11 themes.
@@ -166,11 +236,10 @@ For developers spending 8+ hours staring at code, neumorphism's gentle approach 
 ## What's Next?
 
 **Planned Future Enhancements:**
+- Python semantic highlighting
 - Additional theme color variations
 - Customization options for shadow intensity
 - Community-requested color schemes
-- Integration with custom icon packs
-- Seasonal theme collections
 
 **Community Feedback Welcome:**
 Share your favorite themes, request new color schemes, or suggest improvements at eastgate3194@gmail.com
