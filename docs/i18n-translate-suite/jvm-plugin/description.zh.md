@@ -4,6 +4,16 @@
 
 通过**智能文本转 i18n**（Alt+Shift+]）革命化您的 i18n 工作流程 - 瞬间提取硬编码字符串并转换为正确的 MessageSource 调用。加上 AI 驱动的 200+ 语言翻译，全面支持 Kotlin 优先的 Java 区域设置。
 
+## 🤔 什么时候该使用 i18n 翻译专业版？
+
+与其过度推销，我们更愿意坦诚相告：
+
+- **小型项目（1–2 种语言）：** 您可能并不需要此插件。通用 AI 助手（Claude Code、Codex、Antigravity 或 Cursor）即可轻松应对偶尔的翻译需求。
+- **中大型项目（3 种以上语言、数百条文案 —— 例如 500+ 条翻译）：** 推荐使用。批量处理与多语言自动化能在此发挥真正价值。
+- **高频变更 / 持续更新既有翻译：** 推荐使用。感知 VCS 的变更检测只翻译已变更的内容，节省大量人工时间。
+
+不妨从 **30 天专业版试用**开始，或使用**免费版** —— 每次翻译一个语言文件，并可对每种语言重复操作。
+
 ## 📦 安装插件
 
 [![JetBrains 插件](https://img.shields.io/jetbrains/plugin/v/27856-i18n-translate-pro-jvm.svg)](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)
@@ -53,9 +63,9 @@
 
 ## 支持的 LLM 提供商（8个提供商的120+模型）
 
-- **Google Gemini** - gemini-2.5-pro、gemini-2.5-flash（免费层可用）
-- **OpenAI** - GPT-5系列（Nano/Mini/Pro）、GPT-4.1、GPT-4o、GPT-4-Turbo、GPT-3.5-Turbo
-- **Anthropic** - Claude 4.5（Sonnet/Haiku）、Claude Opus 4.1、Claude-3.5系列
+- **Google Gemini** - gemini-3.1-flash-lite（默认）、gemini-3.5-flash、gemini-2.5-pro/flash/flash-lite（免费层可用）
+- **OpenAI** - GPT-5.5、GPT-5.4系列、GPT-5系列（Nano/Mini/Pro）、GPT-4.1、GPT-4o
+- **Anthropic** - Claude Opus 4.8/4.7/4.6、Claude Sonnet 4.6、Claude Haiku 4.5
 - **DeepSeek** - DeepSeek R1、deepseek-chat、deepseek-reasoner
 - **Azure OpenAI** - 企业级访问所有OpenAI模型
 - **OpenRouter** - 通过统一API访问50+个额外模型
@@ -66,7 +76,7 @@
 
 ## 高级功能
 
-- **120+ LLM模型** - 最新的GPT-5、Claude 4.5、DeepSeek R1，具有智能旧模型检测和成本优化警报
+- **134+ LLM模型** - 最新的GPT-5.5、Claude Opus 4.8、Gemini 3.5，具有智能旧模型检测和成本优化警报
 - **旧模型检测** - 使用过时模型时自动警报，提供智能升级建议
 - **成本优化智能** - 价格对比仪表板显示高达99.6%的节省
 - 具有选项卡界面和基础语言选择的增强翻译对话框

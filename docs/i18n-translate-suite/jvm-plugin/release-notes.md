@@ -2,6 +2,16 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.1.12 <small>(2026-06-13)</small>
+
+### 🤖 New LLM Models
+- **OpenAI:** Added GPT-5.5 and GPT-5.5 Pro; marked o1, o1-mini, o3-mini, o4-mini, and gpt-4.1-nano as legacy (provider shutdown 2026-10-23)
+- **Google Gemini:** Replaced the retired `gemini-3.1-flash-lite-preview` default with the GA `gemini-3.1-flash-lite`; added `gemini-3.5-flash`; marked Gemini 2.0 Flash / Flash-Lite deprecated (shut down 2026-06-01)
+- **Anthropic:** Replaced the retired `claude-haiku-3-5` default with `claude-haiku-4-5`; added Claude Opus 4.8 and Claude Opus 4.7; marked Claude Opus 4 / Sonnet 4 / Opus 4.1 as legacy
+
+### 🔄 Default Model Fixes
+- New installations no longer default to retired models; pricing browser-verified and recommendation badges (Latest / Most Cost-Efficient / Premium) refreshed
+
 ## Version 2025.1.11 <small>(2026-04-02)</small>
 
 ### 🐛 Bug Fixes

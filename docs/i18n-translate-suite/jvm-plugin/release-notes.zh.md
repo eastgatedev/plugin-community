@@ -2,6 +2,16 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## 版本 2025.1.12 <small>(2026-06-13)</small>
+
+### 🤖 新增 LLM 模型
+- **OpenAI：** 新增 GPT-5.5 和 GPT-5.5 Pro；将 o1、o1-mini、o3-mini、o4-mini 和 gpt-4.1-nano 标记为旧版（提供商将于 2026-10-23 停用）
+- **Google Gemini：** 将已停用的默认模型 `gemini-3.1-flash-lite-preview` 替换为正式版 `gemini-3.1-flash-lite`；新增 `gemini-3.5-flash`；将 Gemini 2.0 Flash / Flash-Lite 标记为已弃用（已于 2026-06-01 停用）
+- **Anthropic：** 将已停用的默认模型 `claude-haiku-3-5` 替换为 `claude-haiku-4-5`；新增 Claude Opus 4.8 和 Claude Opus 4.7；将 Claude Opus 4 / Sonnet 4 / Opus 4.1 标记为旧版
+
+### 🔄 默认模型修复
+- 新安装不再默认使用已停用的模型；定价已通过浏览器核实，推荐标签（最新 / 最具成本效益 / 高级）已刷新
+
 ## 版本 2025.1.11 <small>(2026-04-02)</small>
 
 ### 🐛 错误修复

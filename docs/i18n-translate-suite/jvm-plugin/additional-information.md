@@ -78,9 +78,9 @@ navigation.home=Accueil
 ### 🤖 LLM Provider Configuration (8 Providers, 120+ Models)
 
 **Latest Models:**
-- **Google Gemini:** gemini-2.5-pro, gemini-2.5-flash (⭐ recommended), gemini-2.5-flash-lite - Free tier available
-- **OpenAI (GPT-5 Series):** gpt-5.1 (zero reasoning tokens - best for translation), gpt-5-nano (💰 best value), gpt-5-mini, gpt-5, plus GPT-4.1 series
-- **Anthropic (Claude 4.5):** claude-4.5-sonnet, claude-4.5-haiku, claude-opus-4.1, plus Claude-3.5 series
+- **Google Gemini:** gemini-3.1-flash-lite (⭐ default), gemini-3.5-flash, gemini-2.5-pro/flash/flash-lite - Free tier available
+- **OpenAI:** gpt-5.5 (latest), gpt-5-nano (💰 best value, default), gpt-5.4 series, gpt-5-mini/pro, plus GPT-4.1 series
+- **Anthropic:** claude-opus-4-8 (flagship), claude-opus-4-7, claude-sonnet-4-6, claude-haiku-4-5 (⭐ default), plus Opus 4.6
 - **DeepSeek:** DeepSeek R1, deepseek-chat, deepseek-reasoner
 - **Azure OpenAI:** Enterprise compliance with complete OpenAI model access
 - **OpenRouter:** 50+ additional models through unified API with competitive pricing
@@ -100,7 +100,7 @@ navigation.home=Accueil
 **Example Cost Savings:**
 - GPT-4 ($40/1M tokens) → GPT-5 Nano ($0.17/1M tokens) = 99.6% savings
 - GPT-4o ($5/1M tokens) → GPT-5 Nano ($0.17/1M tokens) = 96.6% savings
-- Claude Opus 3.5 ($15/1M tokens) → GPT-5 Nano ($0.17/1M tokens) = 98.9% savings
+- Claude 3 Opus ($15/1M tokens) → GPT-5 Nano ($0.17/1M tokens) = 98.9% savings
 
 ### 🎯 Project-Level Management
 - **Per-Project Configuration:** Isolated language settings for each project

@@ -78,9 +78,9 @@ navigation.home=Accueil
 ### 🤖 LLM 提供商配置（8 个提供商，120+ 模型）
 
 **最新模型：**
-- **Google Gemini：** gemini-2.5-pro、gemini-2.5-flash（⭐ 推荐）、gemini-2.5-flash-lite - 免费层可用
-- **OpenAI（GPT-5 系列）：** gpt-5.1（零推理令牌 - 最适合翻译）、gpt-5-nano（💰 最佳性价比）、gpt-5-mini、gpt-5，以及 GPT-4.1 系列
-- **Anthropic（Claude 4.5）：** claude-4.5-sonnet、claude-4.5-haiku、claude-opus-4.1，以及 Claude-3.5 系列
+- **Google Gemini：** gemini-3.1-flash-lite（⭐ 默认）、gemini-3.5-flash、gemini-2.5-pro/flash/flash-lite - 免费层可用
+- **OpenAI：** gpt-5.5（最新）、gpt-5-nano（💰 最佳性价比，默认）、gpt-5.4 系列、gpt-5-mini/pro，以及 GPT-4.1 系列
+- **Anthropic：** claude-opus-4-8（旗舰）、claude-opus-4-7、claude-sonnet-4-6、claude-haiku-4-5（⭐ 默认），以及 Opus 4.6
 - **DeepSeek：** DeepSeek R1、deepseek-chat、deepseek-reasoner
 - **Azure OpenAI：** 企业合规性，完整访问所有 OpenAI 模型
 - **OpenRouter：** 通过统一 API 访问 50+ 个额外模型，具有竞争性定价
@@ -100,7 +100,7 @@ navigation.home=Accueil
 **成本节省示例：**
 - GPT-4（每百万 token $40）→ GPT-5 Nano（每百万 token $0.17）= 节省 99.6%
 - GPT-4o（每百万 token $5）→ GPT-5 Nano（每百万 token $0.17）= 节省 96.6%
-- Claude Opus 3.5（每百万 token $15）→ GPT-5 Nano（每百万 token $0.17）= 节省 98.9%
+- Claude 3 Opus（每百万 token $15）→ GPT-5 Nano（每百万 token $0.17）= 节省 98.9%
 
 ### 🎯 项目级管理
 - **每个项目配置：** 每个项目的独立语言设置

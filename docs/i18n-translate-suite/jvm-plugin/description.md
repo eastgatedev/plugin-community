@@ -4,6 +4,16 @@
 
 Revolutionize your i18n workflow with **Smart Text to i18n** (Alt+Shift+]) - instantly extract hardcoded strings and convert them to proper MessageSource calls. Plus AI-powered translation to 200+ languages with comprehensive Kotlin-first Java locale support.
 
+## 🤔 When Should You Use i18n Translate Pro?
+
+We'd rather be honest than oversell:
+
+- **Small project (1–2 languages):** You probably don't need this plugin. A general AI assistant — Claude Code, Codex, Antigravity, or Cursor — can handle occasional translation just fine.
+- **Medium-to-large project (3+ languages, hundreds of strings — think 500+ translations):** Yes. This is where batch processing and multi-language automation pay off.
+- **Frequent changes / continuously updating existing translations:** Yes. VCS-aware change detection translates only what changed, saving hours of manual effort.
+
+Try it with a **30-day Pro trial**, or use the **free tier** — translate one language file per run, and repeat for each additional language.
+
 ## 📦 Install Plugin
 
 [![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/27856-i18n-translate-pro-jvm.svg)](https://plugins.jetbrains.com/plugin/27856-i18n-translate-pro-jvm)
@@ -53,9 +63,9 @@ Learn how to turn manual string extraction from a 3-hour nightmare into a 30-sec
 
 ## Supported LLM Providers (120+ Models Across 8 Providers)
 
-- **Google Gemini** - gemini-2.5-pro, gemini-2.5-flash (free tier available)
-- **OpenAI** - GPT-5 series (Nano/Mini/Pro), GPT-4.1, GPT-4o, GPT-4-Turbo, GPT-3.5-Turbo
-- **Anthropic** - Claude 4.5 (Sonnet/Haiku), Claude Opus 4.1, Claude-3.5 series
+- **Google Gemini** - gemini-3.1-flash-lite (default), gemini-3.5-flash, gemini-2.5-pro/flash/flash-lite (free tier available)
+- **OpenAI** - GPT-5.5, GPT-5.4 series, GPT-5 series (Nano/Mini/Pro), GPT-4.1, GPT-4o
+- **Anthropic** - Claude Opus 4.8/4.7/4.6, Claude Sonnet 4.6, Claude Haiku 4.5
 - **DeepSeek** - DeepSeek R1, deepseek-chat, deepseek-reasoner
 - **Azure OpenAI** - Enterprise-grade access to all OpenAI models
 - **OpenRouter** - 50+ additional models through unified API
@@ -66,7 +76,7 @@ Learn how to turn manual string extraction from a 3-hour nightmare into a 30-sec
 
 ## Advanced Features
 
-- **120+ LLM Models** - Latest GPT-5, Claude 4.5, DeepSeek R1 with smart legacy detection and cost optimization alerts
+- **134+ LLM Models** - Latest GPT-5.5, Claude Opus 4.8, Gemini 3.5 with smart legacy detection and cost optimization alerts
 - **Legacy Model Detection** - Automatic outdated model alerts with smart upgrade recommendations
 - **Cost Optimization Intelligence** - Pricing comparison dashboard showing savings up to 99.6%
 - Enhanced Translation Dialog with tabbed interface and base language selection
