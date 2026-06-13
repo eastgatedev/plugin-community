@@ -2,6 +2,51 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.2.3 <small>(2026-06-13)</small>
+
+**Python Semantic Highlighting** — 15 dedicated Python attributes across all 11 themes. The first theme in the marketplace with complete (100%) Python semantic coverage.
+
+### Python Attributes by Category (15 total)
+- **Functions & Methods (4):** function definitions (bold), function calls, method calls, nested/inner functions
+- **Classes (1):** class definitions (bold)
+- **Parameters (3):** parameters, the `self`/`cls` parameter (distinct instance color), keyword arguments (italic)
+- **Variables (1):** local variables
+- **Type Annotations (2):** type parameters (PEP 695 `[T]`, Python 3.12+), type hints (`: str`, `-> None`)
+- **Special (4):** decorators, builtins (italic), magic method definitions (italic), magic method usages
+
+### Framework Support
+Django, Flask, FastAPI, and pytest define no custom semantic attributes — their Python code is fully highlighted by the standard attributes above. Verified against PyCharm 2026.1's bundled `python-django` plugin. Template languages (Django Template Language, Jinja2) are highlighted as HTML/CSS.
+
+### Smart Font Styles
+- **Bold** for function and class definitions
+- **Italic** for builtins, magic methods, and keyword arguments
+- **Distinct color** for `self`/`cls` so instance context stands out from regular parameters
+
+### Quality
+- **165 new XML entries** — 15 attributes x 11 themes
+- **2,482 validated attribute-color pairs** — up from 2,317 in 2025.2.2
+- **100% WCAG AA** — reuses existing validated palette variables; no new colors introduced
+- **0 consistency mismatches** — all 11 themes share the same structural palette logic
+- **Zero performance impact** — uses IntelliJ's built-in color scheme system, no custom annotators
+
+### Languages Now Covered
+
+| Language | Attributes |
+|---|---|
+| Kotlin | 65 |
+| Java | 34 |
+| JavaScript / TypeScript | 50 (shared + TS-unique) |
+| SASS / SCSS | 23 |
+| CSS | 15 |
+| XML | 7 |
+| HTML | 5 |
+| Angular | 10 |
+| Python | 15 |
+| Foundation | 32 |
+| **Total** | **256** |
+
+---
+
 ## Version 2025.2.2 <small>(2026-04-03)</small>
 
 **Full Web Stack Semantic Highlighting** — 110 new attributes covering JavaScript, TypeScript, HTML, XML, CSS, SASS/SCSS, and Angular across all 11 themes.

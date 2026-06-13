@@ -15,7 +15,7 @@ Most themes force developers into a painful tradeoff: gorgeous aesthetics with b
 
 **Our Promise:**
 - WCAG AAA accessibility in every theme
-- Production-ready semantic highlighting with 130 attributes across Kotlin, Java, and foundation languages
+- Production-ready semantic highlighting with 256 attributes across Kotlin, Java, Python, JavaScript, TypeScript, HTML, CSS, SASS, Angular, and foundation languages
 - Professional color schemes optimized for 8+ hour coding sessions
 - Zero subscription fatigue - one-time purchases, lifetime access
 - Respect for developer flow state - no intrusive trial popups
@@ -142,18 +142,29 @@ Test each premium theme individually for 30 minutes with zero interruptions. No 
 
 ## Key Features
 
-**Production-Ready Semantic Highlighting (130 Attributes):**
+**Production-Ready Semantic Highlighting (256 Attributes):**
 
 | Language | Attributes |
 |---|---|
-| **Kotlin** | **64** |
+| **Kotlin** | **65** |
 | **Java** | **34** |
+| **JavaScript / TypeScript** | **50** |
+| **SASS / SCSS** | **23** |
+| **CSS** | **15** |
+| **XML** | **7** |
+| **HTML** | **5** |
+| **Angular** | **10** |
+| **Python** | **15** |
 | **Foundation** | **32** |
-| **Total** | **130** |
+| **Total** | **256** |
 
-- **64 Kotlin attributes** – functions, properties, type parameters, annotations, companion objects, extension functions, and more all get distinct, meaningful colors
+- **65 Kotlin attributes** – functions, properties, type parameters, annotations, companion objects, extension functions, and more all get distinct, meaningful colors
 - **34 Java attributes** – variables, fields, methods, constructors, types, annotations, and visibility modifiers with smart font styles (bold for declarations, italic for static/abstract, underline for reassigned variables)
-- **32 foundation attributes** cascade to all languages – keywords, strings, numbers, comments work consistently whether you're in Python, JavaScript, or TypeScript
+- **50 JavaScript & TypeScript attributes** – variables, functions, classes, interfaces, exported symbols (bold), decorators, JSX/TSX components, enums, type aliases, and type guards
+- **38 CSS & SASS/SCSS + 12 HTML/XML attributes** – selectors, property names, pseudo-classes, mixins, @rules, interpolation, tag names, attributes, and namespace prefixes across your web stack
+- **10 Angular attributes** – signals, template variables, two-way/event/property bindings, structural directives, and Angular 17+ @if/@for/@switch syntax
+- **15 Python attributes** – functions, classes, parameters, the distinct `self` parameter, keyword arguments, type hints, type parameters, decorators, builtins, and magic methods; full Django/Flask/FastAPI coverage
+- **32 foundation attributes** cascade to all languages – keywords, strings, numbers, comments work consistently across every file type you open
 - **11 unique palettes** – every theme gets its own professionally designed semantic color scheme, not just hue shifts
 - 100% WCAG AA validated across all 11 themes
 - Zero performance impact – uses IntelliJ built-in color scheme system, no custom annotators

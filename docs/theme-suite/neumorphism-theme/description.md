@@ -2,7 +2,9 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](description.md) | [🇨🇳 简体中文](description.zh.md)
 
-Transform your coding environment with **Neumorphism Theme Collection** - professional themes designed for developers who code 8+ hours daily and refuse to choose between beautiful design and eye comfort.
+**Do you still need a professional theme now that AI writes so much of your code? More than ever.** As AI generates a growing share of your codebase, your role shifts from writing to **reading, reviewing, and verifying** — and that is exactly where clear, meaningful color does the heavy lifting. Production-ready semantic highlighting turns AI-generated code into something you can scan, validate, and trust at a glance. In an AI-native workflow, semantic highlighting is no longer a cosmetic nicety — it is essential infrastructure for fast, confident code review.
+
+Built for developers who refuse to choose between **beautiful aesthetics and professional code clarity**, **Neumorphism Theme Collection** pairs soft, eye-friendly neumorphic design with comprehensive semantic highlighting — so every function, type, parameter, and decorator reads distinctly, whether you wrote it or your AI assistant did.
 
 ## 📦 Install Plugin
 
