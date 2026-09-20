@@ -75,12 +75,12 @@ navigation.home=Accueil
 - **UTF-8 encoding:** Proper international character support with BOM handling
 - **Comment preservation:** Maintains existing comments during translation
 
-### 🤖 LLM Provider Configuration (8 Providers, 120+ Models)
+### 🤖 LLM Provider Configuration (8 Providers, 146+ Models)
 
 **Latest Models:**
-- **Google Gemini:** gemini-3.1-flash-lite (⭐ default), gemini-3.5-flash, gemini-2.5-pro/flash/flash-lite - Free tier available
-- **OpenAI:** gpt-5.5 (latest), gpt-5-nano (💰 best value, default), gpt-5.4 series, gpt-5-mini/pro, plus GPT-4.1 series
-- **Anthropic:** claude-opus-4-8 (flagship), claude-opus-4-7, claude-sonnet-4-6, claude-haiku-4-5 (⭐ default), plus Opus 4.6
+- **Google Gemini:** gemini-3.1-flash-lite (⭐ default), gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash/flash-lite, gemini-2.5-pro/flash/flash-lite - Free tier available
+- **OpenAI:** gpt-6-astra (latest), gpt-5-nano (💰 best value, default), gpt-5.6-sol/terra/luna, gpt-5.5, gpt-5.4 series, plus GPT-4.1 series
+- **Anthropic:** claude-fable-5-1 (flagship), claude-fable-5, claude-opus-5, claude-sonnet-5, claude-opus-4-8/4-7, claude-sonnet-4-6, claude-haiku-4-5 (⭐ default)
 - **DeepSeek:** DeepSeek R1, deepseek-chat, deepseek-reasoner
 - **Azure OpenAI:** Enterprise compliance with complete OpenAI model access
 - **OpenRouter:** 50+ additional models through unified API with competitive pricing
@@ -100,7 +100,7 @@ navigation.home=Accueil
 **Example Cost Savings:**
 - GPT-4 ($40/1M tokens) → GPT-5 Nano ($0.17/1M tokens) = 99.6% savings
 - GPT-4o ($5/1M tokens) → GPT-5 Nano ($0.17/1M tokens) = 96.6% savings
-- Claude 3 Opus ($15/1M tokens) → GPT-5 Nano ($0.17/1M tokens) = 98.9% savings
+- Claude 3 Opus ($35/1M tokens) → GPT-5 Nano ($0.17/1M tokens) = 99.5% savings
 
 ### 🎯 Project-Level Management
 - **Per-Project Configuration:** Isolated language settings for each project

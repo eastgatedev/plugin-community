@@ -86,11 +86,11 @@
 }
 ```
 
-## 支持的 LLM 提供商（8个提供商的120+模型）
+## 支持的 LLM 提供商（8个提供商的146+模型）
 
-- **Google Gemini** - gemini-3.1-flash-lite（默认）、gemini-3.5-flash、gemini-2.5-pro/flash/flash-lite（免费层可用）
-- **OpenAI** - GPT-5.5、GPT-5.4系列、GPT-5系列（Nano/Mini/Pro）、GPT-4.1、GPT-4o
-- **Anthropic** - Claude Opus 4.8/4.7/4.6、Claude Sonnet 4.6、Claude Haiku 4.5
+- **Google Gemini** - gemini-3.1-flash-lite（默认）、gemini-3.8-flash、gemini-3.7-flash、gemini-3.6-flash、gemini-3.5-flash/flash-lite、gemini-2.5-pro/flash/flash-lite（免费层可用）
+- **OpenAI** - GPT-6 Astra、GPT-5.6 Sol/Terra/Luna、GPT-5.5、GPT-5.4系列、GPT-4.1、GPT-4o
+- **Anthropic** - Claude Fable 5.1、Claude Fable 5、Claude Opus 5、Claude Sonnet 5、Claude Opus 4.8/4.7/4.6、Claude Sonnet 4.6、Claude Haiku 4.5
 - **DeepSeek** - DeepSeek R1、deepseek-chat、deepseek-reasoner
 - **Azure OpenAI** - 企业级访问所有OpenAI模型
 - **OpenRouter** - 通过统一API访问50+个额外模型
@@ -101,7 +101,7 @@
 
 ## 高级功能
 
-- **134+ LLM模型** - 最新的GPT-5.5、Claude Opus 4.8、Gemini 3.5，具有智能旧模型检测和成本优化警报
+- **146+ LLM模型** - 最新的GPT-6 Astra、Claude Fable 5.1、Gemini 3.8，具有智能旧模型检测和成本优化警报
 - **旧模型检测** - 使用过时模型时自动警报，提供智能升级建议
 - **成本优化智能** - 价格对比仪表板显示高达99.6%的节省
 - 具有实时过滤的现代可搜索语言选择器

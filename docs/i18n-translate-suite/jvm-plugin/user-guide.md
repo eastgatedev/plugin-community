@@ -44,16 +44,16 @@ On first use, you'll need to configure your LLM provider for translation service
 4. **Configure in Plugin:**
    - Select **Provider:** OpenAI (recommended) or Anthropic
    - Paste your API key in the secure field
-   - Choose **Model:** gpt-3.5-turbo (cost-effective) or gpt-4 (higher quality)
+   - Choose **Model:** gpt-5-nano (default, cheapest at $0.17/1M) or gpt-6-astra (highest quality)
    - Click Verify to test your configuration
 5. Click Save to store your settings securely
 
 **💡 Smart Cost Optimization Tips:**
-- **GPT-5 Nano Recommended:** Best value at $0.17/1M tokens - 99.6% cheaper than GPT-4
+- **GPT-5 Nano Recommended:** Best value at $0.17/1M tokens - 99.6% cheaper than GPT-4. Within every GPT generation the nano tier is cheapest, but a *newer* nano is not automatically cheaper (gpt-5.4-nano is $0.55)
 - **Free Tier Option:** Google Gemini offers free daily usage limits for development
 - **Legacy Model Alerts:** Plugin automatically detects outdated models and suggests upgrades
 - **Pricing Dashboard:** Access **Settings → i18n Translate Pro: JVM → LLM Configuration** to compare model costs
-- **120+ Models Available:** Explore 8 providers to find the perfect balance of cost and quality
+- **146+ Models Available:** Explore 8 providers to find the perfect balance of cost and quality
 
 ## 🎯 Basic Usage
 

@@ -2,6 +2,23 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## 版本 2025.1.11 <small>(2026-09-20)</small>
+
+### 🤖 新增 LLM 模型
+- **OpenAI：** 新增 gpt-6-astra（全新旗舰）及 GPT-5.6 系列 — gpt-5.6-sol、gpt-5.6-terra 及 gpt-5.6-luna
+- **Google Gemini：** 新增 `gemini-3.8-flash`、`gemini-3.7-flash`、`gemini-3.6-flash` 及 `gemini-3.5-flash-lite`
+- **Anthropic：** 新增 Claude Fable 5.1、Claude Fable 5、Claude Opus 5 及 Claude Sonnet 5
+
+### 🔄 默认模型保持不变
+- **默认模型保持不变** — `gpt-5-nano`（OpenAI，均价 $0.17，仍为最便宜）、`gemini-3.1-flash-lite`（Gemini）及 `claude-haiku-4-5`（Anthropic）均维持现行
+
+### ⚠️ 已停用模型提示
+- 将 Gemini 2.0 Flash / Flash-Lite（已于 2026-06-01 停用）以及已停用的 Anthropic Claude Opus 4 / 4.1、Sonnet 4、Haiku 3.5 和 Claude 3 / 3.5 系列标记为旧版
+- 标注将于 2026-10-23 停用的 OpenAI o 系列与 GPT-4 时代模型。同时修正先前误判：`gpt-5`、`gpt-5-mini`、`gpt-5-nano`、`gpt-5-pro` 及 `o3` 并未被弃用（仅其带日期的快照被弃用）
+
+### 💰 价格智能
+- 更新三大提供商的最新价格（浏览器实测核对），并将所有升级建议重新指向当前可用模型
+
 ## 版本 2025.1.10 <small>(2026-06-13)</small>
 
 ### 🤖 新增 LLM 模型

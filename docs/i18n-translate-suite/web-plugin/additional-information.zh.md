@@ -79,12 +79,12 @@
 - **UTF-8 编码：** 正确的国际字符支持，处理 BOM
 - **美化打印：** 具有一致缩进的格式化 JSON 输出
 
-### 🤖 LLM 提供商配置（8 个提供商，120+ 模型）
+### 🤖 LLM 提供商配置（8 个提供商，146+ 模型）
 
 **最新模型：**
-- **Google Gemini：** gemini-3.1-flash-lite（⭐ 默认）、gemini-3.5-flash、gemini-2.5-pro/flash/flash-lite - 免费层可用
-- **OpenAI：** gpt-5.5（最新）、gpt-5-nano（💰 最佳性价比，默认）、gpt-5.4 系列、gpt-5-mini/pro，以及 GPT-4.1 系列
-- **Anthropic：** claude-opus-4-8（旗舰）、claude-opus-4-7、claude-sonnet-4-6、claude-haiku-4-5（⭐ 默认），以及 Opus 4.6
+- **Google Gemini：** gemini-3.1-flash-lite（⭐ 默认）、gemini-3.8-flash、gemini-3.7-flash、gemini-3.6-flash、gemini-3.5-flash/flash-lite、gemini-2.5-pro/flash/flash-lite - 免费层可用
+- **OpenAI：** gpt-6-astra（最新）、gpt-5-nano（💰 最佳性价比，默认）、gpt-5.6-sol/terra/luna、gpt-5.5、gpt-5.4 系列，以及 GPT-4.1 系列
+- **Anthropic：** claude-fable-5-1（旗舰）、claude-fable-5、claude-opus-5、claude-sonnet-5、claude-opus-4-8/4-7、claude-sonnet-4-6、claude-haiku-4-5（⭐ 默认）
 - **DeepSeek：** DeepSeek R1、deepseek-chat、deepseek-reasoner
 - **Azure OpenAI：** 企业合规性，完整访问所有 OpenAI 模型
 - **OpenRouter：** 通过统一 API 访问 50+ 个额外模型，具有竞争性定价
@@ -104,7 +104,7 @@
 **成本节省示例：**
 - GPT-4（每百万 token $40）→ GPT-5 Nano（每百万 token $0.17）= 节省 99.6%
 - GPT-4o（每百万 token $5）→ GPT-5 Nano（每百万 token $0.17）= 节省 96.6%
-- Claude 3 Opus（每百万 token $15）→ GPT-5 Nano（每百万 token $0.17）= 节省 98.9%
+- Claude 3 Opus（每百万 token $35）→ GPT-5 Nano（每百万 token $0.17）= 节省 99.5%
 
 ## 🛠️ 故障排除和最佳实践
 

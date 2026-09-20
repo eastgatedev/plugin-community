@@ -61,11 +61,11 @@ Learn how to turn manual string extraction from a 3-hour nightmare into a 30-sec
 - **100+ Language-Country combinations:** en_US, fr_FR, ms_MY, zh_CN, etc.
 - **Special locales:** ja_JP_u_ca_japanese, sr_Latn_BA, etc.
 
-## Supported LLM Providers (120+ Models Across 8 Providers)
+## Supported LLM Providers (146+ Models Across 8 Providers)
 
-- **Google Gemini** - gemini-3.1-flash-lite (default), gemini-3.5-flash, gemini-2.5-pro/flash/flash-lite (free tier available)
-- **OpenAI** - GPT-5.5, GPT-5.4 series, GPT-5 series (Nano/Mini/Pro), GPT-4.1, GPT-4o
-- **Anthropic** - Claude Opus 4.8/4.7/4.6, Claude Sonnet 4.6, Claude Haiku 4.5
+- **Google Gemini** - gemini-3.1-flash-lite (default), gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash/flash-lite, gemini-2.5-pro/flash/flash-lite (free tier available)
+- **OpenAI** - GPT-6 Astra, GPT-5.6 Sol/Terra/Luna, GPT-5.5, GPT-5.4 series, GPT-4.1, GPT-4o
+- **Anthropic** - Claude Fable 5.1, Claude Fable 5, Claude Opus 5, Claude Sonnet 5, Claude Opus 4.8/4.7/4.6, Claude Sonnet 4.6, Claude Haiku 4.5
 - **DeepSeek** - DeepSeek R1, deepseek-chat, deepseek-reasoner
 - **Azure OpenAI** - Enterprise-grade access to all OpenAI models
 - **OpenRouter** - 50+ additional models through unified API
@@ -76,7 +76,7 @@ Learn how to turn manual string extraction from a 3-hour nightmare into a 30-sec
 
 ## Advanced Features
 
-- **134+ LLM Models** - Latest GPT-5.5, Claude Opus 4.8, Gemini 3.5 with smart legacy detection and cost optimization alerts
+- **146+ LLM Models** - Latest GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 with smart legacy detection and cost optimization alerts
 - **Legacy Model Detection** - Automatic outdated model alerts with smart upgrade recommendations
 - **Cost Optimization Intelligence** - Pricing comparison dashboard showing savings up to 99.6%
 - Enhanced Translation Dialog with tabbed interface and base language selection

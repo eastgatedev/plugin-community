@@ -70,13 +70,13 @@ Transform your internationalization workflow with **automated translation** usin
 
 All dialogs, messages, tooltips, and model display names are now localized. No manual configuration needed!
 
-### 120+ LLM Models Across 8 Providers
-**Save up to 99.6% on translation costs** with our expanded model support including GPT-5.2, Claude Opus 4.5, and more.
+### 146+ LLM Models Across 8 Providers
+**Save up to 99.6% on translation costs** with our expanded model support including GPT-6 Astra, Claude Fable 5.1, and more.
 
-**Latest Models (January 2026):**
-- **OpenAI:** GPT-5.2, GPT-5.2 Pro, O3, GPT-5.1, GPT-5 Nano/Mini/Pro
-- **Anthropic:** Claude Opus 4.5 (Most Capable), Claude Opus 4, Claude Sonnet 4, Claude Haiku 3.5 (Most Cost-Efficient)
-- **Google Gemini:** Gemini 2.5 Flash (FREE), Gemini 2.5 Pro
+**Latest Models (September 2026):**
+- **OpenAI:** GPT-6 Astra (Highest Quality), GPT-5.6 Sol/Terra/Luna, GPT-5 Nano (Most Cost-Efficient)
+- **Anthropic:** Claude Fable 5.1 (Highest Quality), Claude Opus 5, Claude Sonnet 5, Claude Haiku 4.5 (Most Cost-Efficient)
+- **Google Gemini:** Gemini 3.8 Flash (Latest), Gemini 3.1 Flash-Lite (FREE tier default), Gemini 2.5 Flash-Lite (cheapest)
 - **Smart Legacy Detection:** Automatic alerts when using outdated models with intelligent upgrade recommendations
 - **Cost Intelligence Dashboard:** View pricing comparisons showing potential savings up to 99.6%
 - **Best Value: GPT-5 Nano** - Professional translations at $0.17 per 1M tokens vs GPT-4 at $40.00
@@ -168,7 +168,7 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 | Feature | Free Version | Pro Version |
 |---------|--------------|-------------|
 | **Translation Languages** | 🔒 **1 target language max** | ✅ **Unlimited** |
-| **LLM Models Available** | ✅ **120+ models** (8 providers) | ✅ **120+ models** (8 providers) |
+| **LLM Models Available** | ✅ **146+ models** (8 providers) | ✅ **146+ models** (8 providers) |
 | **Legacy Model Detection** | ✅ **Automatic alerts** | ✅ **Automatic alerts** |
 | **Cost Intelligence** | ✅ **Savings up to 99.6%** | ✅ **Savings up to 99.6%** |
 | **Smart Text to i18n** | ✅ **Fully enabled** | ✅ **Fully enabled** |
@@ -184,7 +184,7 @@ Ready to **automate your i18n translation workflow**? Install directly from **Je
 | **License** | FREE | PAID |
 
 ### Shared Features (Available in Both Free & Pro)
-- **120+ LLM Models** across 8 providers (Gemini, OpenAI, Anthropic, DeepSeek, Azure, OpenRouter, Ollama, Custom)
+- **146+ LLM Models** across 8 providers (Gemini, OpenAI, Anthropic, DeepSeek, Azure, OpenRouter, Ollama, Custom)
 - **Legacy Model Detection** with automatic upgrade recommendations
 - **Cost Intelligence Dashboard** showing savings up to 99.6%
 - **Smart Text to i18n** for extracting hardcoded strings

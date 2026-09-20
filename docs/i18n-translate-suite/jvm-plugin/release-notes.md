@@ -2,6 +2,23 @@
 
 > 🌐 **Language / 语言**: [🇺🇸 English](release-notes.md) | [🇨🇳 简体中文](release-notes.zh.md)
 
+## Version 2025.1.13 <small>(2026-09-20)</small>
+
+### 🤖 New LLM Models
+- **OpenAI:** Added gpt-6-astra (new flagship) and the GPT-5.6 family — gpt-5.6-sol, gpt-5.6-terra, and gpt-5.6-luna
+- **Google Gemini:** Added `gemini-3.8-flash`, `gemini-3.7-flash`, `gemini-3.6-flash`, and `gemini-3.5-flash-lite`
+- **Anthropic:** Added Claude Fable 5.1, Claude Fable 5, Claude Opus 5, and Claude Sonnet 5
+
+### 🔄 Defaults Unchanged
+- **Defaults are unchanged** — `gpt-5-nano` (OpenAI, still the cheapest at $0.17 avg), `gemini-3.1-flash-lite` (Gemini) and `claude-haiku-4-5` (Anthropic) all remain current
+
+### ⚠️ Retired Model Warnings
+- Marked Gemini 2.0 Flash / Flash-Lite (shut down 2026-06-01) and the retired Anthropic Claude Opus 4 / 4.1, Sonnet 4, Haiku 3.5 and Claude 3 / 3.5 families as legacy
+- Flagged the OpenAI o-series and GPT-4 era models retiring 2026-10-23. Corrected an earlier misreading: `gpt-5`, `gpt-5-mini`, `gpt-5-nano`, `gpt-5-pro` and `o3` are NOT deprecated — only their dated snapshots are
+
+### 💰 Pricing Intelligence
+- Refreshed pricing for all three major providers (browser-verified) and repointed every upgrade recommendation at a current model
+
 ## Version 2025.1.12 <small>(2026-06-13)</small>
 
 ### 🤖 New LLM Models
